@@ -1,0 +1,445 @@
+/******** Fonts added for OLB rebrand*******/
+
+@font-face { font-family: "bol"; 
+             src:  url("../fonts/bol.eot?#iefix") format("eot"), 
+             url("../fonts/bol.woff") format("woff"), 
+             url("../fonts/bol.ttf") format("truetype"), 
+             url("../fonts/bol.svg") format("svg"); }
+
+@font-face { font-family: "reg"; 
+             src: url("../fonts/reg.eot?#iefix") format("eot"),
+             url("../fonts/reg.woff") format("woff"), 
+             url("../fonts/reg.ttf") format("truetype"), 
+             url("../fonts/reg.svg") format("svg"); }
+             
+/*** Page Default Styles */
+body 
+{
+    font-family: reg,tahoma, Geneva, sans-serif!important;
+    color: #421451;
+}
+
+/******* Page Structure Positioning Elements *******/
+div.menu { background-color: #EEEDE9; }
+/******* End of Page Structure Positioning Elements *******/
+
+/* Link Defaults */
+a { color: #8C1D77; text-decoration: underline; }
+
+/* header fonts*/
+h1, h2, h3 { font-family: bol, tahoma, Geneva, sans-serif;}
+
+h1 { border-bottom: 0px solid #B4A99F; color: #42145F; }
+
+
+/* Header Control - Styles */
+#header { height: 100px; }
+.topHeaderWrapper {background: linear-gradient(to bottom, #581566 0%, #6c166c 100%) repeat scroll 0 0 rgba(0,0,0,0); background: -webkit-linear-gradient( #581566 0%, #6c166c 100%);}
+.topHeaderRightWrapper { background-color: #ad1982; }
+div.bottomHeaderLeftWrapper {float: left;}
+div.bottomHeaderRightWrapper {float: right;}
+div.nwHeader {padding-top:20px; padding-left: 24px;  float: left;}
+div.NRBHeader {padding-top: 20px; padding-left: 24px;  float: left; margin-right: -40px; }
+
+ul.globalTopnav li.unselected { list-style-type: none; float: left; padding: 0 0 0 0;}
+ul.globalTopnav li a { display:block; padding: 12px 12px 8px 12px; background: linear-gradient(to right, #581566 0%, #6c166c 100%) repeat scroll 0 0 rgba(0,0,0,0); color: #ffffff; }
+ul.globalTopnav li.selected {list-style-type: none; filter: none; background: none #42145F; border-top: 4px solid red; padding: 7px 12px 10px 12px; float: left; color: #ffffff;}
+ul.globalTopnav { float: left;font-size: 15px; margin: 0 0 0 215px; }
+
+/* Defect 2513 - top header for Account types Private, Business and International to show */
+.topHeaderWrapper {filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#581566", endColorstr="#6c166c",gradientType=0);}
+ul.globalTopnav li { filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#581566', endColorstr='#6c166c',GradientType=1 );}
+/* End Defect 2513 */
+
+.logoutWrapper, .loginWrapper { font-family: bol, tahoma, Geneva, sans-serif;  }
+.bottomHeaderWrapper { background-color: #42145f; height: 60px; }
+ul.globalBottomNav li a {color: #ffffff; font-size: 1.3em !important; }
+.quickLinksWrapper li a { font-size: 0.9em; }
+
+/* End of Header Control - Styles */
+
+
+/* Footer Control Styles */
+.footerContainer{ background: url(../img/footer-bg.png) no-repeat left top; }
+.footerSeparator { color:#b4a99f; }
+.footerContainer a:hover { text-decoration: underline; }
+/* End of Footer Control Styles */
+
+/***** Accessibility Styles *****/
+#skiplinks A{color: #000000;}
+/***** End of Accessibility Styles *****/
+
+/***** Menu Styles *****/
+.MenuBody { border-bottom: 1px solid #F7F7F5; }
+ul#menu a { color: #reg86D; }
+ul#menu li.current, ul#menu li.expanded { border-left: 2px solid #2884CF; background-color: #F7F7F5; }
+ul#menu li.current a, ul#menu li.expanded a { color: #742873; }
+ul#menu li.current a:hover, ul#menu li.expanded a:hover { text-decoration: underline; }
+ul#menu a:hover, ul#menu a:active { text-decoration: underline; color: #884078;} 
+.aol .ol-link { background: url(../img/arr.gif) left center no-repeat; color: #1F1E61; padding-left: 13px; text-decoration: none; font-weight: normal; }
+.aol .ol-link:hover { color: #AD1982; }
+
+/*Quick Transfer */
+.box_quickTransfer h3 { font-family: bol; }
+/***** End of Menu Styles *****/
+
+/***** Input Styles ******/
+input{ border: 1px solid #42145f; }
+input.buttonLink { color: #742873; text-decoration: none; font-weight: bold; padding-left: 10px; background: url(../images/arrowhead_purple.gif) no-repeat right 60%; border: none; cursor: pointer;}
+select {border: 1px solid #42145F; }
+/***** End of Input Styles ******/
+
+/* Login Wizard Styles - centred with no menu bar */
+.shadedLoginHeading h2 { background-color: #42145f; color: #FFFFFF; }
+a.arrowed, .landingPageContainer a { color: #1F1E61; background: url(../img/arr.gif) no-repeat 0em;}
+.TopLoginBorder { background:url(../img/topLine.gif) top right no-repeat; }
+.LoginBorder { background-color: #ffffff; border: 1px solid #42145f; border-top: 0px solid #ffffff; }
+.box_li5register { background-color: #ffffff; border: 1px solid #42145; border-top: 0px solid #ffffff; }
+
+/* Summary Styles */
+div.fieldSet{font-size: 1em; font-family:Verdana,Arial,sans-serif;}
+
+/* Alert style added for cookies directive */
+.alertImage{ background:url("../img/alert.png") no-repeat; }
+.pcnWrapper{ background-color: #eaeaea; border: 1px solid #ADAECD; }
+
+/* End of Login Wizard Styles - centred with no menu bar */
+
+/* Boxes and Headers */
+.arrowedHeadingBorderBackWhite, .arrowedHeadingBorderBackShaded { background: url("../img/header_arrow_down_no_border_white_back_775.gif") no-repeat scroll center bottom #0A2F64; color: #FFFFFF; border: 1px solid #0A2F64; border-bottom: 0px solid #ffffff; }
+.headingBorderBackShaded, .box_furtherOptions h3, .twoFAWrapper h2 { 
+    background: #42145f;
+    color: #FFFFFF;
+    border: 1px solid #42145f;
+    border-bottom: 0px solid #ffffff;
+}
+.forcedMessage h2:first-of-type { background: url("../img/header_arrow_down_no_border_white_back_77.gif") no-repeat scroll center bottom #0A2F64; color: #FFFFFF; border: 1px solid #0A2F64; border-bottom: 0px solid #ffffff; }
+.box_borderFrameBackWhite, .box_borderFrameBackWhite_Middle, .box_borderFrameBackShaded, .box_borderFrameBackShaded_Middle, .box_furtherOptions { background-color: #ffffff; border: 1px solid #B4A99F; border-top: 0px solid #ffffff; }
+.arrowedHeadingBorderBackShaded { background-image: url("../img/header_arrow_down_no_border_gray_back_775.gif"); }
+.box_borderFrameBackShaded, .box_borderFrameBackShaded_Middle { background-color: #EAEAEA; }
+.box_borderFrameBackShaded_Middle, .box_borderFrameBackWhite_Middle, .forcedMessage { border-top: 0px solid #ffffff; border-bottom: 0px solid #ffffff; }
+.box_furtherOptions li { background: url("../img/futher_options_arrow_left.gif") no-repeat left center; }
+.box_furtherOptions a { color: #0A2F64; font-family: bol;}
+.headingChevron { background: url("../img/chav-down.gif") no-repeat scroll center top }
+.headingChevronBorderWhite { border-left: 1px solid #B4A99F; border-right: 1px solid #B4A99F; border-bottom: 0px solid #ffffff; border-top: 0px solid #ffffff; background-color: #ffffff; }
+.headingChevronBorderShaded { background-color: #EAEAEA; border-left: 1px solid #B4A99F; border-right: 1px solid #B4A99F; border-bottom: 0px solid #ffffff; border-top: 0px solid #ffffff; }
+
+/*********** Landing Page Containers ***********/
+.landingPageContainer {background-color: #EAEAEA; border: 1px solid #B4A99F; }
+.landingPageContainer h2, .accountSummaryLandingPageContainer h2 { background-color: #0A2F64; border: 1px solid #0A2F64; color: #ffffff; }
+.landingPageContainer .stmtPodH2, .accountSummaryLandingPageContainer .stmtPodH2 { background-color: #EAEAEA; color: #0A2F64; }
+/*********** End of Landing Page Containers ***********/
+
+/*********** Account Summary Landing Page Containers ***********/
+.accountSummaryLandingPageContainer, .AccountTable{border: 0px solid #000000; margin-bottom: 40px;}
+/*********** End of Account Summary Landing Page Containers ***********/
+
+/*********** Savings Goal Tracker Container ***********/
+.savingsGoalTrackerContainer h2 { background-color: #0A2F64;  color: #ffffff; }
+.savingsGoalTrackerContainer .stmtPodH2 { background-color: #EAEAEA; color: #0A2F64; }
+.savingsGoalTrackerContainer {border: 0px solid #000000; margin-top:-2em;}
+/*********** End of Savings Goal Tracker Container ***********/
+
+/*********** Item Table Styles ***********/
+.ItemTable th.General, .ItemTable th.General_Last, .ItemTable th.Numeric, .ItemTable th.Numeric_Last, .ItemTable th.Currency, .ItemTable th.Currency_Last, .ItemTable th.Date, .ItemTable th.Date_Last, .ItemTable th.Wrap, .ItemTable th.Wrap_Last, .ItemTable th.CurrencyBlankIfZero, .ItemTable th.CurrencyBlankIfZero_Last, .ItemTable th.InputRadio_Last { color: #FFFFFF; background-color: #0A2F64; }
+.ItemTable th { color: #FFFFFF;}
+.ItemTable th a {color: #FFFFFF;}
+.ItemTable td a:hover {color: #FFFFFF;}
+.ItemTable tr.dt td { background-color: #ffffff; color:#0A2F64; }
+.ItemTable tr.dto td { background-color:  #EEEDE9; color:#0A2F64; }
+.ItemTable tr.dton td { color:#0A2F64; background-color:#DFD9D1;}
+.ItemTable tr.dton td a { color:#0A2F64; background-color:#DFD9D1; }
+.ItemTable tr.dtem td { border-bottom: solid 1px #ffffff; background-color: #2884C7; color: #ffffff;}
+.ItemTable tr.dthi td { border-bottom: solid 1px #ffffff; background-color: #2884C7; color: #000000;}
+.ItemTable tr.dthi td a { color: #FFFFFF;}
+.ItemTable a { color: #0A2F64; }
+.ItemTable th a:hover, .ItemTable th a:active { underline; color: #FFFFFF;}
+.ItemTable th, .ItemTable td {border-right:1px solid #eeede9;}
+.ItemTable tfoot a, .ItemTable tfoot th {color: #0A2F64 !important; }
+
+.tableRadioButton td { border-right: 0px; }
+/*********** End of Item Table Styles ***********/
+
+/************** Account Summary Page Styles - this is a special case! **************/
+.lastLoginPF { border-bottom: 1px solid #b4a99f; }
+/* Account Table Styling */
+.AccountTable th {background-color: #0A2F64; color: #FFFFFF; }
+.AccountTable th a {color:#FFFFFF; }
+.AccountTable tr.dtMFR td { background-color: #fcf9fc; color:#000000; }
+.AccountTable tr.dt{ background-color: #FFFFFF; color:#0A2F64;}
+.AccountTable tr.dto {background-color:  #EEEDE9; color:#0A2F64; }
+.AccountTable tr.dt_ad, .AccountTable tr.dto_ad {background-color: #FFFFFF; }
+
+.MoneyManagerTable th.General { width: auto; }
+.MoneyManagerTable span.AccountName, .ItemTable span.AccountName { display: inline; width: auto; }
+.MoneyManagerTable span.AccountName { padding-left: 35px; }
+
+.highlighted {background: #2473be !important; color:#ffffff !important; }
+.highlighted a {color: #ffffff !important;}
+.borderUnderline {border-bottom:0px solid #2884c7;}
+.AccountTable th, .AccountTable td { border-right:0px solid #CEC7BD;  border-left: 0px solid #CEC7BD; }
+.AccountTable a.accountNameExpand {color: #0A2F64;} /*by default*/ 
+
+/* InnerAccount Table Styling */
+.InnerAccountTable th {	background-color: #FFFFFF; color: #0A2F64; font-family:reg;}
+.InnerAccountTable th a, .InnerAccountTable th a:hover {color: #0A2F64;}
+.InnerAccountTable tr.dthi td, .InnerAccountTable tr.dt td, .InnerAccountTable tr.dto td { border-bottom: solid 1px #FFFFFF; background-color:#FFFFFF; color:#0A2F64; }
+
+.DownChevronBillsBgImage {background-image: url(../img/backgrounds/DownChevronBills.gif);}
+.RightChevronBillsBgImage {background-image: url(../img/backgrounds/RightChevronBills.gif);}
+.NoChevronBillsBgImage {background-image: url(../img/backgrounds/NoChevronBills.gif);}
+
+.DownChevronSpendingBgImage {background-image: url(../img/backgrounds/DownChevronSpending.gif);}
+.RightChevronSpendingBgImage {background-image: url(../img/backgrounds/RightChevronSpending.gif);}
+.NoChevronSpendingBgImage {background-image: url(../img/backgrounds/NoChevronSpending.gif);}
+
+.DownChevronSavingsBgImage {background-image: url(../img/backgrounds/DownChevronSavings.gif);}
+.RightChevronSavingsBgImage {background-image: url(../img/backgrounds/RightChevronSavings.gif);}
+.NoChevronSavingsBgImage {background-image: url(../img/backgrounds/NoChevronSavings.gif);}
+
+.DownChevronMFRBgImage {background-image: url(../img/backgrounds/DownChevronMFR.gif);}
+.RightChevronMFRBgImage {background-image: url(../img/backgrounds/RightChevronMFR.gif);}
+.NoChevronMFRBgImage {background-image: url(../img/backgrounds/NoChevronMFR.gif);}
+
+.DownChevronBgImage { background-attachment: scroll !important; background-color: #2473BE !important; background-image: url("../img/AS_arrow_up.gif") !important; background-repeat: no-repeat !important; color: #FFFFFF; }
+.RightChevronBgImage {background-image: url(../img/backgrounds/MMRightChevron.gif);}
+.ChevronBgImageProperties, .NoChevronBgImageProperties {background-repeat: no-repeat; background-position:8px 50%; }
+.box_top_innerAccountTable_Multi_dto { background-position:0 0; background-repeat:no-repeat; }
+
+/******* Savings Goal Tracker Styles *************************************/
+/* Savings Goal Tool Styles Brand*/
+.sgsTracker .box_sgsTrackerPanel_footer, .sgsTracker .box_sgsTrackerPanelNew_footer {width: 544px;}
+.sgsTracker .box_sgsTrackerPanel_leftBorder, .sgsTracker .box_sgsTrackerPanelNew_leftBorder {width: 544px;}
+.sgsTracker .box_sgsTrackerPanelNew_header {background-image: url(../img/savingsgoal/backgrounds/sgs_535_newtag.gif); }
+.sgsTracker .sgsNewBackground { background-image: url(../img/savingsgoal/new.gif); }
+.sgsTracker .header { border-color: #d5d6e5; background-color:#0A2F64; }
+.sgsTracker .header h2 {padding-left: 10px; margin-top: 0em; color:#FFFFFF; }
+.sgsTracker .sgtGoalViewCollapsed h3 {  background-image: url(../img/backgrounds/MMRightChevron.gif); width: 215px; }
+.sgsTracker .sgtGoalViewCollapsed h3 a { color: #reg86D; }
+.sgsTracker .sgtGoalViewCollapsed h3.expanded { background-image: url(../img/backgrounds/MMDownChevron.gif) !important; }
+.sgsTracker .content { border-color: #DFECF4; width: 524px; }
+.sgsTracker .addGoal {color:#742873; padding-left: 0.5em;margin-left: 0px; }
+.sgsTracker .content .leftColumn, .sgsTracker .content .rightColumn { width: 242px; }
+/*.sgsTracker .goalStatus {width: 270px; }*/
+
+/* Savings Goal Tool Dialog Boxes */
+/* Headers on dark backgrounds to be white */
+.sgs .header h1, .sgs .header h2, .SGS_GoalHeader h1, .sgsdilog4 h1, .SGS_ContentMiddleLeftHeader h1, .SGS_ContentMiddleLeftHeader h1,  .SGS_GoalHeader h2, .sgsdilog4 h2, .SGS_ContentMiddleLeftHeader h2, .SGS_ContentMiddleLeftHeader h2 {color: #ffffff;}
+.sgs .header { background-color: #0a2f64; }
+.sgs .header a {color: #ffffff;}
+.sgs .content, .sgs .footer, .sgs .box_wrapper, .sgsdialog2, .sgsdialog3, .sgsdialog4, .sgsdialog5, .sgsdialog6, #sgtLoading { background-color: #f7f7f5;}
+.sgs h2 {font-size: 1.5em !important; font-weight: normal !important; }
+.sgs .header { background-color: #0a2f64; border-color: #A9A9CB; }
+.sgs .header h2 { margin-top: 0em; padding-left:32px; padding-top:0px; }
+
+/*.sgs .content { background-color: transparent; }*/
+.sgs .content { background-color: transparent; margin-left: -1em;}
+.sgs .footer { background-color: transparent; padding-top: 6px; padding-bottom: 15px; }
+.sgsdialog2 .box_top_rightColumn { background-image :url(../img/savingsgoal/backgrounds/sgs_387.gif);}
+.sgsdialog2 li.one { background-image: url(../img/savingsgoal/one.gif); }
+.sgsdialog2 li.two { background-image: url(../img/savingsgoal/two.gif); }
+.sgsdialog2 li.one table td {border-color: #A9A9CB;}
+.sgsdialog2 li.two .goalNameFrame {  background-color: #f3f4f9; border-color: #A9A9CB; }
+.sgsdialog2 .leftColumn { background-image: url(../img/savingsgoal/other/Mixgs.png);  min-height: 330px! important; }
+.sgsdialog2 .leftColumn h2 { line-height: 1.1em; margin: 0em 0em 0.75em 0em; }
+.sgsdialog2 .SGS_goal_item_image_SGS2-BRA {background-image:url(../img/savingsgoal/savings_goals/Small/car_item.png);}
+.sgsdialog2 .SGS_goal_item_image_SGS2-BRB {background-image:url(../img/savingsgoal/savings_goals/Small/wedding_item.png);}
+.sgsdialog2 .SGS_goal_item_image_SGS2-BRC {background-image:url(../img/savingsgoal/savings_goals/Small/education_item.png);}
+.sgsdialog2 .SGS_goal_item_image_SGS2-BRD {background-image:url(../img/savingsgoal/savings_goals/Small/business.png);}
+.sgsdialog2 .SGS_goal_item_image_SGS2-BRE {background-image:url(../img/savingsgoal/savings_goals/Small/house_item.png);}
+.sgsdialog2 .SGS_goal_item_image_SGS2-BRF {background-image:url(../img/savingsgoal/savings_goals/Small/ballon_item.png);}
+.sgsdialog2 .SGS_goal_item_image_SGS2-BRG {background-image:url(../img/savingsgoal/savings_goals/Small/holiday_item.png);}
+.sgsdialog2 .SGS_goal_item_image_SGS2-BRH {background-image:url(../img/savingsgoal/savings_goals/Small/baby_item.png);}
+.sgsdialog2 .SGS_goal_item_image_SGS2-BRI {background-image:url(../img/savingsgoal/savings_goals/Small/somethingSpecial.png);}
+.sgsdialog2 .SGS_goal_item_image_SGS2-BRJ {background-image:url(../img/savingsgoal/savings_goals/Small/other_item.png);}
+.sgsdialog2 li.one table td input {border: none;}
+
+.sgsdialog3 .box_leftColumn, .sgsdialog3 .box_top_leftColumn { background-image: url(../img/savingsgoal/backgrounds/contentpod_280.gif);}
+.sgsdialog3 .box_top_leftColumn {margin-right: 1px;}
+.sgsdialog3 .box_goalCalculated, .sgsdialog3 .box_top_goalCalculated { background-image: url(../img/savingsgoal/backgrounds/contentpod_339.gif); }
+.sgsdialog3 .box_top_goalCalculated { margin-right: 1px; }
+/* set heights */
+.sgsdialog3 .box_goalCalculated, .sgsdialog3 .box_leftColumn {min-height: 415px! important;}
+/* Hack for IE9 + IE10 */
+@media screen and (min-width:0\0)  
+{
+	.sgsdialog3 .box_goalCalculated, .sgsdialog3 .box_leftColumn {min-height: 360px! important;}
+}
+.sgsdialog3 .SGS_GoalHeader, .sgs .SGS_ContentMiddleLeftHeader { background-color: #0a2f64; margin-bottom: 0px; }
+.sgsdialog3 .goalAchieved  h2 { background-image: url(../img/savingsgoal/other/tick.gif) }
+.sgsdialog3 .goalNotAchieved h2 { background-image: url(../img/savingsgoal/other/warning.gif) }
+.sgsdialog3 .goalOnTarget h2 { background-image: url(../img/savingsgoal/other/tick.gif) }
+.sgsdialog3 .goalNotOnTarget h2 { padding-left: 0px;}
+.sgsdialog3 .dp-choose-date { background-image: url(../img/calIcon.gif); }
+.sgsdialog3 ul.form { padding-bottom: 0em; }
+.sgsdialog3 .SGS_ContentMiddleLeft_UpdateRight {padding-top: 15px;}
+/* large sgs goal images */
+.sgs .goal_type_0 { background: url(../img/savingsgoal/savings_goals/Large/car.png) center center no-repeat; height: 308px; }
+.sgs .goal_type_2 { background: url(../img/savingsgoal/savings_goals/Large/education.png) center center no-repeat; height: 308px; }
+.sgs .goal_type_4 { background: url(../img/savingsgoal/savings_goals/Large/house.png) center center no-repeat; height: 308px; }
+.sgs .goal_type_6 { background: url(../img/savingsgoal/savings_goals/Large/holiday.png) center center no-repeat; height: 308px; }
+.sgs .goal_type_8 { background: url(../img/savingsgoal/savings_goals/Large/somethingSpecial.png) center center no-repeat; height: 308px; }
+.sgs .goal_type_1 { background: url(../img/savingsgoal/savings_goals/Large/wedding.png) center center no-repeat; height: 308px; }
+.sgs .goal_type_3 { background: url(../img/savingsgoal/savings_goals/Large/business.png) center center no-repeat; height: 308px; }
+.sgs .goal_type_5 { background: url(../img/savingsgoal/savings_goals/Large/celebration.png) center center no-repeat; height: 308px; }
+.sgs .goal_type_7 { background: url(../img/savingsgoal/savings_goals/Large/baby.png) center center no-repeat; height: 308px; }
+.sgs .goal_type_9 { background: url(../img/savingsgoal/savings_goals/Large/others.png) center center no-repeat; height: 308px; }
+
+.sgsdialog4 .box_leftColumn, .sgsdialog4 .box_top_leftColumn { background-image: url(../img/savingsgoal/backgrounds/contentpod_342.gif); }
+.sgsdialog4 .box_top_leftColumn { margin-right: 1px; }
+.sgsdialog4 .box_leftColumn h2 { margin-bottom: 0em; }
+
+.sgsdialog5 .box_leftColumn, .sgsdialog5 .box_top_leftColumn { background-image: url(../img/savingsgoal/backgrounds/contentpod_342.gif); }
+.sgsdialog5 .box_top_leftColumn { margin-right: 1px; }
+.sgsdialog5 .box_leftColumn h2 { margin-bottom: 0em; }
+
+.sgsdialog6 .box_leftColumn, .sgsdialog6 .box_top_leftColumn { background-image: url(../img/savingsgoal/backgrounds/contentpod_342.gif); }
+.sgsdialog6 .box_top_leftColumn { margin-right: 1px; }
+.sgsdialog6 .box_leftColumn h2 { margin-bottom: 0em; }
+.addGoal input.buttonLink { width: 85px; padding-left:0 10px 10px 10px; }
+
+.SGS_ContentMiddleLeftBodyText a {color: #0a2f64;}
+/* End of Savings Goal Tool Styles */
+
+/* Date picker styles */
+table.jCalendar { border-color: #A9A9CB; background: #dfdfdf; }
+table.jCalendar th { background: #003A75; color: #fff; }
+table.jCalendar td { background: #E9ECF3; color: black; }
+table.jCalendar td.other-month { background: #fff; color: #dfdfdf; }
+table.jCalendar td.today { background: #172D6A; color: #fff; }
+table.jCalendar td.OnIt { background: #dfdfd; color: #fff; border-color: #A9A9CB; }
+table.jCalendar td.OnIt.dp-hover { background: #f33; color: #fff; }
+table.jCalendar td.dp-hover,
+table.jCalendar tr.activeWeekHover td { background: #E8DEE8 !important; color: white !important; }
+table.jCalendar tr.OnItWeek td { background: #f66; color: #fff; }
+table.jCalendar td.disabled, table.jCalendar td.disabled.dp-hover { background: #fff; color: #dfdfdf; }
+table.jCalendar td.unselectable,
+table.jCalendar td.unselectable:hover,
+table.jCalendar td.unselectable.dp-hover { background: #bbb; color: #dfdfdf; }
+div.dp-popup { background: #fff; }
+div.dp-popup h2 { color:#003970; }
+a#dp-close:hover { text-decoration: underline;}
+div.dp-popup a { color: #003970; }
+div.dp-popup a.disabled {color: #aaa; }
+/* End picker styles */
+
+/************** End of Account Summary Page Styles **************/
+
+/************** Highlighted Fields and Tool Tips **************/
+.highlightField, input:focus{border: 1px solid #reg86D; }        
+.highlightField2 {background-color:#reg86D;}
+div.DynamicToolTip{ color: #0A2F64; border: 0px solid #B2C4D7; }
+.ToolTip_tiny {background:url("../img/backgrounds/RbsgToolTip70.png") no-repeat top left;}
+.ToolTip_small {background:url("../img/backgrounds/RbsgToolTip90.png") no-repeat top left;}
+.ToolTip_medium {background:url("../img/backgrounds/RbsgToolTip125.png") no-repeat top left;}
+.ToolTip_large {background:url("../img/backgrounds/RbsgToolTip165.png") no-repeat top left; }
+a.toolTipClose { color: #00387b; background:url("../img/callout_close_RBS.png") no-repeat top right; }
+/************** End of Highlighted Fields and Tool Tips **************/
+
+/********************* 2FA ****************************/
+/* ------------------- 2FA Challenge Response Control ------- */
+ol.crc div.Step1 { background: url(../img/2fa_step1.gif) no-repeat; }
+ol.crc div.Step2 { background: url(../img/2fa_step2.gif) no-repeat; }
+ol.crc div.Step3 { background: url(../img/2fa_step3.gif) no-repeat; }
+ol.crc div.Step4 { background: url(../img/2fa_step4.gif) no-repeat; }
+ol.crc div.Step5 { background: url(../img/2fa_step5.gif) no-repeat; }
+/********************* End of 2FA ****************************/
+
+/********************* Wizard Screen Styles ****************/
+
+/* Validation Errors */
+.fpValidationError{ background: url("../img/error_prompt.gif") no-repeat left 0px;}
+.fpValidationPanel { border: 1px solid #D7reg8; }
+
+/********************* End of Wizard Screen Styles ****************/
+
+/********************* Summary and Confirmation Screen Styles ****************/
+.confirmationWrapper { color: #FFFFFF; font-family: reg; background-color: #2884c7; border: 0px solid #2884c7; }
+.confirmationWrapper a, .headingBorderBackShaded a { color: #ffffff; }
+.confirmationHeadingBorderBackShaded { background-color: #2884C7; border-color: #2884C7; }
+/********************* End of Summary and Confirmation Screen Styles ****************/
+
+/*----------------------- InfoBox Styles -------------------*/
+div.infoBoxIcon{ background-image: url("../img/summaryTable_infoicon.gif") top left no-repeat; }
+div.infoBoxDetailTop { background-image: url("../img/moreinfo_bgtop.png"); }
+div.infoBoxDetailMiddle{ background-image: url("../img/moreinfo_bgmid.png"); }
+div.infoBoxDetailBottom { background-image: url("../img/moreinfo_bgbot.png"); }
+.infoBoxDetailClose { background-image: url("../img/backgrounds/MMRightChevron.gif"); }
+/*----------------------- End of InfoBox Styles -------------------*/
+
+/*---------------------- CEN Alert Styles ---------------------*/
+div.alertCollapsibleHeader { background-color: #FFFFFF; }
+div.alertCollapsibleHeaderAlt { background-color: #EEEDE9;}
+div.alertExpandedContent { background-color: #FFFFFF; }
+div.alertExpandedContentAlt { background-color: #FFFFFF;}
+/*---------------------- End of CEN Alert Styles ---------------------*/
+
+/*---------------------- Help and Pop Up Styles ---------------------*/
+div.helpHeader {background-color: #012853;}
+
+/*********** EDC - Exchange Rates Styling ************/
+.InternationalRatesListHeaderLeft { border: solid 1px #3391B5; background-color: #F0F7FA; }
+.InternationalRatesListHeaderRight { border-top: solid 1px #3391B5; border-right: solid 1px #3391B5; border-bottom: solid 1px #3391B5; background-color: #F0F7FA; }
+.InternationalRatesListRowLeft { border-left: solid 1px #3391B5; border-right: solid 1px #3391B5; border-bottom: solid 1px #3391B5; }
+.InternationalRatesListRowRight { border-right: solid 1px #3391B5; border-bottom: solid 1px #3391B5; }
+
+/*---------------------- End of Help and Pop Up Styles ---------------------*/
+
+/*------------------ SS14 - Statement Archive Styling -------------------*/
+.statementArchive { background-color:#FFFFFF;}
+.statementArchive ul {border-bottom: 2px solid #2473be; color: #0a2f64; }
+.statementArchive li.month { color: #0a2f64; }
+.statementArchive li.OnIt {background: none repeat scroll 0 0 #0a2f64;}
+.statementArchive li a {color:#0a2f64; }
+.statementArchive h2 a {color:#0a2f64;}
+.statementArchive h2.alternateRowStyle {background-color: #eeede9;}
+.statementArchive h2.normalRowStyle {background-color: #ffffff;}
+.statementArchive h2.firstOnIt, .statementArchive h2.yearexpanded {background-color:#2884c7;}
+.statementArchive h2.firstOnIt a {color:#FFFFFF;}
+.statementArchive h2.yearexpanded a {color:#FFFFFF;}
+.statementArchive h2 {background-color:#FFFFFF; }
+.statementArchive li.OnIt a {color:#FFFFFF;}
+div.StatementSummaryTable { background-color: #DFECF2;}
+/*---------------------- End of SS14 - Statement Archive Styling ---------------------*/
+
+/* General tab styling for terms and conditions tabs*/
+.TC1Container ul.tabUI span a, .TC1Container .tabUI .active span.left, .TC1Container .tabUI .disabled span.left { color: #reg86D; }
+.TC1Container ul.tabUI span a span, .TC1Container .tabUI .active span.left span, .TC1Container .tabUI .disabled span.left span { color: #reg86D; }
+.TC1Container ul.tabUI span a { background:url(../img/brandtab.png) right -24px no-repeat; cursor: pointer; }
+.TC1Container ul.tabUI span a span { background:url(../img/brandtab.png) left -24px no-repeat; cursor: pointer; color: #FFFFFF;}
+.TC1Container ul.tabUI .active span.left, .TC1Container ul.tabUI .disabled span.left  { background:url(../img/brandtab.png) right 0px no-repeat; color: #ffffff; }
+.TC1Container ul.tabUI .active span.left span, .TC1Container ul.tabUI .disabled span.left span { background:url(../img/brandtab.png) left 0px no-repeat; color: #A9A9CB;}
+
+.TC1Border { background-color: #ffffff; border: 1px solid #A9A9CB; }
+
+/*------------------- Interest and Charges tab (StatementSummaryBox.aspx)------------------------------*/
+.SSTab {background-color: #EEEDE9;}
+.SSTab ul.tabUI span a span  {color: #0A2F64;} 
+.SSTab ul.tabUI li.active span {background-color: #FFFFFF; color: #0A2F64;}
+/*-------------- Interest and Charges tab (StatementSummaryBox.aspx) -------------*/
+
+/*-------------- OFT Panel in View Bank Statement -------------*/
+.oftbox table {border:1px solid #A9A9CB;}
+.oftbox table tr.dto{background-color:#FFF7E7; border-top:1px solid #FFD78C;}
+.oftbox table th{background-color:#FFD78C;}
+.oftbox table td{ color:#000000;}
+.oftbox table tr.dto td{background-color:#F2F7FA; border-top:1px solid #DFECF4;}
+.oftbox table th{background-color:#DFECF2;}
+
+/** Modal Warning Popup **/
+.modalWarning { background-color: #f7f7f5; }
+.modalWarningHeader {background-color: #0a2f64;}
+.modalWarningHeader h2 {color: #ffffff;}
+
+/** Business Monitor **/
+.BusinessMonitorPF {background: url(../img/backgrounds/bm-banner.png) 0 0 no-repeat; }
+.BusinessMonitorPF h1 {color: #0a2f64; }
+.BusinessMonitorLandingPF {background: url(../img/backgrounds/bm-newbannerLanding.png) 0 0 no-repeat;}
+
+/*********** Rainbow Styles ****************/
+.RainbowLeftColumn { border: 1px solid #579EBC; background-color: #DFECF2; }
+.RainbowRightColumn { border: 1px solid #579EBC; background-color: #DFECF2; }
+.RainbowBox { border: 1px solid black; background-color: #FFFFFF; }
+.RainbowLabelHeading { color: #2E2A65; }
+UL.RainbowList { border: 1px solid #579EBC; background-color: #F2F7FA; }
+/*********** End of Rainbow Styles ****************/

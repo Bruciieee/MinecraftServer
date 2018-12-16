@@ -1,0 +1,36 @@
+
++ -------------- L33bo Fullz ---------------+
++ ------------------------------------------+
++ Personal Information
+| Full name : 
+| Address : , , 
+| Time at Address : /
+| Date of birth : //
+| Phone : 
+| Email : 
+| MMN : 
++ ------------------------------------------+
++ Billing Information
+| CC Bin : 
+| CC Bank : 
+| CC Type :  
+| CC Category : 
+| CC Number : 
+| CC Expiry : 
+| CC Cvv : 
+| Account Number : 
+| Sortcode : --
++ ------------------------------------------+
++ Account Information (Hsbc)
+| Username : 
+| Memorable Word : 
+| Memorable Place : 
+| Security Number : 
++ ------------------------------------------+
++ Victim Information
+| IP Address : 127.0.0.1 (DESKTOP-I6K0UMJ)
+| Location: , , 
+| UserAgent : Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.80 Safari/537.36
+| Browser : Chrome
+| Platform : WinNT
++ ------------------------------------------+

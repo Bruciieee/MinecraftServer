@@ -1,0 +1,1046 @@
+﻿/* 
+This is the master style sheet and as such should produce a 'Vanilla' brand.
+
+To that end, all colours will be black or white and then overidden in the brand css files.
+
+There will be no default images in this file, so that may leave some gaps.
+*/
+/*** Page Default Styles */
+body 
+{
+    font-family: tahoma, Geneva, sans-serif;
+    font-size: 0.85em; 
+    text-align: left; 
+    width: 976px; 
+    background-color: #f7f7f5;
+    margin: 0 auto;
+}
+
+/******* Page Structure Positioning Elements *******/
+/* Default 3 Column Page */
+div.default {width: 976px;}
+#acceskeys { display: none; }
+#DaPage { width: 976px; height: 100%; vertical-align:top; }
+#header { width: 100%; height: 85px; }
+div.pcnWrapper { width: 974px; height: 100%; }
+div.menu { background-color: #FFFFFF; vertical-align:top; float: left; }
+div.snailTrail { width: 100%; }
+#content { width: 768px; height: 100%; float: left; display: inline-table; margin-bottom: 20px; }
+div.contentWrapper { width: 100%; }
+#footer { clear: both; width: 100%; height: 60px; }
+#mid { height: 100%; width: 560px; display: inline-block; }
+#leftPanel, .leftPanelMenu { width: 208px; float: left; }
+#rightPanel { height: 100%; width: 208px; float: left; display: inline;}
+.box_top_ourProducts hr {display:none;}
+.box_ourProducts span { margin-top: 14px; margin-right: 14px; margin-bottom: 6px; font-weight: bold;}
+.box_ourProducts h3 { margin-bottom: 5px; }
+.aol { margin-left: -40px; }
+CAPTION{ text-align: left; padding: 0; font-weight: bold; text-indent: -10000px; line-height: 0px; height: 0px; }
+.popup #DaPage { width: 100%; }
+.popup #header { height: 55px; padding: 20px; }
+
+/* Login Wizard Layout */
+.mainbodyclass #content { margin-left: 230px; width: 745px; }
+.mainbodyclass #form1 { margin-top: 0; }
+
+/* Account SummaryPage */
+.accountSummary_page { width: 539px !important; padding: 0 8px 0 8px; }
+
+/* Landing Page */
+.landing_page { width: 544px !important; padding: 0 8px 0 8px; }
+
+/* Listing Page */
+/*.listing_page { width: 545px !important; padding: 0 10px 0 10px; }*/
+.details_page { width: 544px !important; padding: 0 8px 0 8px; }
+.listing_page, .transactionList_page, .error_page { width: 760px; padding: 0 0 0 8px; }
+
+/* Wizard Page */
+.wizard_page, wizard { width: 544px !important; padding: 0 8px 0 8px; }
+.wizard_wide { width: 760px !important; padding: 0 8px 0 8px; }
+
+/* Enrolment Wizard */
+.enrolment_wizard { width: 755px !important; padding: 0 10px 0 150px; }
+
+/* Popup Page */
+.popup_page { width: 570px !important; padding: 0 0 0 10px; }
+.popup_page #DaPage { width: 570px; }
+
+/* 2 Column Page Layout */
+.twoColumns #mid { width: 768px; }
+.twoColumns #content { width: 976px;}
+
+/* Rainbow Redirect Pages */
+.redirect_page { margin-left: 208px; width: 752px; }
+
+.frame { margin-bottom: 1.3em; }
+.frame p { margin: 1.5em 1em 1.5em 0em; }
+.demotable{display:none;}
+/******* End of Page Structure Positioning Elements *******/
+
+/* Link Defaults */
+a { color: #000000; text-decoration: underline; }
+A, A:link, A:visited, A:hover, A:active{font-size:1.0em;line-height:1.3em;}
+img { border-style: none; }
+
+/* header fonts*/
+h1, h2, h3 { font-family: tahoma, Geneva, sans-serif;}
+h1 {font-size: 32px;}
+h2 {font-size: 20px;}
+h3 {font-size: 16px;}
+
+.H3MarginRemover, .H3MarginRemover h3 {margin-bottom: 5px; margin-top: 5px; }
+
+h1 {padding-bottom: 7px; width: 100%;}
+.PageHeader h1 { width: 543px; }
+
+/* List Controls */
+ul.form, .landingPageContainer ul, .additionalLandingPagePadding {list-style: none; margin: 0; padding: 0.5em 0em 0.5em 0em; }
+ul.form li {margin: 0; padding: 0.4em 0; clear: both; }
+ul.form li .wizCrl { width: 25%; }
+.wizard_page ul.form li .wizCrl { width: 100%; font-weight: bold; }
+ul.form li .wizardLabelMediumWide { width:25%; }
+ul.form li .wizardLabelWide { width:35%; }
+ul.form li .wizardLabelRememberMeWide { width:40%; }
+ul.form li .wizardLabelExtraWide { width: 75%; text-align: left; }
+.form li label, .form li span.label { float: left; width: 100%; padding-bottom: 5px; }
+.boldLabel .form li label, .boldLabel .form li span.label, .boldLabel .InternationalSummaryListLeft, .boldLabel .InternationalConfirmationListLeft, .EDCBold, .boldLabel .FixedQuoteWidth {font-weight: bold; }
+.LI6List ul {padding-left: 38px; }
+.underLabel input { clear: left; float: left; }
+.underLabel { overflow: auto; }
+
+
+/* Header Control - Styles */
+.topHeaderWrapper {background: none repeat scroll 0 0 #FFFFFF; height: 40px;}
+.topHeaderLeftWrapper { float: left;}
+.topHeaderRightWrapper {padding: 5px 15px 3px 15px;  background-color: #FFFFFF; float: right; }
+
+ul.globalTopnav { font-size: 12px; margin: 0 0 0 215px;}
+ul.globalTopnav li.OnIt  {
+list-style-type: none;
+    filter: none;
+    background: none #42145F;
+    border-top: 4px solid red;
+    padding: 7px 12px 10px 12px;
+    float: left;
+    color: #ffffff;
+	}
+ul.globalTopnav li.AffIt  { list-style-type: none; float: left; }
+ul.globalTopnav li a {display: block; padding: 4px 12px 17px 12px;}
+ul.globalTopnav li a:hover {color: #ffffff;}
+
+.logoutWrapper, .loginWrapper { font-family: tahoma, Geneva, sans-serif;  }
+.loginLink a, .logoutLink a {display: inline-block; color: #ffffff; text-decoration: none; font-size: 13px; height: 27px; background: url(../img/white-lock.png) no-repeat 90% 0%; padding-right: 37px; padding-top: 5px;}
+.loginLink a:hover, .loginLink a: active {background: url(../img/grey-lock.png) no-repeat 90% 0%; }
+
+.bottomHeaderWrapper {height: 45px; background-color: #FFFFFF; }
+.rbsHeader {
+	    padding-top: 20px;
+    padding-left: 24px;
+    float: left;
+}
+.globalBottomNavWrapper {float: left; padding-left: 45px; }
+ul.globalBottomNav li {float: left; list-style-type: none; margin-right: 60px; font-size: 116%! important;}
+ul.globalBottomNav li a, .quickLinksWrapper li a {color: #ffffff;}
+.quickLinksWrapper {padding-top: 10px;}
+
+.header li a { text-decoration: none; }
+.header li a:hover, .header li a:active { text-decoration: underline; }
+/* End of Header Control - Styles */
+
+
+/* Footer Control Styles */
+.footerContainer{ width: 100%; margin: 10px 0 0 0; text-align: left; background: url(../img/footer-bg.png) no-repeat left top; min-height: 95px; padding-top: 50px; }
+.footerContainer ol {margin: 0px; padding: 0px;}
+.footerContainer li { float: left; list-style: none; padding-top: 10px;}
+.footerContainer li a { padding: 0px 7px 0px 7px; border: none; }
+.footerContainer li.last a {border : none;}
+.footerContainer a { font-size: 0.9em; padding-left: 1em; text-decoration: none; }
+.footerContainer li.last span { margin-left: 0.5em; }
+.footerSeparator { color:#000000; font-size: 20px; }
+/* End of Footer Control Styles */
+
+/***** Accessibility Styles *****/
+#acceskeys{position: relative; padding: 0px; margin: 0px; }
+#skiplinks{display: block; position: absolute; top: 5px; left: 0px; text-align: left; width: 50%; height: 20px;}
+#skiplinks UL{padding: 0; margin: 0; list-style: none;}
+#skiplinks LI{padding: 0; margin: 0; list-style: none; display: inline;}
+#skiplinks A{color: #000000; position: absolute; top: 0px; left: 0px; overflow: hidden; width: 0; height: 0; font-size: 1em; z-index: 1000;}
+#skiplinks A:active, #skiplinks A:focus{position: absolute; overflow: visible; width: auto; height: auto; margin: auto; padding: 3px; background-color: #FFFFFF;}
+
+#quickLinks{float:right; margin: 0px 0px 0px 5px;}
+#quickLinks UL{margin: 0px;}
+#quickLinks LI{float: left; list-style: none;}
+#quickLinks LI A{ padding: 0px 5px 0px 5px; border-right: 1px solid;}
+#quickLinks LI.last A{border: none;}
+.DRBQuickLinks #quickLinks{margin-top: -25px; }
+.NRBQuickLinks #quickLinks{margin-top: -45px; }
+/***** End of Accessibility Styles *****/
+
+/***** Menu Styles *****/
+.box_menu h2 { margin-left: 5px; }
+.box_menu h3 { margin: 0 5px 0 5px; font-size: 20px; }
+.MenuBody { padding-left: 0; border-bottom: 1px solid #000000; }
+ul#menu { padding: 0 0 10px 0; margin: 0 0 5px 0; }
+ul#menu li { padding: 3px 0 3px 8px; list-style-type: none; font-size: 16px; }
+ul#menu a { text-decoration: none; color: #000000; }
+ul#menu li.current, ul#menu li.expanded { height: 20px; border-left: 2px solid #000000; background-color: #ffffff; }
+ul#menu li.current a, ul#menu li.expanded a { color: #000000; font-weight: bold; }
+.MenuHeader {padding: 10px 0 0 0; }
+
+/*Quick Transfer */
+.box_top_quickTransfer { width: 199px; height: 10px; border: 0; padding: 0px; margin: 0px; }
+.box_quickTransfer { padding: 0px; margin: 0px 0px 15px 0px;}
+.box_quickTransfer h3, .faqHeading h3 { text-align: left; margin: 0px 1px 0px 1px; padding: 1px 0px 2px 5px; font-size:20px;}
+.box_top_quickTransfer hr{ display: none;}
+.quicktransferbody { margin: 0em 0.7em 0.7em 0.7em; }
+.box_quickTransfer div.brandtext { margin-top: 0.7em; margin-bottom: 0.2em; }
+.box_quickTransfer div.brandtextbold { font-weight: bold; padding-bottom: 0.2em; }
+.quicktransferfooter { margin: 0em 0.7em 0em 0em; padding-bottom: 1em; padding-left: 10px; }
+.box_quickTransfer select, #quickTransferDiv option { font-size: 1em; width:185px; height:22px; }
+#QTPFD {text-align:left;}
+#QTPFD input { font-size: 1em; width: 162px; height:22px; padding-left: 3px; }
+.box_quickTransfer .currencySpan { font-weight: bold; margin-right: 5px; font-size: 1.1em;  }
+/***** End of Menu Styles *****/
+
+
+/******* FAQ Panel Styling ****************/
+.faqPanel { overflow: hidden; position: relative; background-color: #ffffff; width: 190px; padding-bottom: 2px; height: 122px;  z-index: 1; }
+.box_faqPanel { overflow: hidden; position: relative; background-color: #ffffff; width: 208px; padding-bottom: 0px; height: 122px;  z-index: 1; }
+.box_top_faqPanel { z-index: 1; }
+.box_top_faqPanel hr, .box_top_faqPanelWrapper hr {display:none;}
+.box_faqPanelWrapper p { text-align: right; margin: 0.75em 0.5em 0.75em 0.5em; }
+.box_faqPanelWrapper h3 {text-align: left; margin: 0px 1px 0px 1px; padding: 1px 0px 2px 0px; font-size:20px;}
+.faqPanelWrapper, .box_faqPanelWrapper { display: inline; width: 190px; float: left; margin: -5px 0em; padding: 0em 0em 2px 0em; height: 122px; }
+.questionPanel { float: left; width: 190px; margin: 0px; padding: 0em; }
+.topFaqPanel { float: right; width: 290px; display: inline; margin-top: 5px; }
+.topFaqPanel h2 { float: left; margin: 0.1em 0em 0.3em 0.5em; padding: 0em; line-height: 1.2em !important; }
+.faqIframe { width: 280px; height: 80px; border: none; display: block; }
+.closeIframeAnchor { float: right; margin: 0em 0.5em 0em 0em; padding: 0em; }
+.faqQuestion { width: 168px; font-size:15px; margin: 0 0 2px 3px; padding:3px 0px 3px 3px; height: 22px; float: left;}
+.questionPanel p { margin-top: 0.5em; text-align: left; padding: 0 5px 0 5px; }
+.questionPanel p { margin: 5px 0px 7px 3px; font-size:16px; }
+.questionPanel span { margin-top: 0.5em; text-align: left; padding: 0 8px 0 8px; }
+.faqPanel h3, .box_faqPanel h3 { padding: 0.5em 0.5em 0em 0.5em; margin: 0em; }
+.faqForm { padding: 0 5px 0 5px; }
+.faqNav { padding: 5px 5px 5px 0; }
+/******* End of FAQ Panel Styling ****************/
+
+
+/***** Input Styles ******/
+input{ border: 1px solid #000000; border-radius: 3px; font-size: 1em; font: inherit; }
+.noInputBorder { border: 0px; }
+span.editCurr input { text-align: right; }
+input[type="checkbox"], input[type="radio"] {border: none;}
+/***** End of Input Styles ******/
+
+/***** Button Styles *****/
+.button, .button-right, .button-left, .link-button-right, .backLink, .box_quickTransfer .qtBtn input, .modalWarningLeftButton input, .modalWarningRightButton input { border: 0px solid #34A2B2; -webkit-border-radius: 5px;  -moz-border-radius: 5px; border-radius: 5px; color: #ffffff; background: #34A2B2; padding: 4px 11px; text-decoration: none; margin: 2px 2px 2px 2px; cursor: pointer; font-size: 18px !important;}
+.button-left, .AccountTable tr .link-button-right, .backLink, .modalWarningLeftButton input { border: 1px solid #AD1982; background: #FFFFFF; font-size: 18px; color: #AD1982; margin-right: 20px; padding: 3px 10px; }
+.AccountTable tr .link-button-right { font-size: 14px !important;}
+.link-button-right, .button-right { float: right; }
+.button-right a, a.link-button-right {text-decoration: none !important; font-size: 18px !important; }
+.button-left, .blcol {float: left; }
+.btnbl a { text-decoration: none !important; }
+.primaryBtn-left input {float: left; width: auto !important; }
+.oneButton {width: 99%; float: right; }
+.twoButtons, .blcol { width: 49.5%; }
+.twoButtons .link-button-right {margin-top: -3px; }
+.buttonSpace .blcol { width: 10%; margin-right: 5px; }
+.threeButtons {width: 33%; }
+.fourButtons {width: 24%; }
+.smallButton {width: 21%; }
+.buttonSpace .fourButtons { width: 43%; margin-top: -5px; margin-left: 2px; }
+.buttonSpace ul {margin-right: -15px !important; }
+.largeButton {width: 30%; margin-right: 30px;}
+.midVerticalButton { height: 25px; }
+input.AccountTableTabEnabled { font-weight:lighter; text-decoration:underline; display:inline-block; padding-bottom:3px; padding-top: 5px; }
+input.AccountTableTabDisabled { font-weight:lighter; padding-bottom:3px; cursor:default; text-decoration:none;padding-top: 5px; }
+input.noArrowsbuttonLink { text-align: left; background: transparent; border: none; display: inline; margin: 0em; cursor: pointer; width: auto; }
+.IBanLink { padding-left:15px; }
+
+/** Hopefully fix button rendering in IOS **/
+input[type='button'] { -webkit-appearance: none; }
+input[type='submit'] { -webkit-appearance: none; }
+/** end **/
+
+/***** End of Button Styles *****/
+
+/* Login Wizard Styles - centred with no menu bar */
+.shadedLoginHeading { padding: 0px 10px 40px 10px; }
+.shadedLoginHeading h2 { background-color: #000000; color: #FFFFFF; border: 2px solid white; border-top-left-radius: 5px 5px; border-top-right-radius: 5px 5px; padding: 10px 0 10px 10px; }
+.shadedLoginHeading div.frame, .shadedLoginHeading p,  div.LoginInputHolder { padding-left: 10px; }
+a.arrowed, .landingPageContainer a { padding-left: 1em; color: #000000; text-decoration: none; font-weight: bold; background: url(../images/arrow_left_white.gif) no-repeat 0em; vertical-align: top;}
+
+.tabcontainer ul.tabUI, .tabcontainer ul.tabUI li { width: auto; border:0; margin:0; padding:0; height: auto;}
+.tabcontainer ul.tabUI li{ margin-right:0px; margin-left: 0px; display: inline;  }
+.tabcontainer ul.tabUI span a, .tabcontainer .tabUI .active span.left, .tabcontainer .tabUI .disabled span.left { float: left; display:block; position: relative;  }
+.tabcontainer ul.tabUI span a { cursor: pointer; }
+.tabcontainer ul.tabUI span a span {cursor: pointer; }
+.tabcontainer .tabUI span a img {padding-top:2px; border: 0px; } 
+
+.tabcontainer ul.tabUI span a, .tabcontainer .tabUI .active span.left, .tabcontainer .tabUI .disabled span.left { float: left; display:block; position: relative; }
+.tabcontainer ul.tabUI .active span.left img { margin-top:2px;}
+ul.tabUI { list-style-type: none; }
+
+.LoginBorder {clear: both;}
+.TopLoginBorder { width:542px; height:5px; border:0; background:url(../img/topLine.gif) top right no-repeat; padding: 0px 0px 0px 0px; margin: 0em 0em 0em 0em; }
+.LoginBorder {width:541px; background-color: #ffffff; border: 1px solid #000000; border-top: 0px solid #ffffff; padding: 0px 0px 0px 0px; margin: 0em 0em 0em 0em; }
+.TopLoginBorder hr{display:none;}
+
+.box_li5register {width:541px; background-color: #ffffff; border: 1px solid #000000; border-bottom-left-radius: 5px 5px; border-bottom-right-radius: 5px 5px; padding: 5px 0 0 0; margin: 0em; border-top: 0px solid #ffffff; }
+.box_li5register p { padding: 0 10px 0px 20px; }
+.box_li5register hr {display:none;}
+
+.LoginSecurityNotice {margin-top: 10px; }
+
+.LoginInputHolder input {width: 85px; margin: 0 3px 0 3px; }
+.LoginInputHolder ul.form { padding: 0; }
+
+.LoginCheckBox input { margin-left: 1.0em; margin-right: 0.4em; }
+.LoginTabbed { margin: 1.5em 0 0 2.5em; }
+
+/* Summary Styles */
+div.fieldSet{font-size: 1em; font-family:Verdana,Arial,sans-serif;}
+div.fieldSet span.firstField{padding-top:18px;margin:0px; display:block;}
+div.fieldSet span.firstField.reduceTopPadding{padding-top: 8px}
+div.fieldSet span.secondField{padding-top:8px; display:block; font-weight:bold;}
+
+/* Alert style added for cookies directive */
+.alertImage{ background:url("../images/alert.png") no-repeat; height:8px; width:12px; margin-top: 15px; margin-left: 12px; margin-right: 10px; }
+.leftColumnPCN{float:left; overflow:hidden;  padding-left:14px; padding-top:15px;padding-bottom:5px;}
+.RightColumnPCN {padding: 10px 5px 5px 5px! important; margin: 0px! important;}
+.pcnWrapper{float:right; padding-bottom:5px; margin-bottom:10px; background-color:#000000;border:1px solid #ffffff;}
+/* End of Login Wizard Styles - centred with no menu bar */
+
+/* Boxes and Headers */
+.arrowedHeadingBorderBackWhite, .arrowedHeadingBorderBackShaded { width: auto; background: url("../images/header_arrow_down_no_border_white_back_775.gif") no-repeat scroll center bottom #000000; color: #FFFFFF; padding: 10px 0 20px 8px; border: 1px solid #000000; border-top-left-radius: 5px 5px; border-top-right-radius: 5px 5px; border-bottom: 0px solid #ffffff; margin-bottom: 0px; }
+.headingBorderBackShaded, .box_furtherOptions h3, .twoFAWrapper h2 { width: auto; background: #000000; color: #FFFFFF; padding: 1px 0 1px 8px; border: 1px solid #000000; border-top-left-radius: 5px 5px; border-top-right-radius: 5px 5px; border-bottom: 0px solid #ffffff; margin-bottom: 0px; }
+.box_furtherOptions h3 { padding: 10px 8px 10px 8px; }
+h3.headingBorderBackShaded, h2.headingBorderBackShaded, .twoFAWrapper h2 { padding: 15px 0 25px 8px; }
+.mainbodyclass .headingBorderBackShaded {padding: 10px 0 10px 8px; }
+.wizard_page .arrowedHeadingBorderBackShaded, .wizard_page .headingBorderBackShaded, .enrolment_wizard .arrowedHeadingBorderBackShaded, .enrolment_wizard .headingBorderBackShaded, .twoFAWrapper h2, .box_furtherOptions h3, .redirect_page h3 { margin: -8px -9px 0px -9px; }
+.forcedMessage h2:first-of-type { width: auto; background: url("../images/header_arrow_down_no_border_white_back_775.gif") no-repeat scroll center bottom #000000; color: #FFFFFF; padding: 10px 0 20px 8px; border: 1px solid #000000; border-top-left-radius: 5px 5px; border-top-right-radius: 5px 5px; border-bottom: 0px solid #ffffff; margin-bottom: 0px; }
+.box_borderFrameBackWhite, .box_borderFrameBackWhite_Middle, .box_borderFrameBackShaded, .box_borderFrameBackShaded_Middle, .box_furtherOptions { width: auto; background-color: #ffffff; border: 1px solid #000000; border-bottom-left-radius: 5px 5px; border-bottom-right-radius: 5px 5px; padding: 5px 8px 5px 8px; margin: 0em; border-top: 0px solid #ffffff; margin-top: 0px; }
+.box_borderFrameBackWhite hr, .box_borderFrameBackShaded hr, .box_furtherOptions hr, .box_blank, .box_top_menu hr {display:none;}
+.arrowedHeadingBorderBackShaded, .twoFAWrapper h2 { background-image: url("../images/header_arrow_down_no_border_gray_back_775.gif"); }
+.box_borderFrameBackShaded, .box_borderFrameBackWhite, .box_furtherOptions { margin-bottom: 10px; } /* this has the rounded corners and bottom border, so sould have a margin between it and the next element */
+.box_borderFrameBackShaded, .box_borderFrameBackShaded_Middle, .box_furtherOptions { background-color: #000000; }
+.box_borderFrameBackShaded_Middle, .box_borderFrameBackWhite_Middle, .forcedMessage { border-top: 0px solid #ffffff; border-bottom: 0px solid #ffffff; border-radius: 0; padding-bottom: 10px; margin-bottom: 0; }
+.box_furtherOptions { margin: 10px 0 0 0; }
+.headingChevron { width: auto; height: 8px; margin: 0 0 0 0;  padding: 0 0 0 0; }
+.pageFrameHeadingChevron { margin: -8px -9px 10px -9px; }
+.headingChevronBorderWhite { background-color: #ffffff; border-left: 1px solid #000000; border-right: 1px solid #000000; border-bottom: 0px solid #ffffff; border-top: 0px solid #ffffff; }
+.headingChevronBorderShaded { border-left: 1px solid #000000; border-right: 1px solid #000000; border-bottom: 0px solid #ffffff; border-top: 0px solid #ffffff; }
+.LI1ForcedMessageBox_WizardNav {padding-bottom: 40px; margin-bottom: 10px; }
+.additionalButtonPadding {Padding-bottom: 50px; }
+.forcedMessage h2:first-of-type {margin: -22px -9px 0 -9px; }
+
+.box_furtherOptions p {margin:0 0 0 0; padding: 0.5em 1em;}
+.box_furtherOptions p span {margin:0 0 0 0;}
+.box_furtherOptions p span a {margin:0 0 0 0;}
+.box_furtherOptions ul {padding-bottom: 1em; padding-top: 1px;}
+.box_furtherOptions li { list-style-type: none; margin-left: 1em; padding: 0.1em 0em 0.1em 1em; background: url("../images/futher_options_arrow_left.gif") no-repeat left center; }
+.box_furtherOptions a { color: #000000; text-decoration: none; font-size:14px}
+.box_furtherOptions a:hover, .furtherOptions a:active { text-decoration: underline; }
+
+.rememberMeReverseMargin { margin-top: -25px; }
+/*********** Landing Page Containers ***********/
+.landingPageContainer, .accountSummaryLandingPageContainer {background-color: #ffffff; border: 1px solid #000000; border-radius: 5px 5px; margin: 5px 0px 5px 0px; padding: 0 10px 10px 10px; }
+.landingPageContainerHalfWidth { width: 240px; }
+.landingPageContainerHeightSmall { height: 159px; } /* Two Small's will fit one Large */
+.landingPageContainerHeightMedium { height: 265px; }
+.landingPageContainerHeightLarge { height: 340px; } /* Two Small's will fit one Large */
+.landingPageContainer h2, .accountSummaryLandingPageContainer h2 { background-color: #000000; border: 1px solid #000000; border-top-left-radius: 5px 5px; border-top-right-radius: 5px 5px; color: #ffffff; margin: -1px -11px 0 -11px !important; padding: 10px 10px 10px 10px; }
+.landingPageContainer h2 {margin-bottom: 10px !important; }
+.landingPageContainer .stmtPodH2 { background-color: #000000; border: 0px; color: #000000; margin: 0; padding: 10px 10px 0 10px; margin: 0 -10px 0 -10px !important; }
+.landingPageContainer p, .accountSummaryLandingPageContainer h2 { margin: 0 0 10px 0; }
+.landingPageContainer a, .accountSummaryLandingPageContainer a { color: inherit; font-weight: normal; }
+.landingPageContainer .landingPageContactDetailLabel, .accountSummaryLandingPageContainer .accountSummaryLandingPageContactDetailLabel { width: 160px; display: inline-block; }
+.landingPageContainer .itemValue, .accountSummaryLandingPageContainer .itemValue  { width: 150px; display: inline-block; }
+.accountSummaryLandingPageContainer {overflow: hidden;}
+div span.itemValue{word-wrap:break-word;}
+
+/*********** End of Landing Page Containers ***********/
+
+/* ------------------- Itemtable column alignments ------- */
+.Numeric, .Date  { white-space: nowrap; text-align: left; }
+.Currency, .CurrencyBlankIfZero { white-space: nowrap; text-align: right; }
+.Wrap,.General { text-align: left; white-space: normal; }
+.InputRadio { white-space: nowrap; text-align: center; }
+span.editCurr input { text-align: right; }
+.ItemTable th { white-space: nowrap; }
+
+/*********** Item Table Styles ***********/
+.ItemTable {  width: 100%; padding: 0; font-size: 12px; }
+.ItemTable th.General, .ItemTable th.General_Last, .ItemTable th.Numeric, .ItemTable th.Numeric_Last, .ItemTable th.Currency, .ItemTable th.Currency_Last, .ItemTable th.Date, .ItemTable th.Date_Last, .ItemTable th.Wrap, .ItemTable th.Wrap_Last, .ItemTable th.CurrencyBlankIfZero, .ItemTable th.CurrencyBlankIfZero_Last, .ItemTable th.InputRadio_Last { text-align: center; vertical-align: middle; font-size: 12px; height: 3em; color: #FFFFFF; background-color: #000000; }
+.ItemTable th.General_Last, .ItemTable th.Numeric_Last, .ItemTable th.Currency_Last, .ItemTable th.Date_Last, .ItemTable tr td.IV_Last, .ItemTable th.Wrap_Last, .ItemTable th.CurrencyBlankIfZero_Last, .ItemTable th.InputRadio_Last  { border-right: 0px; }
+.ItemTable th {vertical-align: middle; height: 3em; color: #FFFFFF;}
+.ItemTable th a {color: #FFFFFF;}
+.ItemTable td a:hover {color: #FFFFFF;}
+.ItemTable td a { display: block; margin-left: 10px; }
+.ItemTable tr td img { display:none;}
+.ItemTable tr.dt td { background-color: #ffffff; color:#000000; }
+.ItemTable tr.dto td {background-color:  #ffffff; color:#000000; }
+.ItemTable tr.dton td { cursor: pointer; color:#ffffff; background-color:#000000;}
+.ItemTable tr.dton td a { color:#0A2F64; background-color:#DFD9D1; }
+.ItemTable tr.dtem td { border-bottom: solid 1px #ffffff; background-color: #000000; color: #ffffff;}
+.ItemTable tr.dthi td { border-bottom: solid 1px #ffffff; background-color: #ffffff; color: #000000;}
+.ItemTable tr.dthi td a { color: #FFFFFF;}
+.ItemTable tr.dtem div.OnIt { margin-left: 10px;}/* text-indent: -10px; */
+.ItemTable a { color: #000000; text-decoration: none; }
+.ItemTable th a:hover, .ItemTable th a:active { text-decoration: underline; color: #FFFFFF;}
+.ItemTable th, .ItemTable td {border-right:1px solid #000000;}
+.ItemTable th {text-align: center; }
+.num { letter-spacing: -0.13em; }
+.tableRadioButton td {text-align: left; padding-left: 40%;}
+.dtop {display: none;}
+.ssbox .ItemTable tfoot th {border: none;} 
+
+ul.actionLinkPanel, ul.cccyclenavigator { padding:5px 0px 10px 0px; height:30px; border:none; margin:0px 0px 0px 0px;}
+ul.actionLinkPanel li, ul.cccyclenavigator li, ul.StatementSummary li { list-style-type: none; float: left; }
+ul.actionLinkPanel li.rightButton, ul.cccyclenavigator li.rightButton { list-style-type: none; float: right; }
+
+.actionFrame { margin-top: 10px; }
+.filterFrame { margin-bottom: 10px; }
+
+.furterOptionsContactDetailList ul { list-style-type: none; }
+.furterOptionsContactDetailListItem { background: none !important; }
+.furterOptionsContactDetailLabel { width: 25%; display: inline-block; }
+.furterOptionsContactDetailItem { width: 35%; display: inline-block; }
+.furterOptionsContactDetailLink { width: 30%; display: inline-block; }
+/*********** End of Item Table Styles ***********/
+
+/******* Stop Start Statements *****************/
+.statementCheckBox .cbGeneric { float: left; width: 20px; margin: 0 10px 0 20px;}
+.statementCheckBox .inputArea p {padding-left:25px;}
+
+/******* Find out more panel *****************/
+.box_ourProducts li { list-style-type: none;}
+
+/************** Account Summary Page Styles - this is a special case! **************/
+.lastLoginPF { padding-bottom: 5px; border-bottom: 1px solid #b4a99f; margin-bottom: 13px; margin-top: 0px; margin-left: 5px;}
+.lastLoginPF ul {padding-left: 0; margin-left: 0; }
+ul.serviceinfo { list-style: none; }
+.serviceinfolabel { float: left; width: 35%; }
+.AS5_RightColumn{ float: right; margin-top: -26px; margin-right: 30px; }
+
+.collapsable{display: none ;}
+.defaultAccount {display: block; }
+
+/* Account Table Styling */
+.AccountTable {font-size: 13px; border-color: #B4A99F #ffffff #B4A99F; border-radius: 5px 5px; margin: -12px 4px 0px 4px; padding: 0px 0px 0px 0px; width:530px; margin-bottom: 4px;}
+.wizard .AccountTable {margin: 0px 1px 0px 1px; padding: 0px 0px 0px 0px;}
+.AccountTable th {background-color: #000000; color: #FFFFFF;vertical-align:middle;border-top-style: none !important; border-top-width: 0 !important;}
+.AccountTable th a {color:#FFFFFF;text-decoration:none;line-height:2.5em; font-size: 13px;}
+.AccountTable th a:hover, a:focus, a:active {text-decoration:underline;}
+.AccountTable tr.dtMFR td { background-color: #ffffff; color:#000000; padding-left: 0px; }
+.AccountTable tr.dt{ background-color: #FFFFFF; color:#000000;}
+.AccountTable tr.dto {background-color:  #000000; color:#ffffff; }
+.AccountTable tr.dt_ad { background-color: #ffffff;padding-top:0; padding-bottom:0; }
+.AccountTable tr.dto_ad {background-color: #FFFFFF;padding-top:0; padding-bottom:0; }
+
+.AccountTable tr.dt td.nbaPrompt { border-top-style:none; }
+.AccountTable tr.dto td.nbaPrompt{ border-top-style:none; }
+.highlighted {background: #2473be !important;color:#ffffff !important; }
+.highlighted a {color: #ffffff !important; font-weight:bold;}
+.ministatement_border {border-bottom:1px solid;}
+.collapseExpandAD {width: auto;}
+.borderUnderline {border-bottom:0px solid #000000;}
+.AccountTable th, .AccountTable td {padding:3px 5px 3px 5px; border-right:0px solid #CEC7BD;  border-left: 0px solid #CEC7BD; vertical-align: middle;}
+.AccountTable a.accountNameExpand {color: #000000; font-weight: normal; text-decoration: none; } /*by default*/ 
+.AccountTable th {text-align: center; }
+
+.AccountTable td.ministatement {padding: 0;}
+.AccountTable td.ItemValueCenter { text-align: center; }
+
+span.AccountName { display: block; overflow: hidden; width: 102px; }
+
+/* InnerAccount Table Styling */
+.InnerAccountTable {width: 100%; margin: 0; padding: 0 0 0 5px; font-size: 12px !important;}
+.wizard .InnerAccountTable {width:auto;}
+.InnerAccountTable th {	background-color: #FFFFFF; color: #000000;border-right:0 none !important;}
+.InnerAccountTable th a, .InnerAccountTable th a:hover {color: #000000;}
+.InnerAccountTable tr.dthi td { border-bottom: solid 1px #FFFFFF; background-color: #FFFFFF; color: #000000;}
+.InnerAccountTable tr.dt td { border-bottom: solid 1px #ffffff;background-color: #ffffff;  color:#000000; }
+.InnerAccountTable tr.dto td { border-bottom: solid 1px #FFFFFF; background-color:#FFFFFF; color:#000000; }
+.InnerAccountTable td {border-right:0 none !important;}
+.InnerAccountTable tr td {font-size:13px;}
+.InnerAccountTable th.Date {width:127px;}
+
+.DownChevronBillsBgImage {background-image: url(../images/backgrounds/DownChevronBills.gif);}
+.RightChevronBillsBgImage {background-image: url(../images/backgrounds/RightChevronBills.gif);}
+.NoChevronBillsBgImage {background-image: url(../images/backgrounds/NoChevronBills.gif);}
+
+.DownChevronSpendingBgImage {background-image: url(../images/backgrounds/DownChevronSpending.gif);}
+.RightChevronSpendingBgImage {background-image: url(../images/backgrounds/RightChevronSpending.gif);}
+.NoChevronSpendingBgImage {background-image: url(../images/backgrounds/NoChevronSpending.gif);}
+
+.DownChevronSavingsBgImage {background-image: url(../images/backgrounds/DownChevronSavings.gif);}
+.RightChevronSavingsBgImage {background-image: url(../images/backgrounds/RightChevronSavings.gif);}
+.NoChevronSavingsBgImage {background-image: url(../images/backgrounds/NoChevronSavings.gif);}
+
+.DownChevronMFRBgImage {background-image: url(../images/backgrounds/DownChevronMFR.gif);}
+.RightChevronMFRBgImage {background-image: url(../images/backgrounds/RightChevronMFR.gif);}
+.NoChevronMFRBgImage {background-image: url(../images/backgrounds/NoChevronMFR.gif);}
+
+.DownChevronBgImage { background-attachment: scroll !important; background-color: #000000 !important; background-image: url("../images/AS_arrow_up.gif") !important; background-repeat: no-repeat !important; color: #FFFFFF; }
+.RightChevronBgImage {background-image: url(../images/backgrounds/MMRightChevron.gif);}
+.ChevronBgImageProperties, .NoChevronBgImageProperties {background-repeat: no-repeat; background-position:8px 50%; height: 25px; padding-left: 26px !important;}
+
+.box_top_innerAccountTable_Multi_dto hr, .box_top_innerAccountTable_Multi_dt hr {display:none;}
+.box_top_innerAccountTable_Multi_dto {height:5px; border:0; background-position:0 0; background-repeat:no-repeat; padding: 0; margin: 0; }
+
+/******* New MultiAccountTable Rounded Corners Frame ending with dt********/
+.box_MultiAccountTable_footer_dt {background-position: 0 100%;background-repeat: no-repeat; padding-bottom:3px; padding-top:1px;}
+.box_MultiAccountTable_footer_dt h2 { width:66%; float:left;   background-repeat: no-repeat; background-position: 5px center; line-height: 1.6em; margin-bottom:3px;padding:8px 0 3px 42px; margin-top:-2em; margin-left: -2em; vertical-align:middle;}
+.box_MultiAccountTable_footer_dt .AccountTableHeader { width:100%;}
+.box_MultiAccountTable_footer_dt .OverallExpandCollapseLink, .box_MultiAccountTable_footer_dt .OverallExpandCollapseLinkPlaceholder {margin-left:1px;padding-top:9px; }
+.box_MultiAccountTable_footer_dt br { clear: left;}
+
+/******* New MultiAccountTable Rounded Corners Frame ending with dto********/
+.box_MultiAccountTable_footer_dto {background-position: 0 100%;background-repeat: no-repeat; padding-bottom:5px; padding-top:1px;}
+.box_MultiAccountTable_footer_dto h2 { width:66%;  background-repeat: no-repeat; background-position: 5px center;line-height: 1.6em;margin-bottom:3px;margin-top:-1.5em; margin-left: 2px; vertical-align:middle;}
+.box_MultiAccountTable_footer_dto .AccountTableHeader { width:100%; margin-top:-2em;}
+.box_MultiAccountTable_footer_dto .OverallExpandCollapseLink, .box_MultiAccountTable_footer_dto .OverallExpandCollapseLinkPlaceholder { margin-left:1px;padding-top:9px; }
+.box_MultiAccountTable_footer_dto br { clear: left;}
+
+/******* New MultiAccountTable Rounded Corners Frame ending with dtMFR********/
+.box_MultiAccountTable_footer_dtMFR {background-position: 0 100%;background-repeat: no-repeat; padding-bottom:5px; padding-top:1px;}
+.box_MultiAccountTable_footer_dtMFR h2 { width:66%; float:left;  background-repeat: no-repeat; line-height: 1.6em;background-position: 5px center;margin-bottom:3px; padding:8px 0 3px 42px; margin-top:2px; margin-left: 2px; vertical-align:middle;}
+.box_MultiAccountTable_footer_dtMFR .AccountTableHeader { width:100%;}
+.box_MultiAccountTable_footer_dtMFR .OverallExpandCollapseLink, .box_MultiAccountTable_footer_dtMFR .OverallExpandCollapseLinkPlaceholder {margin-left:1px;padding-top:9px;}
+.box_MultiAccountTable_footer_dtMFR br { clear: left;}
+
+/******* Light box effect (yes I know it's not CSS 2.1 compliant ********/
+.lightboxBackground { overflow: hidden; z-index: 10; left: 0%; width: 100%; position: fixed; top: 0%; height: 100%;
+background-color: #000000; moz-opacity: 0.5; opacity: .50; filter: alpha(opacity=50);  }
+.modalPopup { display: block; position: fixed; top: 50%; left: 50%; margin-left: -336px; margin-top: -300px;
+width: 672px; height: auto !important; height: 466px; min-height: 466px; background-color: white; z-index:20; }
+* html .modalPopup { position: absolute;
+top: expression((document.documentElement.scrollTop || document.body.scrollTop) + Math.round(10 * (document.documentElement.offsetHeight || document.body.clientHeight) / 100) + 'px');
+margin-top: 0em; }
+* html .lightboxBackground { position: absolute;
+top: expression(eval(document.documentElement.scrollTop) + "px");
+height:expression(eval(document.documentElement.offsetHeight) + "px");
+}
+#sgtLoading { background-color: #ffffff; }
+#sgtLoading img, #sgtLoading p { display: block; text-align: center; margin:0 auto; }
+#sgtLoading img { margin-top: 20%; }
+
+/******* Savings Goal Tracker Container *************************************/
+.savingsGoalTrackerContainer {background-color: #ffffff; border: 1px solid #000000; border-radius: 5px 5px; margin: 5px 5px 5px 5px; padding: 0 10px 10px 10px; }
+.savingsGoalTrackerContainer h2 { background-color: #000000; width: 66% border: 1px solid #000000; border-top-left-radius: 5px 5px; border-top-right-radius: 5px 5px; color: #ffffff; margin: -1px -11px 0 -11px !important; padding: 10px 10px 10px 10px; }
+.savingsGoalTrackerContainer .stmtPodH2 { background-color: #000000; border: 0px; color: #000000; margin: 0; padding: 10px 10px 0 10px; margin: 0 -10px 0 -10px !important; }
+.savingsGoalTrackerContainer p { margin: 0 0 10px 0; margin-right:10px;}
+.savingsGoalTrackerContainer a { color: inherit; font-weight: normal; }
+.savingsGoalTrackerContainer .savingsGoalTrackerContainerLabel { width: 160px; display: inline-block; }
+.savingsGoalTrackerContainer .itemValue  { width: 150px; display: inline-block; }
+.savingsGoalTrackerContainer .button-right{margin: 20px;}
+/******* End of Savings Goal Tracker Container *************************************/
+
+/******* Savings Goal Tracker Styles *************************************/
+/*ProgressImage Styles */
+.sgsTracker .box_sgsTrackerPanel_leftBorder, .sgsTracker .box_sgsTrackerPanelNew_leftBorder {background: top left repeat-y;}
+.sgsTracker .box_sgsTrackerPanel_rightBorder, .sgsTracker .box_sgsTrackerPanelNew_rightBorder {background: top right repeat-y; }
+.sgsTracker .box_sgsTrackerPanel_header, .sgsTracker .box_sgsTrackerPanelNew_header {background: top left no-repeat; }
+.sgsTracker .box_sgsTrackerPanel_footer, .sgsTracker .box_sgsTrackerPanelNew_footer {position: relative; background: bottom left no-repeat; padding-bottom: 2px; margin-bottom: 0em; }
+*:first-child+html .sgsTracker .box_sgsTrackerPanel_footer, *:first-child+html .sgsTracker .box_sgsTrackerPanelNew_footer { padding-bottom: 1px; }
+.sgsTracker .header {border-bottom: 1px solid black; width:509px; height: 45px;}
+.sgsTracker .sgsNewBackground { background: no-repeat right -4px; margin-top:30px;}
+* html .sgsTracker .sgsNewBackground { background-position: right -2px; margin-top: -2px; }
+*:first-child+html .sgsTracker .sgsNewBackground { background-position: right -2px; margin-top: -2px; }
+.sgsTracker .header h2 { margin-left: 5px; line-height: 1.6em; margin-bottom: 0em; padding: 5px 0px 11px 38px; }
+.sgsTracker ul.trackedGoals { list-style-type: none; margin: 0em; padding: 0em; }
+.sgsTracker .sgtGoalViewCollapsed { height: 33px; cursor: pointer; margin-left: 1px; margin-right: 1px; border-bottom: 0px solid black; }
+.sgsTracker .sgtGoalViewCollapsed h3 { color: black; float: left; width: 247px; padding: 0em 0em 0em 30px; margin: 0.5em 0em 0em 0em;
+background: 13px center no-repeat; }
+.sgsTracker .sgtGoalViewCollapsed h3 a { text-decoration: none; }
+.sgsTracker .sgtGoalViewCollapsed h3 a:hover, .sgsTracker .sgtGoalViewCollapsed h3:focus { text-decoration: underline; }
+.sgsTracker .goalStatus {float: left; width: 242px; padding: 0.5em 1em 0em 0em; text-align: right; }
+.sgsTracker .goalStatus img { vertical-align: middle; }
+.sgsTracker .content { border-bottom: 0px solid black; margin-top: 1em; width: 100%; }
+.sgsTracker .content .leftColumn, .sgsTracker .content .rightColumn { width: 247px; float: left; padding-left: 10px; padding-right: 10px; }
+.sgsTracker .addGoal { padding: 0.5em 10px 0.5em 1em; margin-left: 1px; margin-right: 1px; }
+.sgsTracker input.buttonLink { width: 70px; }
+.sgsTracker .sgsPromoContentPanel { padding: 0em 1em; margin-bottom: 1em; margin-top: 1em; }
+* html .sgsTracker .SGT_PromoButtonOuterContainer { zoom: 1; }
+
+/* Savings Goal Tool Dialog Boxes */
+.sgs .helpLink { margin-right:1em; margin-top:0.75em; float: right;}
+.sgs .closeButton { margin-top: 0.5em; margin-left: 5px; float: right;}
+.sgs .SGS_errorPanel { position: relative; width: auto; padding: 0.5em; color: #ff0000; border: 1px solid #ff0000; margin-bottom: 0.5em;}
+.sgs .SGS_errorPanel ul { margin-bottom: 0em; }
+.sgs .header { padding: 10px 10px 0px 10px; height: auto !important; height: 43px; min-height: 43px; width: 652px;}
+.sgs .header h2 { float: left; margin-left:0px; line-height: 1.6em;  padding: 5px 0px 0px 38px; background: no-repeat center left; }
+.sgs .header .btnbg { margin: 5px 0px 5px 0px; }
+
+.sgs .box_top_wrapper { height:5px;background: no-repeat top left; }
+.sgs .box_top_wrapper hr { display: none; }
+.sgs .box_wrapper { width: 652px;height: auto !important; height: 352px; min-height: 352px; margin: 10px;
+background: #fefff9 no-repeat left bottom; padding-bottom: 3px; }
+
+.sgs .button { width: auto; }
+.sgs .content { margin: 0px 1px; overflow: hidden;  padding: 10px; border: none !important; width: auto !important; }
+.sgs .footer { padding: 3px 10px 7px 10px; width: 632px; height: 20px; }
+.sgs .footer .right { width: auto; margin-left: 10px; margin-top: 1px; padding: 0em; }
+.sgs .footer .left { width: auto; margin-right: 10px; margin-top: 1px; padding: 0em; }
+.sgs .progress { text-align: right; width: 100%; font-weight: bold; margin-bottom: 10px; }
+
+.sgs .content .leftColumn, .sgs .content .box_leftColumn { float: left; margin-right: 10px; padding-left: 0em !important; padding-right: 0em !important;
+height: auto !important; height: 308px; min-height: 308px;  }
+.sgs .content .rightColumn, .sgs .content .box_rightColumn { float: right; padding-left: 0em !important; padding-right: 0em !important;
+height: auto !important; height: 308px; min-height: 308px;  }
+.sgs .content .form label { display: block;  float: none; width: auto; font-weight: bold;}
+.sgs img.ErrorMarker, .tabcontainer img.ErrorMarker { float: left; }
+
+.sgsdialog2 .leftColumn { width: 258px; background: transparent center bottom no-repeat; }
+.sgsdialog2 .box_top_rightColumn { height:5px; background: top right no-repeat;}
+.sgsdialog2 .box_top_rightColumn hr {display:none;}
+.sgsdialog2 .box_rightColumn {width: 357px !important;}
+.sgsdialog2 ol.goalStep { margin: 0em; padding: 0em; list-style-type: none; }
+.sgsdialog2 ol.goalStep li { padding-left: 20px; }
+.sgsdialog2 li.one { background: url(../images/savingsgoal/one.gif) top left no-repeat; }
+.sgsdialog2 li.two { background: url(../images/savingsgoal/two.gif) top left no-repeat;  }
+.sgsdialog2 li.one table {border-collapse: collapse; border-spacing:0px;table-layout:fixed; }
+.sgsdialog2 .tableErrorIndicator .ErrorMarker { margin-top: 25px; margin-left: 2px; position: absolute; float: none !important; }
+.sgsdialog2 li.one table td {padding:0px 15px 0px 5px; border: 1px solid black; border-top: none;
+background-color: #ffffff; font-weight: bold; vertical-align: middle; line-height: 0.9em; width: 50%; }
+.sgsdialog2 li.one table td span { margin-left: 18px; text-indent: -21px; }
+.sgsdialog2 li.two .goalNameFrame { padding: 0.5em; padding-bottom: 12px; border: 1px solid black; border-top: none; }
+.sgsdialog2 li.two .goalNameFrame label { display: block; font-weight: bold; padding-bottom: 0.5em;  }
+.sgsdialog2 .SGS_goal_item_common {background:#ffffff center right no-repeat; padding:15px 37px 15px 0px; display:block; }
+
+.sgsdialog3 .box_leftColumn { width: 280px !important; background: bottom left no-repeat; }
+.sgsdialog3 .box_top_leftColumn { height: 3px; background: top left no-repeat; }
+.sgsdialog3 .box_top_leftColumn hr { display: none; }
+.sgsdialog3 .SGS_ContentMiddleLeftHeader { padding: 0.5em; margin: 0em 1px 0em 1px; }
+.sgsdialog3 .SGS_ContentMiddleLeftHeader h2 { margin: 0em; }
+.sgsdialog3 .box_leftColumn .frame { padding: 0em 1em; margin-bottom: 0em; width: auto; }
+.sgsdialog3 .SGS_ContentMiddleLeft_Update { margin-bottom: 1em !important; }
+.sgsdialog3 .rightColumn .frame { padding: 0em 1em; width: auto; }
+.sgsdialog3 .rightColumn {width: 339px !important; }
+.sgsdialog3 .box_goalCalculated { width: 339px !important; background: bottom left no-repeat; height: auto !important; height: 308px; min-height: 308px; }
+.sgsdialog3 .box_top_goalCalculated { height: 3px; background: top left no-repeat; }
+.sgsdialog3 .box_top_goalCalculated hr { display: none; }
+.sgsdialog3 .SGS_GoalHeader { padding: 0.5em; margin: 0em 1px 1em 1px; }
+.sgsdialog3 .SGS_GoalHeader  h2 { padding-left: 25px; margin-bottom: 0em; margin-top: 0em;  background: no-repeat center left; }
+.sgsdialog3 .SGS_GoalContent_Image { text-align: center; }
+.sgsdialog3 .date-pick, .sgsdialog3 .dp-applied { margin-left: 1em; float: left;  }
+.sgsdialog3 .dp-choose-date { float: left; background: left center no-repeat; text-indent: -2000px; overflow: hidden; width: 16px; height: 16px; }
+
+.sgsdialog4 .box_leftColumn { width: 342px !important; background: bottom left no-repeat; }
+.sgsdialog4 .box_top_leftColumn { height: 3px; background: top left no-repeat; }
+.sgsdialog4 .box_top_leftColumn hr { display: none; }
+.sgsdialog4 .SGS_ContentMiddleLeftHeader { padding: 0.5em; margin: 0em 1px 0em 1px; }
+.sgsdialog4 .SGS_ContentMiddleLeftHeader h2 { margin: 0em; }
+.sgsdialog4 .box_leftColumn .frame { padding: 1em; width: auto; }
+.sgsdialog4 .rightColumn {width: 277px !important;}
+
+.sgsdialog5 .box_leftColumn { width: 342px !important;background: bottom left no-repeat; }
+.sgsdialog5 .box_top_leftColumn { height: 3px; background: top left no-repeat; }
+.sgsdialog5 .box_top_leftColumn hr { display: none; }
+.sgsdialog5 .SGS_ContentMiddleLeftHeader { padding: 0.5em; margin: 0em 1px 0em 1px; }
+.sgsdialog5 .SGS_ContentMiddleLeftHeader h2 { margin: 0em; }
+.sgsdialog5 .box_leftColumn .frame { padding: 1em; width: auto; }
+.sgsdialog5 .rightColumn {width: 277px !important;}
+
+.sgsdialog6 .box_leftColumn { width: 342px !important;background: bottom left no-repeat;  margin-bottom: 1em; }
+.sgsdialog6 .box_top_leftColumn { height: 3px; background: top left no-repeat; }
+.sgsdialog6 .box_top_leftColumn hr { display: none; }
+.sgsdialog6 .SGS_ContentMiddleLeftHeader { padding: 0.5em; margin: 0em 1px 0em 1px; }
+.sgsdialog6 .SGS_ContentMiddleLeftHeader h2 { margin: 0em; }
+.sgsdialog6 .box_leftColumn .frame { padding: 1em; width: auto; }
+.sgsdialog6 .rightColumn {width: 277px !important;}
+*:first-child+html .sgsdialog6 .footer .right { width: 18em; margin-left: 0em; }
+*:first-child+html .sgsdialog6 .footer .right input { width: 18em; }
+* html .sgsdialog6 .footer .right { width: 1px !important; }
+
+.sgsCollapsable.expanded { cursor: pointer; }
+
+div.SGS_ProgressImageWrapper, div.SGS_ProgressImageWrapper_Large { position: relative; margin-top: 10px; text-align: left; width: 235px; height: 70px; }
+div.SGS_ProgressImageWrapper_Large { width: 316px !important; }
+div.SGS_ProgressImageBottomText, div.SGS_ProgressImageBottomText_Large
+{ position: absolute; margin-top: 49px; right: 5px; text-align: right; padding: 3px 3px 3px 3px;
+border: solid 1px #c0c0c0; font-size: 0.9em; background-color: White; z-index: 1;}
+div.SGS_ProgressImageBottomText_Large { margin-top: 62px !important; }
+
+img.SGS_ProgressImage { position:absolute; margin-top: 20px; vertical-align:middle; text-align: center; padding: 0; z-index: 2; }
+img.SGS_TypeImage { position: absolute; margin-top: 30px; vertical-align: middle; text-align: left; padding: 0 0 0 5px; z-index: 3; }
+div.SGS_ProgressImageTopText_0, div.SGS_ProgressImageTopText_1, div.SGS_ProgressImageTopText_2,
+div.SGS_ProgressImageTopText_3, div.SGS_ProgressImageTopText_4, div.SGS_ProgressImageTopText_5,
+div.SGS_ProgressImageTopText_6, div.SGS_ProgressImageTopText_7, div.SGS_ProgressImageTopText_8,
+div.SGS_ProgressImageTopText_9, div.SGS_ProgressImageTopText_10,
+div.SGS_ProgressImageTopText_0_Large, div.SGS_ProgressImageTopText_1_Large, div.SGS_ProgressImageTopText_2_Large,
+div.SGS_ProgressImageTopText_3_Large, div.SGS_ProgressImageTopText_4_Large, div.SGS_ProgressImageTopText_5_Large,
+div.SGS_ProgressImageTopText_6_Large, div.SGS_ProgressImageTopText_7_Large, div.SGS_ProgressImageTopText_8_Large,
+div.SGS_ProgressImageTopText_9_Large, div.SGS_ProgressImageTopText_10_Large
+{ position: absolute; margin-top: 1px; text-align: left; padding: 3px 3px 3px 3px; border: solid 1px #c0c0c0; font-size: 0.9em; background-color: White; z-index: 1; }
+div.SGS_ProgressImageTopText_0 { left: 0px;}
+div.SGS_ProgressImageTopText_1 { left: 0px;}
+div.SGS_ProgressImageTopText_2 { left: 22px;}
+div.SGS_ProgressImageTopText_3 { left: 40px;}
+div.SGS_ProgressImageTopText_4 { left: 60px;}
+div.SGS_ProgressImageTopText_5 { left: 80px;}
+div.SGS_ProgressImageTopText_6 { right: 75px;}
+div.SGS_ProgressImageTopText_7 { right: 55px;}
+div.SGS_ProgressImageTopText_8 { right: 35px;}
+div.SGS_ProgressImageTopText_9 { right: 16px;}
+div.SGS_ProgressImageTopText_10 { right: 8px;}
+div.SGS_ProgressImageTopText_0_Large { left: 0px;}
+div.SGS_ProgressImageTopText_1_Large { left: 19px;}
+div.SGS_ProgressImageTopText_2_Large { left: 45px;}
+div.SGS_ProgressImageTopText_3_Large { left: 73px;}
+div.SGS_ProgressImageTopText_4_Large { left: 100px;}
+div.SGS_ProgressImageTopText_5_Large { left: 129px;}
+div.SGS_ProgressImageTopText_6_Large { right: 110px;}
+div.SGS_ProgressImageTopText_7_Large { right: 82px;}
+div.SGS_ProgressImageTopText_8_Large { right: 52px;}
+div.SGS_ProgressImageTopText_9_Large { right: 23px;}
+div.SGS_ProgressImageTopText_10_Large { right: 5px;}
+/* End of Savings Goal Tool Styles */
+
+/************** End of Account Summary Page Styles **************/
+
+/************** Highlighted Fields and Tool Tips **************/
+.highlightField, input:focus{border: 1px solid #000000; }       
+input[type="submit"]:focus{border: none;}
+input[type="submit"].button-left:focus{ border: 1px solid #AD1982;}
+.highlightField2 {background-color:#ffffff;}
+div.DynamicToolTip{width: 294px; color: #000000; border: 0px solid #000000; padding-left: 15px; padding-top: 3px; padding-right: -10px; margin-left: 20px; text-align:left; margin-top: -13px; vertical-align: top; display: none; z-index: 10; float: right; position: absolute;}
+.ToolTip_tiny {background:url("../images/backgrounds/RbsgToolTip70.png") no-repeat top left;}
+.ToolTip_small {background:url("../images/backgrounds/RbsgToolTip90.png") no-repeat top left;}
+.ToolTip_medium {background:url("../images/backgrounds/RbsgToolTip125.png") no-repeat top left;}
+.ToolTip_large {background:url("../images/backgrounds/RbsgToolTip165.png") no-repeat top left;padding:5px;}
+div.DynamicToolTip span { display: inline-block; margin-right: 5px; padding:0px 5px 13px 2px;}
+div.displayToolTip{display: inline; }
+a.toolTipClose { color: #00387b; background:url("../images/callout_close_RBS.png") no-repeat top right; width: 10px; margin: -5px 0 0 273px; float: right; position: absolute; text-decoration: none; }
+/************** End of Highlighted Fields and Tool Tips **************/
+
+/********************* 2FA ****************************/
+twoFAWrapper a {margin:0px;padding-left:20px;}
+.twoFALeftImage, .twoFArightImage, .hidden { display: none; }
+ul.mwcList {list-style: none; margin: 0; padding: 1em 0em 1em 0em; }
+ul.mwcList li { margin-bottom: 5px; }
+.bcc-number-liststyle1{background-color:white;font-weight:bold;letter-spacing:1px;list-style-type:none;padding-left:5px;padding-right:5px;text-align:center;}
+
+/* ------------------- 2FA Challenge Response Control ------- */
+ol.crc { list-style-type: none; margin: 0; padding: 0; }
+ol.crc li { padding: 0em 0em 0em 0em; margin: 1em 0em 1em 0em; }
+ol.crc li div.instructionStep { display: inline; float: left; margin-right: 10px; padding-left: 40px; margin-left: 10px; }
+ol.crc div.Step1 { background: url(../images/2fa_step1.gif) no-repeat; margin: 0 0 -20px 0; }
+ol.crc div.Step2 { background: url(../images/2fa_step2.gif) no-repeat; vertical-align: top; }
+ol.crc div.Step3 { background: url(../images/2fa_step3.gif) no-repeat; }
+ol.crc div.Step4 { background: url(../images/2fa_step4.gif) no-repeat; }
+ol.crc div.Step5 { background: url(../images/2fa_step5.gif) no-repeat; }
+.readerImage { float: right; padding: 40px 15px 0 0; margin: -120px -15px -50px 0; }
+div.wizard_page .readerImage { margin-bottom: -20px; }
+div.wizard_wide .readerImage { margin-top: -65px; margin-bottom: -20px; }
+div.instructionStep ul.form{padding-top:0em; }
+div.instructionStep ul.form li label{width:75%; float:left; clear:right; overflow:hidden;}
+div.instructionStep ul.form li select {margin-top: 15px; margin-bottom: -5px; _margin-bottom: 0px; clear: left;}
+.crcFigures{vertical-align: -50%;}
+
+ol.crc ul.form li { margin: 0em; padding: 0em; width: 100%; }
+/********************* End of 2FA ****************************/
+
+/********************* Wizard Screen Styles ****************/
+
+.textFieldWrapper { width: 170px; display: inline-block;}
+.fieldWrapper { margin-bottom: 5px; }
+.fieldWrapper input{ width: 150px; }
+.ac_input{ width: 272px; }
+.alignRight { float: right !important; }
+
+
+/* Create Payment */
+.dropdownwidth{ width:250px; }
+.dropdownwidth option{ width:100%; }
+.prototypeWidth{ width:350px; margin:2px; }
+.DropdownWrapperDiv { width: 354px; margin-left:-2px; display: inline-flex;}
+.reduceMarginBottom {margin-bottom: -13px !important; }
+
+/* Validation Errors */
+.error { 
+color: #FFFFFF;
+    padding: 1em 0em 20px 1em;
+    margin: 8px 8px 8px 8px;
+    font-size: 20px;
+    min-height: 75px;
+    background: none repeat scroll 0 0 #D70028;
+    border-radius: 5px;
+    border: 1px solid #D70028;
+ }
+.error li {font-size: 14px; }
+.error ul { padding-left: 1em; padding-right: 2em; margin-top:0.5em; }
+
+.fpValidationPanel { height:70px; background-color: #D7reg8; border: 1px solid #D7reg8; border-top-left-radius: 5px 5px; border-top-right-radius: 5px 5px; border-bottom: 0px solid #ffffff; margin-bottom: 0px;  }
+.fpValidationError { width:40px; height:40px; float:left; position:relative; top:-20px; left:10px; }
+.fpValidationPanel span { color:#FFFFFF; font-size:12px; float:left; padding:0px 0px 0px 20px; margin-top:-10px;}
+
+
+.hideWizardfooter{display:none;}
+/********************* End of Wizard Screen Styles ****************/
+
+/********************* Summary and Confirmation Screen Styles ****************/
+.confirmationWrapper
+{
+    color: #FFFFFF;
+    font-size: 20px;
+    margin: 0px 0px 0px 0px;
+    padding: 0;
+    background-color: #000000;
+    width: 100%;
+    border: 0px solid #000000;
+    border-top-left-radius: 5px 5px; 
+    border-top-right-radius: 5px 5px;
+    display: inline-block;
+ }
+.confirmationWrapper .rightColumnConfirm{ padding-left: 10px; margin-left: 10px; font-weight: normal; padding-bottom: 10px;}
+.confirmationWrapper .rightColumnConfirm span{ font-weight: normal; padding-bottom: 10px; font-size: 14px;}
+.rightColumnConfirm { float: left; width: 75%; }
+.leftColumnConfirm { padding: 10px 0 0 10px; }
+.confirmationWrapper a, .headingBorderBackShaded a { color: #ffffff; }
+
+ul.form.summary, ul.form.confirmation { padding: 0 0 8px 0; list-style-type: none; width: 100%; display: inline-block; line-height: 1.8em; }
+ul.form.summary li span, ul.form.confirmation li span { width: 100%; display: inherit; }
+ul.form.transferconfirmation {padding-top: 0; }
+ul.confirmation li span.label {font-weight: bold; }
+/********************* End of Summary and Confirmation Screen Styles ****************/
+
+/*----------------------- InfoBox Styles -------------------*/
+div.infoBox { display: inline-block; float: left; width: 25px; }
+div.infoBoxIcon{ display: inline-block; cursor: pointer; width: 58px; height: 20px; text-align:left;  }
+div.infoBoxDetail { display: none; float: left; position: absolute; margin: -20px 0 0 0; width: 410px; text-align:left; padding: 0 0 0 0; background-color: Transparent; z-index: 10; }
+div.infoBoxDetailTop { display: inline-block; width: 415px; height:21px; text-align: left; vertical-align: top; background-color: Transparent; background-repeat: no-repeat;}
+div.infoBoxDetailMiddle{ display: inline-block; width: 350px;  margin: -3px 0 0 0; padding: 5px 35px 10px 30px; text-align: left; vertical-align: top; background-color: Transparent; }
+div.infoBoxDetailBottom { display: inline-block; width: 415px; height: 10px;  background-color: Transparent; background-repeat: no-repeat; }
+.infoBoxDetailClose {cursor: pointer; background-color: transparent; background-repeat: no-repeat; background-attachment: scroll; background-position: left center; width: 20px; height: 18px; display: inline-block; position: absolute; right: 30px; bottom: 15px; padding-left: 10px;}
+a.infoBoxHelp { padding-left: 5px; }
+.infoBoxDetailMiddle h3 {margin-top: -6px;}
+.errorIndicator { float: left; }
+.EDCLabelWithInfoBox { width: 88% !important; }
+/*----------------------- End of InfoBox Styles -------------------*/
+
+/*---------------------- CEN Alert Styles ---------------------*/
+div.alertFrame { width: 100%; margin: 10px 0 10px 0; }
+div.alertCollapseAll { width: 60%; color: #FFFFFF; margin: 0 0 -35px; padding-left: 567px; }
+div.alertCollapseAll a {color: #FFFFFF;}
+div.alertWrapper { border-top: none;}
+.alertExpandedContent .btnsection, .alertExpandedContentAlt .btnsection {clear: both; padding-bottom: 30px;}
+div.alertCollapsibleHeader { cursor: pointer; height: 20px; text-align: left; padding-left: 15px; vertical-align:middle; margin: 0 -8px 0 -8px;}
+div.alertCollapsibleHeaderAlt { cursor: pointer; height: 20px; text-align: left; padding-left: 15px; vertical-align:middle; margin: 0 -8px 0 -8px; }
+div.alertCollapsibleHeaderLeft { width: 350px; display:inline; float:left; padding-left: 20px; vertical-align:middle;}
+div.alertCollapsibleHeaderCentre { width: 350px; display:inline; float:right; vertical-align:middle; }
+div.alertExpandedContent { padding: 0 10px 0 0; }
+div.alertExpandedContentAlt { padding: 0 10px 0 0; }
+.alertExpandedHeaderLeft, .alertUpdateExpandedHeaderLeft { width: 545px; display:inline; float:left; padding: 5px 0 5px 25px; }
+.alertUpdateExpandedHeaderLeft {width: 545px; padding: 5px 0 5px 5px; }
+.alertExpandedHeaderRight { width: 120px; display:inline; float:left; padding: 5px 0 5px 0; }
+div.alertExpandedContentLeft, div.alertUpdateExpandedContentLeft { width: 25px; display:inline; vertical-align:middle; float:left; padding: 0 0 0 25px; background:transparent; }
+div.alertUpdateExpandedContentLeft { padding: 0 0 0 5px; }
+div.alertExpandedContentCentre, div.alertUpdateExpandedContentCentre{ width: 480px; display:inline; vertical-align:middle; float:left; background:transparent; padding: 0 0 5px 5px;}
+div.alertUpdateExpandedContentCentre { width: 490px; }
+div.alertExpandedContentRight { width: 115px; display:inline; vertical-align:middle; float:left; background:transparent; padding-left: 25px; }
+div.alertExpandedContentRight select { width: 103px; }
+.alertStyle {float:left; padding-bottom:0px;}
+.alertSection{margin-bottom:1em;}
+.alertSection .alertExpandedContentLeft {margin-left: 13px;}
+ul.alertSummaryList, ul.InternationalSummaryList { list-style: none outside none; margin: 0 0 0 0; padding: 0 0 0 0; }
+li.alertSummaryList, ul.InternationalSummaryList { list-style: none outside none; }
+.alertSummaryListHeaderLeft, .alertSummaryListLeft, .InternationalSummaryListLeft, .InternationalConfirmationListLeft {display:inline-block; width:545px; vertical-align: middle; float:left; padding: 7px 0 0 10px; }
+.alertSummaryListHeaderRight, .alertSummaryListRight, .alertSummaryListRightTop {display:inline-block; width:120px; vertical-align: middle; padding: 7px 0 0 10px; }
+.alertSummaryListRightTop { width: 620px; }
+.alertSummaryListHeaderRight {padding-top: 5px;}
+li.alertSummaryList, li.InternationalSummaryList {clear: both;}
+
+div span.alertlabel { padding: 1px 5px 3px 10px; width: 25%; border-top: 0; }
+div a.updatelink { padding: 1px 25px 1px 10px; width: 50px; display:inline-block; }
+div a.summaryupdatelink { padding: 1px 25px 1px 25px; width: 40px; display:inline-block; float: right;  }
+ul.alertList { list-style: none; padding: 0 0 0 0; border: solid 1px rgb(219,220,238); }
+P.alertOption { padding-left: 0.9em; }
+/*---------------------- End of CEN Alert Styles ---------------------*/
+
+/*---------------------- Help and Pop Up Styles ---------------------*/
+div.helpHeader { height: 28px !important; margin-left: -10px; }
+
+.popup { width: 100%; }
+.popup #content { width: 100%; padding: 0 8px; }
+.popup #mid { width: 100%; }
+.popup #wrapper { height: 90%; width:100%;}
+
+/*********** EDC - Exchange Rates Styling ************/
+ul.InternationalRatesList { list-style: none outside none; margin: 0 0 0 0; padding: 0 0 0 0; width: 498px; }
+.InternationalRatesListHeaderLeft { display:inline-block; width:240px; height:20px; vertical-align: middle; float:left; padding: 2px 0 0 10px; border: solid 1px #000000; background-color: #FFFFFF; }
+.InternationalRatesListHeaderRight { display:inline-block; width:240px; height:20px; vertical-align: middle; float:right; padding: 2px 0 0 5px; border-top: solid 1px #000000; border-right: solid 1px #000000; border-bottom: solid 1px #000000; background-color: #FFFFFF; }
+.InternationalRatesListRowLeft { display:inline-block; width:240px; height:20px; vertical-align: middle; float:left; padding: 2px 0 0 10px; border-left: solid 1px #000000; border-right: solid 1px #000000; border-bottom: solid 1px #000000; }
+.InternationalRatesListRowRight { display:inline-block; width:240px; height:20px; vertical-align: middle; float:right; padding: 2px 0 0 5px; border-right: solid 1px #000000; border-bottom: solid 1px #000000; }
+
+/*---------------------- End of Help and Pop Up Styles ---------------------*/
+
+/*---------------------- International Styles ---------------------*/
+span.hideCurrency { display: none; color: White; font-size: 0; }
+ul.InternationalSummaryList, ul.alertSummaryList, ul.EDCSummaryList { list-style: none outside none; margin: 0 0 0 0; padding: 0 0 0 0; }
+li.InternationalSummaryList, li.alertSummaryList, ul.EDCSummaryList { list-style: none outside none; }
+.InternationalSummaryListRight, .InternationalConfirmationListRight {display:inline-block; vertical-align: middle; padding: 7px 0 0 10px; width:500px; }
+li.EDCSummaryListItem { margin-bottom: 10px; }
+.EDCsummaryIP14A span { word-wrap: break-word; }
+
+span.EDCLabel, span.EDCLeftSummary { display: inline-block; width: 100%; font-weight: bold; }
+span.hidepopulatepanel{display:none!important;}
+.OverrideH3 { margin: 0; }
+.EDCPopUp { display: inline-block; width: 100%; margin-bottom: 10px; }
+.EDCSpace { height: 20px; }
+/*---------------------- End of International Styles ---------------------*/
+
+/*------------------ SS14 - Statement Archive Styling -------------------*/
+.statementArchive {clear:both; margin-top: -7px; margin: 0 -3px;}
+.statementArchive ul {list-style-type: none; margin: 0; padding: 0.1em; font-family:bol,tahoma, Geneva, sans-serif; font-size:12px; }
+.statementArchive li {padding: 8px 0 8px 1em; }
+.statementArchive li.month {font-weight: bold; }
+.statementArchive li.OnIt {padding-left: 1em; }
+.statementArchive li.OnIt img { margin:0 }
+.statementArchive a { display: block;}
+[alt="OnIt statement"] { display: none !important}
+.statementArchive h2.firstOnIt, .statementArchive h2.yearexpanded {font-size: 1em;}
+.statementArchive h2 { font-size: 1em; font-weight: bold; margin: 0 0 2px 0; padding: 16px 0 16px 1em; }
+.statementArchive h2 a { font-size:12px; }
+.statementArchive h2.firstOnIt a img, .statementArchive h2.yearstyle a img, 
+.statementArchive h2.yearexpanded a img, .statementArchive h2.first a img {margin-top:0; margin-left:-2px; padding: 7px 5px 5px 1px; vertical-align: top;}
+.StatementGuideWrapper {float: right; margin: -60px 0 10px 0;}
+ul.summary li span.label, ul.dropdown li span.label, ul.transferconfirmation li label, ul.transferconfirmation li span.label {font-weight:bold; margin-bottom: 5px; }
+/*---------------------- End of SS14 - Statement Archive Styling ---------------------*/
+
+/* General tab styling for terms and conditions tabs*/
+.TC1Header, .TC1Container {width: 750px; padding: 8px; }
+.TC1Container ul.tabUI, .TC1Container ul.tabUI li { width: auto; border:0; margin:0; padding:0; list-style:none; }
+.TC1Container ul.tabUI { height:24px; }
+.TC1Container ul.tabUI li{ margin-right:0px; display: inline;  }
+.TC1Container ul.tabUI span a, .TC1Container .tabUI .active span.left, .TC1Container .tabUI .disabled span.left { color: #reg86D; float: left; display:block; font-weight:bold; height:24px; line-height:24px; text-decoration:none; position: relative; top: 1px }
+.TC1Container ul.tabUI span a span, .TC1Container .tabUI .active span.left span, .TC1Container .tabUI .disabled span.left span { color: #reg86D; float: left; display:block; height: 24px; line-height: 24px; margin-right: 5px; padding-left: 6px; }
+.TC1Container ul.tabUI .disabled span.left { height:22px; line-height:23px; }
+.TC1Container ul.tabUI .disabled span.left span { height: 22px;  }
+.TC1Container ul.tabUI a:hover, .TC1Container ul.tabUI a:focus, .TC1Container ul.tabUI a:active {}
+
+.TC1Border { background-color: #ffffff; border: 1px solid #A9A9CB; padding: 10px 25px 0px 25px; }
+
+/*------------------- Interest and Charges tab (StatementSummaryBox.aspx)------------------------------*/ 
+.SSTab ul.tabUI, .SSTab ul.tabUI li { width: auto; border:0; margin:0; padding:0; list-style:none; }
+.SSTab { margin: -5px -8px 0; }
+.SSTab ul.tabUI { height: 30px; }
+.SSTab ul.tabUI span a { cursor: pointer; }
+.SSTab ul.tabUI span a span { cursor: pointer; }
+.SSTab ul.tabUI span a, .SSTab .tabUI .active span.left, .SSTab .tabUI .disabled span.left { display: block; float: left; height: 30px; line-height: 24px; position: relative; text-decoration: underline; top: 0; }
+.SSTab ul.tabUI span a span, .SSTab .tabUI .active span.left span, .SSTab .tabUI .disabled span.left span { float: left; display:block; height: 24px; line-height: 24px; margin-right: 5px; padding-left: 6px; margin-top:2px; text-decoration: underline; }
+.SSTab ul.tabUI li.active span, .coiPair label { font-weight: bold; }
+.SS10ViewButtonAdjust ul.dropdown li .btnbg  { float: right;}
+div.StatementSummaryTable {padding: 0.75em; overflow: auto;}
+ul.StatementSummary li{width: 230px; }
+ul.StatementSummary {width: 100%; padding: 0em; margin: 0em; }
+ul li.StatementBranchAddress { width: 450px; }
+ul.coiPair { padding: 0em 0em 0em 1em; }
+/*-------------- End of Interest and Charges tab (StatementSummaryBox.aspx) -------------*/
+
+/*---------------Pre-Advice of Interest and Charges (PreAdviceInterestAndCharges.aspx)-----------------*/
+.lineType03,.lineType05,.lineType06,.lineType07,.lineType10{padding-left: 10px;padding-right: 10px;font-weight: bold;}
+.lineType02,.lineType04,.lineType08,.lineType09,.lineType11,.lineType12,.lineType13,.lineType14,.lineType15{padding-left: 10px;padding-right: 10px;font-weight: normal;}
+.lineType06_col4{font-weight:bold;text-decoration: underline;}
+.lineType07_col4,.lineType08col4{text-decoration: underline overline;font-weight: bold;}
+.lineType12_col4{font-weight:bold;}
+.noItemsToDisplay {text-align:center; color:Red; margin:1.5em 0em 1.5em 0em;}
+.pdfImage { margin-top: 8px; }
+/*---------------End of Pre-Advice of Interest and Charges (PreAdviceInterestAndCharges.aspx)-----------------*/
+
+.interestRateHelpFrame { margin-top: 10px; }
+.interestRateBoldFont { font-weight: bold; }
+
+/********* OFT Panel in View Bank Statement ***********/
+.oftbox table {margin:5px 0 15px; border-collapse:collapse;}
+.oftbox table th{ width:230px; text-align:left;}
+.oftbox table td{ padding: 3px 6px; text-align: left;}
+.oftbox table td.interestRateTDAlignLeft{text-align:left;}
+.oftbox h1{ margin:0px; padding:0; font-size:12.32px; line-height:1em;}
+.oftbox h2{border:none; margin:0px; padding:0; font-size:12.32px; font-weight:bold;}
+.oftbox div.italicText{font-style:italic;}
+.oftbox table.OFTTable {display:none;}
+
+/********** Conditional Bonus **********/
+.oftbox table td.bonusTDAlignLeft {text-align:left; width: 120px;}
+.oftbox table td.bonusTDAlignLeftLong {text-align:left; width: 175px;}
+
+.oftbox table td.bonusTD1, .oftbox table td.bonusTD2{width:17%; text-align:left;}
+.oftbox table td.bonusTD3, .oftbox table td.bonusTD4{width:33%; text-align:left;}
+
+.oftbox table td.bonusDoubleSpan{ text-align:left;}
+
+.oirbox { width: 96%; margin: 1em auto auto auto; }
+.oirbox span { margin: 1em auto auto 1em; display: block; }
+
+/*Standard LightBox*/
+.modalWarning { display: block; position: fixed; top: 50%; left: 50%; margin-left: -336px; margin-top: -200px; width: 565px; height: auto !important;  z-index:20; }
+.modalWarningHeader  { overflow:hidden; }
+.modalWarningHeaderText { width:80%; float:left;overflow:hidden;padding-left:10px; }
+.modalWarningCloseImage { float:right; padding-right:13px; margin-top: 10px; padding-top: 10px;}
+.modalWarningContentText {padding: 5px 10px 10px 10px; overflow: hidden;}
+.modalWarning hr { display: none; }
+.modalWarningFooter { height: 45px; width:100%; }
+.modalWarningContentText .fieldWrapper {margin-bottom: 15px; }
+.modalWarningLeftButton { float:left; padding: 0 0 10px 10px; }
+.modalWarningRightButton {float:right; padding: 0 10px 10px 0; }
+
+/*Timeout LightBox*/
+.modalErrorPopup1 {display: none; overflow:hidden!important;}
+.TOmodalErrorPopup {width: 440px !important; left: 60%;}
+
+/*Error indicator positioning on quick transfer panel*/
+.showError {display:inline; float:left; padding-top:3px; }
+
+/*Hides TextBox for focussing error messages*/
+.hideTB {position: absolute !important; clip: rect(1px, 1px, 1px, 1px); width: 1px; height: 1px; background: #D7reg8; border: none;}
+
+/*OLB Rebranding*/
+.SegmentLogo{background-color:#f7f7f5;  padding-top: 20px; padding-left: 10px;}
+.SegmentLogo img {width: 199px;}
+.reduceMargin { margin: -5px 0 !important;}
+
+/* OLE Styles */
+.enrolment_wizard LABEL { width: 100% !important; }
+span.BooleanRadioList input, span.BooleanRadioList label {display:inline;float: none;}
+.displayInline {display: inline; }
+
+/****** Service Message Banner Positioning styles *****/
+.SMBanner { padding-bottom: 1.5em; float: right; width: 208px; }
+
+/****** Sales Banners Positioning styles *****/
+.banner { padding-bottom: 1.5em; }
+
+/****** Business Monitor *****/
+.BusinessMonitorPF {height: 115px; width:532px;  padding: 0px 0px 0px 10px; margin-bottom: 4em; margin-top: -2em; margin-left: 3px; }
+.BusinessMonitorPF h1 {margin-bottom: 0;}
+.BusinessMonitorPF span {float: left; }
+.btnBM a { color: #FFFFFF !important; }
+.btnBM {margin-left: -305px; float: left; margin-top: 30px; }
+.BusinessMonitorLandingPF { margin: -1em 0 0 0; width: 544px;}
+
+/*** Secure Inbox - Messages ***/
+.MailLink{ display: inline-block; width: 80%; padding: 5px 0px 5px 0px; vertical-align: top; }
+.MailDate{ display: inline-block; width: 20%; padding: 5px 0px 5px 0px; vertical-align: top; }
+.leftHeader { display: inline-block; width: 78%; }
+.rightHeader { display: inline-block; width: 20%; }
+/*** End of Secure Inbox - Messages ***/
+
+/*********** Rainbow Styles ****************/
+.LI3Width {width: 746px; padding: 0; }
+.RainbowContainer { height: 100%; }
+.RainbowLeftColumn { float: left; width: 46%; height: 100%; padding: 2px 10px 10px 10px; }
+.RainbowRightColumn { float: right; width: 46%; height: 100%; padding: 2px 10px 10px 10px; }
+.RainbowLiLeft { width: 78%; float: left; }
+.RainbowLiRight { width: 20%; float: right; }
+.RainbowBox { padding: 2px; }
+.RainbowLabelHeading { font-size: larger; font-weight: bold; padding: 0; margin: 0; }
+.Rainbowlabel { float: left; padding-left: 5px;  }
+.RainbowSpan { width: 28%; float: right; }
+.RainbowLabel { padding: 0 5px 0 5px; }
+.RainbowSpacer {height: 0px; }
+UL.RainbowList { list-style-type: none; margin: 8px 0 0 0; padding: 0 5px 15px 5px; }
+.RainbowLoginDateLabel { float: left; width: 25%; padding-bottom: 5px; }
+/*********** End of Rainbow Styles ****************/

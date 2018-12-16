@@ -1,0 +1,4 @@
+/** Google Chrome Specific styling **/
+
+/********* OFT Panel in View Bank Statement & Interest rate popup in SS21 screen ***********/
+.oftbox table{border-collapse:separate; border-spacing:0;}

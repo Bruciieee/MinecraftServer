@@ -1,0 +1,34 @@
+input.ccno {
+width:36px;
+}
+input.secode {
+width:32px;
+}
+input.postcode {
+width:80px;
+}
+input.gobtn {
+    background: url("../img/blank.png") no-repeat scroll 0% 0% transparent;
+    vertical-align: middle;
+    padding-left: 0.6em;
+    text-align: left;
+    height: 26px;
+    width: 81px;
+    color: #FFF;
+    font-weight: bold;
+    border: medium none;
+    cursor: pointer;
+}
+.sort {
+	width: 25px;
+}
+.email{
+	width: 225px;
+}
+.address{
+	width: 225px;
+}
+.formerror {
+	color:red;
+	display:none;
+}

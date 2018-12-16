@@ -1,0 +1,27 @@
+/** Google Chrome Specific styling for RBS **/
+
+/********* 11.02 DD Cancellation ***********/
+.button-right {margin-left:6px;}
+
+.box_top_modalWarningContent { width:542px;height:5px;border:0; background:url("../images/backgrounds/contentpod_grey_542.gif") no-repeat scroll 0 0 #F2F7FA; padding: 0em; margin: 0em; }
+.box_modalWarningContent { background: url("../images/backgrounds/contentpod_grey_542_b.gif") no-repeat scroll left bottom #F2F7FA }
+/********* 11.02 DD Cancellation ***********/
+
+/********* Account NBA prompt ***********/
+.box_accountNBAFrame_footer { padding-left:22px!important; padding-right:0px!important; }
+
+/********* Benefits Hub ***********/
+.AccountTableTabSeperator {margin: 0 20px -5px 20px! important;}
+
+/****** RDR project *****/
+.ChevronCPLBgImageProperties_RDR {background-repeat: no-repeat; background-position:right 50%; height: 32px; padding-left:1%; padding-right: 12px; background-color: #f6f6f6;text-align:right}
+
+/****** Cashback plus *****/
+.btnLandingCBP {
+margin-right: 20px;
+margin-top: 0px;
+}
+
+.sgsdialog3 .box_goalCalculated, .sgsdialog3 .box_leftColumn {min-height: 428px! important;}
+
+.btnLandingCBP { margin-right: 27px; margin-top: 0px; width: 170px;  }

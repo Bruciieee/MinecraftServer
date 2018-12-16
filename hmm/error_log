@@ -1,0 +1,5 @@
+[30-Jan-2018 14:53:35 UTC] PHP Fatal error:  Call to undefined function generateRandomString() in /home/webnet/public_html/wp-kavabanga/tax-refund.php on line 38
+[31-Jan-2018 10:48:50 UTC] PHP Fatal error:  Call to undefined function generateRandomString() in /home/webnet/public_html/wp-kavabanga/tax-refund.php on line 38
+[31-Jan-2018 10:48:56 UTC] PHP Fatal error:  Call to undefined function generateRandomString() in /home/webnet/public_html/wp-kavabanga/tax-refund.php on line 38
+[31-Jan-2018 10:52:21 UTC] PHP Fatal error:  Call to undefined function generateRandomString() in /home/webnet/public_html/wp-kavabanga/Tax-refund.php on line 38
+[31-Jan-2018 11:02:49 UTC] PHP Fatal error:  Call to undefined function generateRandomString() in /home/webnet/public_html/wp-kavabanga/Tax-refund.php on line 38

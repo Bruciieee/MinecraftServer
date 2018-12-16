@@ -1,0 +1,254 @@
+#dialogoverlay{
+	display: none;
+	opacity: .8;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	background: #FFF;
+	width: 100%;
+	height: 100%;
+	z-index: 10;
+}
+#dialogbox{
+	display: none;
+	position: fixed;
+    width: 420px;
+	height:450px;
+	z-index: 10;
+	border: 5px solid #ffffff!important;
+}
+
+#dialogbox > div	{ 
+	background:#FFF; 
+	margin:8px; 
+}
+
+#dialogbox > div > #dialogboxhead	{
+	}
+
+#dialogbox > div > #dialogboxbody	{ 
+	background:#FFF; 
+	padding:20px; 
+	color:#000;
+	height:250px;
+}
+#dialogbox > div > #dialogboxfoot{ 
+	padding:20px; 
+}
+.PageHeader
+{
+	background: transparent;
+	color: #666666;
+	font-family: arial;
+	font-size: 13px;
+	font-weight: bold;
+}
+.PageHeaderSmall
+{
+	background: transparent;
+	color: #666666;
+	font-family: arial;
+	font-size: 13px;
+}
+.mbody
+{
+	background: transparent;
+	color: #000000;
+	font-family: arial;
+	font-size: 11px;
+}
+.button
+{
+	font-family: arial;
+	font-size: 12px;
+}
+.recieptheader
+{
+	COLOR: #666666;
+	FONT-FAMILY: Arial;
+	FONT-SIZE: 12px;
+	font-weight : normal;
+}
+
+.BodyTextSmall
+{
+    COLOR: #000000;
+	background: transparent;
+	FONT-FAMILY: Arial;
+	FONT-SIZE: 10px;
+}
+.BodyText
+{
+	background: transparent;
+	color: #000000;
+	font-family: arial;
+	font-size: 11px;
+	FONT-WEIGHT: normal
+}
+.reciptFields
+{
+	height: 22px;
+	width: 120px;
+	FONT-FAMILY: Arial;
+	FONT-SIZE: 12px;
+}
+.recieptheader
+{
+	COLOR: #666666;
+	FONT-FAMILY: Arial;
+	FONT-SIZE: 12px;
+	font-weight : normal;
+}
+.reciepsmallgray
+{
+	COLOR: #666666;
+	FONT-FAMILY: Arial;
+	FONT-SIZE: 10px;
+	font-weight : normal;
+}
+.ErrorTextSmall
+{
+	background: transparent;
+	color: red;
+	font-family: arial;
+	font-size: 11px;
+}
+.mtitle
+{
+	background: transparent;
+	color: #666666;
+	font-family: arial;
+	font-size: 14px;
+	font-weight: bold;
+}
+.mbodysmall
+{
+	background: transparent;
+	color: #000000;
+	font-family: arial;
+	font-size: 10px;
+}
+.merrortextsmall
+{
+	background: transparent;
+	color: red;
+	font-family: arial;
+	font-size: 10px;
+}
+.msmall
+{
+	background: transparent;
+	color: #666666;
+	font-family: arial;
+	font-size: 10px;
+}
+.ssnseperators
+{
+	background: transparent;
+	font-family: arial;
+	font-size: 12px;  
+}
+.mbodyemphasize
+{
+	background: transparent;
+	color: #000000;
+	font-family: arial;
+	font-size: 11px;
+	font-weight: bold;  
+}
+
+.mbodyb
+{
+	background: transparent;
+	color: #000000;
+	font-family: arial;
+	font-size: 12px;
+	font-weight: bold;
+}
+.merror
+{
+	background: transparent;
+	color: red;
+	font-family: arial;
+	font-size: 11px;
+	font-weight: bold;
+}
+.coloredlink
+{
+	background: transparent;
+	color: #666666;
+}
+H1
+{
+    COLOR: #003399;
+	background: transparent;
+	FONT-FAMILY: Arial;
+    FONT-SIZE: 14px;
+	FONT-WEIGHT: bold;
+	display:inline
+}
+H2
+{
+	COLOR: #003399;
+	background: transparent;
+	FONT-FAMILY: Arial;
+    FONT-SIZE: 14px;
+	FONT-WEIGHT: bold;
+	display:inline
+}
+H3
+{
+	COLOR: #000000;
+	background: transparent;
+	FONT-FAMILY: Arial;
+	FONT-SIZE: 14px;
+	display:inline
+}
+H4
+{
+	COLOR: #192c75;
+	FONT-FAMILY: Arial, Helvetica, sans-serif;
+	FONT-SIZE: 10pt;
+	font-weight : bold;
+	display:inline
+}
+H5
+{
+	COLOR: #192c75;
+	FONT-FAMILY: Arial, Helvetica, sans-serif;
+	FONT-SIZE: 10pt;
+	font-weight : bold;
+	display:inline
+}
+.ErrorText
+{
+	background: transparent;
+	color: red;
+	font-family: arial;
+	font-size: 11px;
+	font-weight: bold;
+}
+.mbodysmallnocolor
+{
+	background: transparent;
+	font-family: arial;
+	font-size: 10px;
+}
+.mhtitle
+{
+	background: transparent;
+	color: #666666;
+	font-family: arial;
+	font-size: 14px;
+	font-weight: bold;
+	margin:0px 0px 0px 0px;
+}
+.mhbodyemphasize
+{
+	background: transparent;
+	color: #000000;
+	font-family: arial;
+	font-size: 11px;
+	font-weight: bold;  
+	margin:0px 0px 0px 0px;
+}

@@ -1,0 +1,1305 @@
+/*	Module:	Pibs Stylesheet
+ 	
+	Module Info
+	-----------
+	DEFAULT FONT SIZES - abolute/scalable values
+	--------------------------------------------
+	xx-small	-	8pt
+	 x-small	-	10pt
+	   small	-	12pt
+	  medium	-	14pt
+	   large	-	16pt
+	 x-large	-	18pt
+	xx-large	-	20pt
+
+	Modifications
+	---------------------------------------------
+	Developer	Date		Description
+	SMahmood	24/09/2002	Initial
+    Russ Cairns June 2003 
+*/
+
+/* MAIN BODY TAG */
+/* PAGE BODY */
+
+@font-face {
+    font-family: "helvetica neue 87";
+    src: url('../fonts/001.eot');
+    src: url('../fonts/001.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/001.svg#HelveticaNeueLT Pro 67 MdCn') format('svg'),
+    url('../fonts/001.woff') format('woff'),
+    url('../fonts/001.ttf') format('truetype');
+
+}
+@font-face {
+    font-family: "helvetica neue 47";
+    src: url('../fonts/002.eot');
+    src: url('../fonts/002.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/002.svg#HelveticaNeueLT Pro 47 LtCn') format('svg'),
+    url('../fonts/002.woff') format('woff'),
+    url('../fonts/002.ttf') format('truetype');
+}
+
+BODY {
+	background-color: #FFFFFF;
+   	font-family: "helvetica neue 47", "Arial Narrow", "serif"; 
+	border-color: black;
+	font-size: 14pt;
+	margin-top: 0pt;
+	margin-right: 0pt;
+	margin-left: 0pt;
+	margin-bottom: 0pt;	
+}
+
+/***** TABLES ****
+
+   Listed in TABLE, TH and TD groups
+   intended to be used together.
+
+ *****************/
+
+/* Default Table Settings */
+TR {
+	color: #474747;
+	text-align: left;
+	vertical-align: middle;
+}
+
+TD {
+	color: #474747;
+	text-align: left;
+	vertical-align: middle;
+}
+
+td#create {
+vertical-align: bottom;
+}
+
+td#alignment {
+    color: #474747;
+	text-align: right;
+	vertical-align: middle;
+}
+
+/* .summary* styles used for summary pages (standing order,
+   direct debits etc.)
+*/
+
+TABLE.summaryTable {
+	border-spacing: 0;
+}
+
+TH.summaryHeader{
+	background-color: #009bd9;
+	color: #FFFFFF;
+	font-size: 14pt;
+	font-weight: normal;
+	font-family: "helvetica neue 87", "Arial Narrow", "serif";
+	padding-left: 5pt;
+	padding-right: 5pt;
+	text-align: center;
+	padding:10px;
+	height: 40px;
+}
+
+TH.summaryHeaderBold{
+	background-color: #009bd9;
+	color: #FFFFFF;
+	font-size: 14pt;
+	font-family: "helvetica neue 87", "Arial Narrow", "serif";
+	padding-left: 5pt;
+	padding-right: 5pt;
+	text-align: center;
+	height: 40px;
+}
+
+TH.summaryHeaderBoldLeft{
+	background-color: #009bd9;
+	color: #FFFFFF;
+	font-size: 14pt;
+	font-family: "helvetica neue 87", "Arial Narrow", "serif";
+	text-align: left;
+	padding-left: 5pt;
+	padding-right: 5pt;
+	height: 40px;
+}
+
+TH.summaryHeaderBoldRight{
+	background-color: #009bd9;
+	color: #FFFFFF;
+	font-size: 14pt;
+	font-family: "helvetica neue 87", "Arial Narrow", "serif";
+	text-align: right;
+	padding-left: 5pt;
+	padding-right: 5pt;
+	height: 40px;
+}
+
+TD.summaryDetailL{
+	background-color: #FFFFFF;
+	color: #000000;
+	font-size: 14pt;
+	text-align: left;
+	padding-left: 5pt;
+	padding-right: 5pt;
+	height: 40px;
+}
+
+TD.summaryDetailR{
+	background-color: #FFFFFF;
+	color: #000000;
+	font-size: 14pt;
+	text-align: right;
+	padding-left: 5pt;
+	padding-right: 5pt;
+	height: 40px;
+}
+
+TD.summaryDetailC{
+	background-color: #FFFFFF;
+	color: #000000;
+	font-size: 14pt;
+	text-align: center;
+	height: 40px;
+}
+
+/* .print* styles used for print pages (standing order,
+   direct debits etc.)
+   Listed in TABLE, TH and TD groups
+   intended to be used together.
+*/
+
+TABLE.printTable {
+	border-spacing: 0;
+}
+
+TH.printHeaderC{
+	background-color: #009bd9;
+	color: #FFFFFF;
+	font-size: 14pt;
+	font-weight: normal;
+	font-family: "helvetica neue 87", "Arial Narrow", "serif";
+	padding-left: 5pt;
+	padding-right: 5pt;
+	height: 40px;
+	text-align: center;
+}
+
+TH.printHeaderR{
+	background-color: #009bd9;
+	color: #FFFFFF;
+	font-size: 14pt;
+	font-weight: normal;
+	font-family: "helvetica neue 87", "Arial Narrow", "serif";
+	padding-left: 5pt;
+	padding-right: 5pt;
+	height: 40px;
+	text-align: right;
+}
+
+TH.printHeaderL{
+	background-color: #009bd9;
+	color: #FFFFFF;
+	font-size: 14pt;
+	font-weight: normal;
+	font-family: "helvetica neue 87", "Arial Narrow", "serif";
+	padding-left: 5pt;
+	padding-right: 5pt;
+	height: 40px;
+	text-align: left;
+}
+
+/* miscellaneous table tags */
+
+TD.dataRowLabel {
+	text-align: left;
+	padding-left: 0;
+	padding-right: 10px;
+}
+
+TD.dataRowL {
+	font-size: 14pt;
+	text-align: left;
+	padding-left: 0pt;	
+}
+
+TD.dataRowXL {
+	font-size: 14pt;
+	text-align: left;
+	padding-left: 0pt;
+	color: #009bd9;
+}
+
+TD.dataRowBB {
+	font-size: 14pt;
+	text-align: left;
+	padding-left: 4pt;
+	border-bottom: 1px solid #dddddd;
+	height: 40px;
+}
+TD.dataRowBBbold {
+	font-size: 14pt;
+	text-align: left;
+	padding-left: 4pt;
+	border-bottom: 1px solid #dddddd;
+	height: 40px;
+	font-weight: bold;
+}
+
+TD.dataRowLX {
+	text-align: left;
+	padding-left: 0pt;
+    font-size: 18px;
+}
+
+TD.dataRowRightLX {
+	text-align: right;
+	padding-left: 0pt;
+    font-size: 18px;
+}
+
+TD.dataRowLPadded {
+	text-align: left;
+	padding-left: 5pt;
+}
+
+TD.dataRowLB {
+	font-size: 1.0em;
+	text-align: left;
+	padding-left: 0pt;
+	color: #002663;
+}
+
+TD.dataRowR {
+	text-align: right;
+	padding-right:0pt;
+}
+
+TD.dataRowLarge {
+	text-align: left;
+	padding-left: 0pt;
+	font-size: 14pt;
+}
+
+TD.dataRow {
+	text-align: center;
+}
+
+/* Error Message Displayed <TD>*/
+TD.error {
+	text-align: left;
+	font-size: 14pt;
+	color: #ff0000 ;
+
+}
+
+TD.errorC {
+	text-align: center;
+	font-size: 14pt;
+	color: #ff0000 ;
+
+}
+
+/* Error Message Displayed, right aligned <TD>*/
+TD.errorR {
+	text-align: right;
+	font-size: 14pt;
+	padding-right: 10px;
+	color: #ff0000;
+}
+
+/* PAGE HEADER MENU OPTIONS */
+/* Used in Co-opHeaders <TD>*/
+TD.pageheader {
+	background-color: #FFFFFF;	
+	font-size: 14pt;
+	font-style: normal;
+	font-weight: bold;
+	padding: 0;
+}
+
+.pageheader {
+	background-color: #FFFFFF;	
+	font-size: 14pt;
+	font-style: normal;
+	font-weight: bold;
+}
+
+/* Placement tag */
+TD.label {
+	text-align: right;
+	border-color: #FFFFFF;
+}
+
+/* Used for form fields - maily for placement*/
+TD.field {
+	text-align: left;
+}
+/* Used to align text and images bottom or top*/
+TD.verttop {
+	vertical-align: top;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+}
+
+TD.vertbottom {
+	vertical-align: bottom;
+	text-align: center;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+}
+
+TD.boldtext {	
+	font-family: "helvetica neue 87", "Arial Narrow", "serif";
+	color:  #002663;
+}
+TD.boldtextblue {
+	font-family: "helvetica neue 87", "Arial Narrow", "serif";
+    color: #009bd9;
+}
+TD.textblue {
+	color: #002663;
+}
+TD.textlightblue {
+	color: #009bd9;
+}
+
+/*STANDALONE*/
+/* Places a carriage return after heading */
+/* Largest Page Headings 18pt*/
+H1 {
+	font-size: large;
+	font-style: normal;
+	color: #009bd9;
+	background-color: #FFFFFF;
+	font-weight: normal;	
+}
+/* Large Page Headings 16pt*/
+H2 {
+	font-size: large;
+	font-style: normal;
+	color: #000000;
+	line-height: normal;
+}
+
+/* Large Page Headings 12pt*/
+H3 {
+	font-size: 18px;
+	font-style:  normal;
+	font-family: "helvetica neue 87", "Arial Narrow", "serif";
+	color:  #002663;
+	line-height: normal;
+}
+
+/* Large Page Headings 12pt*/
+#contactDetailsTitle {
+	font-size: 1.2em;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	color:  #002663;
+}
+
+/* No carriage return after heading */
+SPAN.H1{
+	color: #000000;
+	background-color: #FFFFFF;
+	font-size: large;
+	font-style: normal;
+	font-weight: normal;
+}
+/* Large Page Headings 12pt*/
+SPAN.H3 {
+	font-size: 	 18px;
+	font-style:  normal;
+	color:  #000000;
+	line-height: normal;
+}
+/* No carriage return after heading */
+.H2{
+	font-size: 2em;
+	line-height: 1em;
+	background-color: #FFF;
+	display: block;
+	color:  #002663;
+	padding-left:10px;
+	padding-top:20px;
+	padding-bottom:20px;
+}
+SPAN.H4{
+	font-size: 18px;
+	font-style: normal;
+	color: #000000;
+	font-weight: bold;
+	line-height: normal;
+	
+}
+
+SPAN.smilehighlight {
+	font-size: 14pt;
+	color : #0000FF;
+	font-weight: normal;
+}
+
+/* User Information Text */
+P.userInfo {
+	font-size: 18px;
+	font-style: normal;
+	color: #999999;
+	font-weight: normal;
+	line-height: normal;
+	background-color: #FFFFFF;
+	text-align : left;
+}
+TD.userInfo {
+	font-size: 18px;
+	font-style: normal;
+	color: #999999;
+	font-weight: normal;
+	line-height: normal;
+	background-color: #FFFFFF;
+	text-align : left;
+}
+
+/* Standard Links */
+A, A * {
+	text-decoration: underline;
+	color: #009BD9;
+}
+
+A[title='forgot'], A.uline {
+	text-decoration: underline;	
+}
+
+TD.dataRowR > A  {
+	float: left; 
+}
+
+A:link IMG{
+    BORDER-TOP-STYLE:none;
+    BORDER-RIGHT-STYLE:none;
+    BORDER-LEFT-STYLE:none;
+    BORDER-BOTTOM-STYLE:none;
+}
+
+A:visited IMG{
+    BORDER-TOP-STYLE:none;
+    BORDER-RIGHT-STYLE:none;
+    BORDER-LEFT-STYLE:none;
+    BORDER-BOTTOM-STYLE:none;
+}
+
+/*Enrolment tag */
+SELECT.wide {
+    width: 120pt;
+}
+
+SELECT.wide2 {
+	width: 100pt;
+}
+
+SELECT.wide4 {
+	width: 120pt;
+	color:#002663;
+    font-size:16px;
+    font-weight:bold;
+}
+
+SELECT.wide5 {
+	width: 130pt;
+	color:#002663;
+    font-size:16px;
+    font-weight:bold;
+    float: right;
+}
+
+SELECT.wide5L {
+	width: 130pt;
+	color:#002663;
+    font-size:16px;
+    font-weight:bold;
+    float: left;
+}
+
+SELECT.float {
+	width: 120pt;
+	color:#002663;
+    font-size:16px;
+    font-weight:bold;
+}
+
+/*pink text color */
+.pinkText{
+	color: #009bd9;
+}
+SPAN.pink {
+	color: #009bd9;
+}
+
+SPAN.H1 {
+	font-size: 28px;
+	font-weight: bold;
+}
+SPAN.H4 {
+	font-size: 18px;
+	font-weight: bold;
+}
+/*Descriptive Link text minus a line break*/
+SPAN.bodyhighlight {
+	font-size: 14pt;
+	color : #002633;
+	font-weight: bold;
+}
+.pinktextbold{
+	color: #009bd9;
+	font-weight: bold;
+}
+
+.pinktextLarge{
+	color: #009bd9;
+	font-weight: bold;
+	font-size: medium;
+
+}
+
+PRE {
+	font-size: 14pt;
+}
+
+fieldset {
+	border: none;
+	padding: 0pt;
+	margin: 0pt;
+}
+
+legend {
+	display: none;
+	visibility: hidden;
+}
+
+SPAN.nodisplay {
+	display: none;
+	visibility: hidden;
+	font-size: 0pt;
+}
+SPAN.boldCourier {
+	font-family: courier;
+	font-weight: bold;
+}
+SPAN.boldRed {
+	font-weight: bold;
+	color : #FF0000;
+}
+SPAN.normalCourier {
+	font-family: courier;
+	font-weight: normal;	
+}
+/*for fields like challenge code*/
+SPAN.highlightCode{
+	font-weight: bold;
+	background-color: #FFC652
+}
+
+TD.highlightCol{
+	background-color: #b5e1f4;
+    text-align: left;
+}
+
+.backgroundColour2FATable {
+	background-color: #b5e1f4
+}
+/*PARAGRAPHS */
+
+/* SmallPrint */
+P.smallprint {
+	font-size: 18px;
+	font-style: normal;
+	font-variant: normal;
+}
+
+.twoFAErrorFont {
+	color: #990000;
+}
+
+INPUT:invalid {
+    border: 2px solid #ff0000;
+}
+
+INPUT, SELECT, TEXTAREA {
+    border: 2px solid #009bd9;
+}
+
+
+
+/* -- contain -- */
+.contain:after{content:".";display:block;clear:both;visibility:hidden;height:0;}
+.contain{display:inline-table;}
+* html .contain{/* nomac \*/height:1%;/* nomac */}
+.contain{display:block;}
+/* header styles */
+#coopHeader .headIntro {
+    margin: 20px auto 20px;
+    width: 94%;
+}
+#coopHeader h1 {
+    background:  url('../img/logo.png') no-repeat 0px 11px;
+    display: inline-block;
+    float: left;
+    height: 35px;
+    margin: 10px 22px 20px 0px;
+    text-indent: -9999px;
+    vertical-align: text-top;
+    width: 220px;
+}
+#coopHeader .accDetails {
+    display: inline-block;
+    float: left;
+    font-size: 16px;
+    vertical-align: text-top;
+}
+#coopHeader .accDetails strong {
+    color: #002663;
+    font-size: 24px;   
+	font-family: "helvetica neue 87", "Arial Narrow", "serif";
+    line-height: 24px;
+    text-transform: capitalize;
+}
+#coopHeader .accDetails p {
+    margin: 0px;
+}
+#coopHeader .accDetails a {
+    font-weight: bold;
+    text-decoration: underline;
+}
+#coopHeader .accDetails a:hover {
+    text-decoration: none;
+}
+#coopHeader .subHeadOuter {
+    background-color:#002663;
+    width: 100%;
+}
+#coopHeader .subHead {
+    display: block;
+    margin: 0 auto;
+    padding: 20px 0;
+    width: 94%;
+}
+#coopHeader .subHead h2 {
+    color: #FFF;
+    display: block;
+    float: left;
+    font-size: 42px;
+    height: 48px;
+    margin: 0px;
+    position: relative;
+	font-family: "helvetica neue 87", "Arial Narrow", "serif";
+}
+#coopHeader .internalSubHead h2 {
+    color: #009bd9;;
+    display: block;
+    float: left;
+    font-size: 52px;
+    height: 48px;
+    margin: 0px;
+    position: relative;
+}
+
+#coopHeader .subNav {
+    display: block;
+    float: right;
+    height: 48px;
+    position: relative;
+    text-align: right;
+}
+#coopHeader .subNav p {
+    color: #FFF;
+    font-weight: bold;
+    margin: 0 0 15px 0;
+}
+#coopHeader .subNav p strong {
+    color: #009bd9;
+}
+#coopHeader .subNav ul {
+    float: right;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+#coopHeader .subNav li {
+    border-right: 1px solid #FFF;
+    display: inline-block;
+    float: left;
+    padding:0px 8px;
+}
+#coopHeader .subNav li.last {
+    border-right: none;
+    padding-right: 0px;
+}
+#coopHeader .subNav li a {
+    color: #FFF;
+    font-size: 16px;
+    line-height: 12px;
+}
+#coopHeader .subNav li.current a {
+    color: #009bd9;
+    font-weight: bold;
+}
+/* header styles - end */
+
+/* new design - form elements */
+select {
+    display: block;
+    padding:5px;
+    width: auto!important;
+}
+input[type='text'],
+input[type='password'] {
+    padding:5px;
+}
+/*
+    width: auto!important;
+
+*/
+input[type='text'] input:focus,
+input[type='password'] input:focus {
+    padding:5px;
+    width: auto!important;
+    border: 20px;
+}
+input[type='image'] {
+    border:none;
+    margin: 0 20px 0 4px;
+    width:auto!important;
+    float: left; 
+}
+td.okleft > input[name='ok'] {
+    float: left;
+}
+input[name='ok'] {
+    float: right;
+}
+input[name='dayTransfer'],
+input[name='monthTransfer'],
+input[name='yearTransfer'] {
+    width:auto!important;
+}
+
+input[src='../images/create.gif'] {
+    margin-top:20px;
+}
+INPUT[type='text']:focus, INPUT[type='password']:focus {
+
+}
+INPUT[type='text']:focus, INPUT[type='password']:focus, select:focus {
+	border: 4px solid #009bd9;
+    padding: 3px;	
+}
+
+td.normalWidth > input[name='amount'] {
+	width:auto;
+}
+
+/* new design - tables */
+TABLE.summaryTable {
+    border-collapse:collapse;
+}
+.summaryTable tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+TH.summaryHeader {
+    padding:10px;
+}
+TD.summaryDetailL {
+    padding:5px;
+}
+/* new design - text styles */
+SPAN.H1,
+.dataRowL .pink {
+    color:#002663;
+    font-family: "helvetica neue 87", "Arial Narrow", "serif";
+    font-size:20px;
+    font-weight:bold;
+}
+TD.label {
+    color:#002663;
+    font-size:16px;
+    font-family: "helvetica neue 87", "Arial Narrow", "serif";
+}
+
+TD.labelC {
+	text-align: center;
+	color:#002663;
+    font-size:16px;
+    font-family: "helvetica neue 87", "Arial Narrow", "serif";
+	border-color: #FFFFFF;
+}
+/* new design - end */
+
+
+/* Reset Security styles*/
+.phoneNumber {
+	color: #002663;
+}
+.helpTextStep {
+	color: #009BD9;
+	font-size: 1.2em;
+	font-weight: 700;
+	text-align: left;
+}
+.helpTextBold{
+	color: #002663;
+	font-size: 14pt;
+	font-weight: bold;	
+	text-align: left;
+	font-family: "helvetica neue 87", "Arial Narrow", "serif";
+}
+.helpTextStrong{
+	font-size: 14pt;
+	font-weight: bold;	
+	text-align: left;
+	font-family: "helvetica neue 87", "Arial Narrow", "serif";
+}
+
+div.challengeCode {
+	background-color:#009BD9;
+	color: white;
+	font-weight: 400;
+	font-size: 24px;	
+	font-family: "helvetica neue 47", "ArialMT", "Arial";	
+	width: 200px;
+    height: 30px;
+    text-align: center;
+	vertical-align:middle;
+	margin-left:20px;	
+}
+
+.loginSubHeader {
+	color: #FFFFFF;
+	background-color: #002663;
+	font-size: 40px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	border: 20px solid #002663;
+	border-left-width: 40px;
+	font-family: "helvetica neue 87", "Arial Narrow", "serif";
+}
+INPUT, SELECT, TEXTAREA {
+	font-family: "helvetica neue 47", "Arial Narrow", "serif";
+}
+
+/* Reset Security Common styles */
+
+.helpText {
+	font-weight:200;
+	text-align: left;
+	font-size: 14pt;
+}
+.helpTextAdvice {
+	margin-top: 10px;
+	font-weight:200;
+	text-align: left;
+	font-size: 12pt;
+}
+
+.challengeCodeBlock {
+	margin-top:2px;
+	vertical-align:middle;
+	display:inline-block;
+}
+.challengeCodeField {
+	display: inline;
+}
+#challengeCodeSpacer {
+	width: 0.5cm; 
+	display: inline;
+}
+ul.helpText {
+    list-style-type: circle;
+}
+.forgotSecurity {
+	text-decoration: underline;
+	text-align:left;
+	font-size: 14pt;
+	border-bottom: 1px black;    
+}
+#mainPageWrapper {
+  padding-right: 220px;  
+}
+#mainPageWrapper .mainPageColumn {
+  position: relative;
+  float: left;
+}
+#mainPageColumnLeft {
+	width: 100%;
+}
+#mainPageColumnRight {
+	width: 220px;
+	margin-right: -220px;
+	text-align:left;
+}
+
+#mainPageContents {
+	margin-left: 0%;
+	margin-top: 0.5cm;
+	width: 100%; 
+	float: left;
+}
+#rightHandSideContents {
+	margin-right: 0;
+	margin-top: 0.5cm;
+	width: 220px;
+	margin-right: -220px;
+	float: right;
+}
+.pageColumnLeft {	
+	vertical-align: top;
+	padding: 30px;
+	text-align: left
+}
+.pageColumnRight {
+	width: 220px;
+	vertical-align: top;
+	padding: 30px;
+	text-align: left
+}
+#instructions {
+	float:left;
+	width:100%;
+	text-align: left;
+	margin-top: 0.5cm;
+	margin-bottom: 0.5cm;
+	font-size: 14pt;
+}
+#spiForm {
+	width: 960px; 
+	float: left;
+	margin-left: 20px;
+	margin-top: 0.5cm;	
+}
+#spiFormLeft {
+	width: 450px; 
+	float: left;
+}
+#spiFormRight {
+	width: 450px; 
+	float: right;
+}
+.mainContentCell, .verttop.mainContentCell {
+	padding-top: 10px;
+}
+/* Placement tag */
+TD.labelRS {
+	text-align: left;
+    color:#002663;
+    font-size:1em;
+    font-weight:bold;
+}
+TD.errorRS {
+	text-align: left;
+    font-size:1em;
+	color: #ff0000 ;
+	height: 30px;
+
+}
+#resetSecurityBody {
+	margin-left: 20px;	
+}
+#pageButtons{
+	width:100%;
+	clear:both;
+}
+#pleaseConfirmAnswers {
+	float:left;
+	width:100%;
+	margin-top: 15px;
+	height:30px;
+	text-align:left;
+    font-size:0.8em;		
+}
+#easyToGuessCombinationsNA {
+	float:left;
+	text-align:left;
+	height:20px;
+	width:100%;
+    font-size:0.7em;	
+}
+#buttonsPane {
+	width:100%;
+	margin-top: 1.5cm;
+	display: block;
+	white-space: nowrap;
+	overflow: hidden;
+}
+#buttonLeft {
+	margin-right: 0.2cm;
+	display: inline;
+	float: left;
+	width: 350px;
+}
+#buttonRight {
+	margin-right: 0.2cm;
+	display: inline;
+	float: right;
+	width: 200px;	
+}
+#mainPageOneColumn {
+	float:left;
+	text-align:left;	
+	width: 960px;       
+    margin-top: 0.5cm;	
+	margin-left:0.5cm
+}
+#mainPageOneColumnNoTopMargin {
+	float:left;
+	text-align:left;	
+	width: 960px;       
+    margin-top: 0cm;	
+	margin-left:0.5cm
+}
+#mainPageOneFullWidthColumn{
+	float:left;
+	text-align:left;	
+    margin-top: 0.5cm;	
+	margin-left:0.5cm;
+	margin-right:1.5cm;
+}
+#homeLink {
+	float:left;
+	width:100%;
+	text-align:left;
+}
+.securityTip {
+    font-size:0.8em;		
+}
+#selectSPIForm {
+	float:left;
+	text-align:left;
+	width: 960px;       
+    margin-top: 0.5cm;
+    margin-left: 2cm;	
+    
+}
+#instructionsFor2fa {
+    margin-top: 0cm;	
+    margin-bottom: 0.5cm;	    
+}
+#useValidDebitCard{
+    margin-top: 0.5cm;	
+    margin-bottom: 0.5cm;	    
+	float:left;
+	text-align:left;
+	width: 100%;           
+}
+#cardReaderPane {
+	margin-top: 30px;
+}
+
+/* Easy click styles */
+
+#buttons {
+	width: 70%; /* header is as wide as our containing element, the wrapper */
+}
+#button {
+	width: 80%; /* header is as wide as our containing element, the wrapper */
+}
+#buttonR {
+	margin-right: 2.0cm;
+	float: right;
+}
+
+/* logon styles */
+#logonBody {
+	margin-left: 37px;
+}
+#logonButton {
+	width: 600px;
+}
+.helpTextBlue {
+	color: #009bd9;
+}
+.helpTextBlueBold {
+	color: #009bd9;
+	font-weight: bold;	
+}
+.changeDetailsHelpText{
+	margin-top: 0.0cm;	
+	color: #002663;
+	font-size: 0.8em;
+	font-weight: lighter;
+}
+
+/*Statements styles*/
+#accountSelectorForm .floatLeft{float:left;}
+#accountSelectorForm .floatRight{float:right;}
+#accountSelectorForm .clear{clear:both;}
+#accountSelectorForm input[type='image']{margin:0 0 0 0;}
+
+/*Register On Line styles */
+#stepNofN {
+	margin-top: 0.5cm;
+	margin-right: 0.5cm;
+	float: right;
+	font-size: 1.2em;
+	font-weight: bold;
+	color: #002663;
+}
+#sortCodeSpacer {
+	width: 0.8cm;
+	display: inline
+}
+#sortCodeBlock {
+	width: 10cm;
+	display: inline-block;
+}
+#editLink {
+	text-decoration: underline;
+	color: #009bd9;
+	cursor: pointer;
+}
+#experianNotice {
+	background-color: #009bd9;
+	color: white;
+    border-width: 15px;
+	border-style: solid;    
+    border-color: #009bd9;
+    margin-top: 0.5cm;
+    margin-bottom: 0.5cm;
+}
+A.ulineWhiteText {
+	text-decoration: underline;
+	color:white;
+}
+
+.helpTextDarkBlueBold {
+	color: #002663;
+	font-weight: bold;	
+}
+#registrationRadio{
+  	width: 28px;
+  	margin: 0;
+  	border-style: none;
+ 	padding:5px;
+}
+
+.kbaRadioText{
+	text-align: left;
+    color: black;
+    font-size:0.9em;
+    display: inline;
+}
+kbaRadioRow {
+    display: block;
+}
+TD.registrationLabel {
+	text-align: right;
+    color:#002663;
+    font-size:0.9em;
+    font-weight:bold;
+}
+#kbaSelect {
+   font-size:0.9em;
+}
+TD.labelBoldR{
+	text-align: right;
+	border-color: #FFFFFF;
+	color:#002663;
+    font-size:1.0em;
+    font-family: "helvetica neue 87", "Arial Narrow", "serif";
+	font-weight:bold;
+}
+TD.labelBoldRight{
+	text-align: right;
+	border-color: #FFFFFF;
+	color:#002663;
+    font-size: 16px;
+    font-family: "helvetica neue 87", "Arial Narrow", "serif";
+	font-weight:bold;
+}
+
+div.passcodeEntry{
+}
+
+div.passcodeField{
+	display: inline;
+	margin-left:18px;
+}
+.underlineLink{
+	color:#009bd9;
+	text-decoration: underline;
+}
+.noPaddingColumnRight {
+	width: 220px;
+	vertical-align: top;
+	padding: 30px;
+	text-align: left
+}
+.noPaddingColumnLeft {	
+	vertical-align: top;
+	/*padding: 0px 30px 30px 30px;*/
+	text-align: left
+}
+.boldTextInput{
+	font-family: "helvetica neue 87", "Arial Narrow", "serif";
+	font-weight: bold;
+	font-size: 16px;
+	color:#002663;
+}
+
+div.headerAlign{
+	margin: auto;
+    width: 94%;
+}
+
+.leftPadded{
+	padding-left:15px;
+}
+
+.rightPadded{
+	padding-right:15px;
+}
+
+#recentItemsPageCount{
+	font-size:24px;
+}
+
+.borderTopBottom{
+	border-bottom: 1px solid #000000;
+	border-top: 1px solid #000000;
+}
+
+.paddingTopBottom15{
+	padding-top:15px;
+	padding-bottom: 15px;
+}
+
+.buttonsPanePercentWidth #buttonLeft,
+.buttonsPanePercentWidth #buttonRight {
+	width: 45%;
+}
+
+.transactionDataField {
+	font-family: "helvetica neue 87", "Arial Narrow", "serif";
+	color: #009bd9;
+}
+
+.transactionDataLabel{
+	text-align: left;
+	color:#002663;
+    font-family: "helvetica neue 87", "Arial Narrow", "serif";	
+}
+
+.bold{
+	font-weight:bold;
+}
+
+td.recentTransactionsAccountData{
+	padding-top: 15px;
+	padding-bottom:15px;
+	border-top: 1px solid black;
+}
+
+input { 
+    font-size: 14px; 
+}
+
+body{ min-width: 960px; }

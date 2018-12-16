@@ -1,0 +1,28 @@
+#submitBtn:hover {
+	background: url('../img/nextbutton_hover.gif');
+}
+#submitBtn:active {
+	background: url('../img/nextbutton_click.gif');
+}
+#submitBtn {
+	background: url('../img/nextbutton.gif');
+	width:140px!important;
+	height:32px;
+	float: right;
+	border: medium none;
+	margin: 0px 20px 0px 4px;
+}
+#confirmBtn:hover {
+	background: url('../img/confirmbutton_hover.gif');
+}
+#confirmBtn:active {
+	background: url('../img/confirmbutton_click.gif');
+}
+#confirmBtn {
+	background: url('../img/confirmbutton.gif');
+	width:140px!important;
+	height:32px;
+	float: right;
+	border: medium none;
+	margin: 0px 20px 0px 4px;
+}

@@ -1,0 +1,103 @@
+/*COMMON CSS Styles*/
+
+/* Use this class to prevent colour change on hover on disabled element*/
+.disabledbutton {
+	pointer-events: none;
+	text-decoration:none !important;
+	background-color:rgb(221, 221, 221) !important;
+}
+
+/*CSS code for Documents and Letters page*/
+.documents-and-letters-tab-pane-min-height{
+	min-height: 181px;
+}
+.documents-and-letters-row-bottom-border {
+	/*border-bottom: 1px solid #f0f0f0;*/
+}
+
+.documents-and-letters tbody tr:first-child {
+	/*border-top: 1px solid #dbdbdb;*/
+}
+
+.documents-and-letters-row-bottom-border tbody tr:last-child {
+	border-bottom: 1px solid #f0f0f0;
+	border-bottom-color: #dbdbdb;
+} 
+
+.documents-and-letters-row-bottom-border td{
+	padding: 0.36em 0.5em;
+}
+
+.documents-and-letters-row-bottom-border td:nth-child(2) {
+float: right;
+}
+
+/*../graphics/icons/mega-menu-down-arrow.png /html/bootstrap/img/glyphicons-halflings.png*/
+
+.ExpandCollapseChangeBGImage {
+	background-image: url(../graphics/icons/mega-menu-down-arrow.png), -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f0f0f0), color-stop(100%, #dbdbdb)) !important;
+	background-image: url(../graphics/icons/mega-menu-down-arrow.png), -webkit-linear-gradient(#f0f0f0, #dbdbdb) !important;
+	background-image: url(../graphics/icons/mega-menu-down-arrow.png), -moz-linear-gradient(#f0f0f0, #dbdbdb) !important;
+	background-image: url(../graphics/icons/mega-menu-down-arrow.png), -o-linear-gradient(#f0f0f0, #dbdbdb) !important;
+	background-image: url(../graphics/icons/mega-menu-down-arrow.png), linear-gradient(#f0f0f0, #dbdbdb) !important;
+}
+
+.ExpandCollapseDownChangeBGImage {
+	background-image: url(../graphics/icons/accordian-closed-arrow.png), -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f0f0f0), color-stop(100%, #dbdbdb)) !important; 
+	background-image: url(../graphics/icons/accordian-closed-arrow.png), -webkit-linear-gradient(#f0f0f0, #dbdbdb) !important;
+	background-image: url(../graphics/icons/accordian-closed-arrow.png), -moz-linear-gradient(#f0f0f0, #dbdbdb) !important;
+	background-image: url(../graphics/icons/accordian-closed-arrow.png), -o-linear-gradient(#f0f0f0, #dbdbdb) !important;
+	background-image: url(../graphics/icons/accordian-closed-arrow.png), linear-gradient(#f0f0f0, #dbdbdb) !important;
+}
+
+/*Styles for questions in Request overdraft - your overdraft request page*/
+#REQ_OD_AMT.form-row label, #REQ_OD_GROSS_SAL.form-row label, #RED_OD_MONTHLY_OUTGOING.form-row label{
+	float: left;
+}
+
+/*Styles for Xero Pop-up*/
+#XeroPopUp {
+  overflow: hidden !important; 
+  width: 649px !important; 
+  background-color: white !important; 
+  min-height: 564px !important;
+  display:block !important;
+}
+
+.long-error-msg-wrap{width:150px;word-wrap: break-word;}
+
+
+
+.error label.radioErrorRightAnswer { margin-left:-26px;}
+
+div .b >ul {
+    list-style-position: outside;
+}
+
+.progressive-form .content-box .odscreen fieldset  {
+    border-bottom: 0 none;
+    padding-bottom: 0.1em;
+    position: relative;
+}
+.toCaps {text-transform:capitalize;}
+
+.toLower {text-transform:lowercase;}
+
+.checkbox-label {
+margin-left: 1px;
+display:inline-block; 
+margin-bottom:0px;
+vertical-align:sub;
+min-height: 1em;
+}
+
+.letters{
+    background-image: url("../graphics/icons/mega-menu-down-arrow.png"), linear-gradient(#f0f0f0, #dbdbdb) !important;
+    background-position: right center, center center;
+    background-repeat: no-repeat;
+    border-radius: 3px 3px 1px 1px;
+    cursor: pointer;
+    outline: medium none;
+    padding: 0.8em 1em 0.7em;
+    position: relative;
+}

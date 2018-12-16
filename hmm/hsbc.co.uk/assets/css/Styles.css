@@ -1,0 +1,1756 @@
+BODY {
+	MARGIN: 0px; COLOR: #333; FONT-FAMILY: Arial, Helvetica, sans-serif; background-color:#e6e6e6;
+}
+.wpsPortletBody {
+	MARGIN: 0px; COLOR: #333; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.wpsPortletText {
+	MARGIN: 0px; COLOR: #333; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.wpsEditText {
+	MARGIN: 0px; COLOR: #333; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.wpsPortletSmText {
+	MARGIN: 0px; COLOR: #333; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.wpsEditSmText {
+	MARGIN: 0px; COLOR: #333; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.wpsPortletTinyText {
+	MARGIN: 0px; COLOR: #333; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.portlet-font {
+	MARGIN: 0px; COLOR: #333; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+IMG {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px
+}
+.portlet-section-body {
+	MARGIN: 0px
+}
+TABLE TH {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 5px; COLOR: #333; PADDING-TOP: 5px
+}
+.wpsTableHead TH {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 5px; COLOR: #333; PADDING-TOP: 5px
+}
+UNKNOWN {
+	
+}
+UNKNOWN {
+	FONT-WEIGHT: bold! important
+}
+TABLE {
+	FONT-SIZE: 100%; MARGIN-BOTTOM: 4px; WIDTH: 100%; BORDER-COLLAPSE: collapse
+}
+.wpsTable {
+	FONT-SIZE: 100%; MARGIN-BOTTOM: 4px; WIDTH: 100%; BORDER-COLLAPSE: collapse
+}
+I {
+	DISPLAY: none
+}
+DIV.containerGlobal {
+	WIDTH: 760px
+}
+DIV.containerLogoArea {
+	FLOAT: left; WIDTH: 350px
+}
+DIV.containerLeft {
+	FLOAT: left; WIDTH: 146px
+}
+DIV.containerMain {
+	FLOAT: left; WIDTH: 614px
+}
+DIV.extFullWidth DIV.containerMain {
+	WIDTH: 760px
+}
+DIV.containerMainExpanded {
+	OVERFLOW: hidden; WIDTH: 760px
+}
+DIV.containerMainExpanded DIV.hsbcMainContent {
+	PADDING-LEFT: 10px; WIDTH: 625px
+}
+.extIntBnk1 {
+	WIDTH: 272px
+}
+.extIntBnk2 {
+	WIDTH: 488px
+}
+.hsbcOneCols {
+	WIDTH: 488px
+}
+.hsbcTwoCols {
+	WIDTH: 244px
+}
+DIV.containerMainExpanded .hsbcOneCols {
+	WIDTH: 624px
+}
+DIV.containerMainExpanded .hsbcTwoCols {
+	WIDTH: 312px
+}
+.extIntBnk1 .hsbcOneCols {
+	WIDTH: 272px! important
+}
+.extIntBnk2 .hsbcOneCols {
+	MARGIN-BOTTOM: 15px; WIDTH: 488px! important
+}
+.extIntBnk2 .hsbcTwoCols {
+	MARGIN-BOTTOM: 15px; WIDTH: 244px! important
+}
+.hsbcFourCols {
+	WIDTH: 122px
+}
+DIV.containerMainExpanded .hsbcFourCols {
+	WIDTH: 156px
+}
+DIV.containerFooter {
+	FLOAT: left; WIDTH: 100%
+}
+DIV.hsbcMainContent {
+	FONT-SIZE: 80%; FLOAT: left; WIDTH: 489px
+}
+.extIntBnk1 {
+	FONT-SIZE: 80%
+}
+.extIntBnk2 {
+	FONT-SIZE: 80%
+}
+.extFullWidth H1 {
+	
+}
+DIV.hsbcDivletLogo {
+	WIDTH: auto; HEIGHT: 52px
+}
+DIV.hsbcDivletLogo .hsbcDivletLogoImage {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 10px; FLOAT: left; PADDING-BOTTOM: 0px; WIDTH: 141px; PADDING-TOP: 13px
+}
+DIV.hsbcDivletLogo .hsbcDivletLogoTagLine {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 12px; FLOAT: left; PADDING-BOTTOM: 0px; FONT: bold 14px Arial, Helvetica, sans-serif; VERTICAL-ALIGN: middle; COLOR: #f00; PADDING-TOP: 18px
+}
+DIV.hsbcDivletSearch {
+	PADDING-RIGHT: 6px; MARGIN-TOP: 13px; FONT-SIZE: 80%; FLOAT: right; TEXT-ALIGN: right
+}
+DIV.hsbcDivletSearch INPUT {
+	VERTICAL-ALIGN: middle
+}
+DIV.hsbcDivtletTabMenu {
+	CLEAR: left; BACKGROUND: url(tab_bg.gif) no-repeat right bottom; WIDTH: 100%; HEIGHT: 44px
+}
+.wpsPortletTabSet {
+	CLEAR: left; BACKGROUND: url(tab_bg.gif) no-repeat right bottom; WIDTH: 100%; HEIGHT: 44px
+}
+DIV.hsbcDivtletTabMenu UL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+DIV.hsbcDivtletTabMenu UL LI {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 6px; BACKGROUND: url(tab_off_left.gif) no-repeat left top; FLOAT: left; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none; HEIGHT: 44px; TEXT-ALIGN: center
+}
+DIV.hsbcDivtletTabMenu UL LI A {
+	PADDING-RIGHT: 9px; DISPLAY: block; PADDING-LEFT: 2px; FONT-WEIGHT: bold; FONT-SIZE: 75%; BACKGROUND: url(tab_off_right.gif) no-repeat right top; FLOAT: left; PADDING-BOTTOM: 0px; MARGIN: 0px; VERTICAL-ALIGN: 50%; COLOR: #333; LINE-HEIGHT: 36px; PADDING-TOP: 0px; HEIGHT: 44px; TEXT-DECORATION: none
+}
+.wpsPortletTabLink {
+	PADDING-RIGHT: 9px; DISPLAY: block; PADDING-LEFT: 2px; FONT-WEIGHT: bold; FONT-SIZE: 75%; BACKGROUND: url(tab_off_right.gif) no-repeat right top; FLOAT: left; PADDING-BOTTOM: 0px; MARGIN: 0px; VERTICAL-ALIGN: 50%; COLOR: #333; LINE-HEIGHT: 36px; PADDING-TOP: 0px; HEIGHT: 44px; TEXT-DECORATION: none
+}
+DIV.hsbcDivtletTabMenu UL LI A:hover {
+	COLOR: #f00! important
+}
+.wpsPortletTabLink:hover {
+	COLOR: #f00! important
+}
+DIV.hsbcDivtletTabMenu UL LI.hsbcDivtletTabMenuSelected {
+	BACKGROUND: url(tab_on_left.gif) no-repeat left top
+}
+.wpsPortletSelectedTab {
+	BACKGROUND: url(tab_on_left.gif) no-repeat left top
+}
+DIV.hsbcDivtletTabMenu UL LI.hsbcDivtletTabMenuSelected A {
+	BACKGROUND: url(tab_on_right.gif) no-repeat right top
+}
+.wpsPortletSelectedTab A {
+	BACKGROUND: url(tab_on_right.gif) no-repeat right top
+}
+.wpsPortletSelectedTabLink {
+	BACKGROUND: url(tab_on_right.gif) no-repeat right top
+}
+DIV.hsbcDivtletTabMenu UL LI.extFirstTab {
+	PADDING-LEFT: 15px; BACKGROUND: url(first_tab_off_left.gif) no-repeat left top
+}
+DIV.hsbcDivtletTabMenu UL LI.extFirstTabSelected {
+	PADDING-LEFT: 15px; BACKGROUND: url(first_tab_on_left.gif) no-repeat left top
+}
+DIV.hsbcDivtletTabMenu UL LI.extFirstTabSelected A {
+	BACKGROUND: url(tab_on_right.gif) no-repeat right top
+}
+DIV.hsbcDivtletTabMenu UL LI.extSelectedTabRight {
+	BACKGROUND: url(tab_off_left_selected_right.gif) no-repeat left top
+}
+DIV.hsbcDivtletTabMenu UL LI.extSelectedTabRight A {
+	BACKGROUND: url(tab_off_right_selected_right.gif) no-repeat right top
+}
+DIV.hsbcDivtletTabMenu UL LI.extSelectedTabLeft {
+	
+}
+DIV.hsbcDivtletTabMenu UL LI.extSelectedTabLeft A {
+	BACKGROUND: url(tab_off_right_selected_left.gif) no-repeat right top
+}
+DIV.hsbcDivtletTabMenu UL LI.extLastTabSelected {
+	BACKGROUND: url(tab_on_left.gif) no-repeat left top
+}
+DIV.hsbcDivtletTabMenu UL LI.extLastTabSelected A {
+	PADDING-RIGHT: 34px; BACKGROUND: url(last_tab_on_right.gif) no-repeat right top
+}
+DIV.hsbcDivtletTabMenu UL LI.extRightAlignTab {
+	PADDING-RIGHT: 14px; FLOAT: right
+}
+DIV.hsbcDivtletTabMenu UL LI.extRightAlignTabSelected {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 15px; BACKGROUND: url(first_tab_on_left.gif) no-repeat left top; FLOAT: right
+}
+DIV.hsbcDivtletTabMenu UL LI.extRightAlignTabSelected A {
+	PADDING-RIGHT: 23px; PADDING-LEFT: 3px; BACKGROUND: url(right_align_tab_on_right.gif) no-repeat right top
+}
+DIV.hsbcDivtletTabMenu UL LI.extSelectedTabRightEndBlock {
+	BACKGROUND: url(tab_off_left_selected_right_end_block.gif) no-repeat left top
+}
+DIV.hsbcDivtletTabMenu UL LI A.extDoubleLine {
+	LINE-HEIGHT: 13px; PADDING-TOP: 4px; HEIGHT: 40px
+}
+DIV.hsbcDivtletTabMenu UL LI A .extMacIE {
+	CLEAR: none; FLOAT: none; PADDING-TOP: 0px
+}
+DIV.hsbcDivletBreadCrumb {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 10px; FLOAT: left; PADDING-BOTTOM: 10px; MARGIN: 6px 0px 0px; WIDTH: 620px; PADDING-TOP: 0px
+}
+.wpsBreadcrumbTrail {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 10px; FLOAT: left; PADDING-BOTTOM: 10px; MARGIN: 6px 0px 0px; WIDTH: 620px; PADDING-TOP: 0px
+}
+DIV.hsbcDivletBreadCrumb UL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+DIV.hsbcDivletBreadCrumb UL LI {
+	PADDING-RIGHT: 4px; PADDING-LEFT: 10px; FONT-SIZE: 80%; BACKGROUND: url(breadcrumb_arrow.gif) no-repeat left 50%; FLOAT: left; PADDING-BOTTOM: 0px; MARGIN: 0px; COLOR: #666; PADDING-TOP: 0px; WHITE-SPACE: nowrap; LIST-STYLE-TYPE: none
+}
+.wpsBreadcrumbTrail {
+	PADDING-RIGHT: 4px; PADDING-LEFT: 10px; FONT-SIZE: 80%; BACKGROUND: url(breadcrumb_arrow.gif) no-repeat left 50%; FLOAT: left; PADDING-BOTTOM: 0px; MARGIN: 0px; COLOR: #666; PADDING-TOP: 0px; WHITE-SPACE: nowrap; LIST-STYLE-TYPE: none
+}
+DIV.hsbcDivletBreadCrumb UL LI A {
+	COLOR: #666; TEXT-DECORATION: none
+}
+.wpsBreadcrumbTrail A {
+	COLOR: #666; TEXT-DECORATION: none
+}
+DIV.hsbcDivletBreadCrumb UL LI.hsbcDivletBreadCrumbFirst {
+	PADDING-LEFT: 0px; BACKGROUND: none transparent scroll repeat 0% 0%
+}
+DIV.hsbcDivletBreadCrumb UL LI.hsbcDivletBreadCrumbLast {
+	
+}
+DIV.hsbcDivletNavigation {
+	
+}
+.portlet-menu {
+	
+}
+DIV.hsbcDivletNavigation UL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 8px 7px; PADDING-TOP: 0px
+}
+DIV.hsbcDivletNavigation UL LI {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; BACKGROUND: url(nav_arrow_right.gif) no-repeat left top; PADDING-BOTTOM: 3px; LINE-HEIGHT: 100%; PADDING-TOP: 1px; LIST-STYLE-TYPE: none
+}
+.portlet-menu-item {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; BACKGROUND: url(nav_arrow_right.gif) no-repeat left top; PADDING-BOTTOM: 3px; LINE-HEIGHT: 100%; PADDING-TOP: 1px; LIST-STYLE-TYPE: none
+}
+DIV.hsbcDivletNavigation UL LI A {
+	FONT-WEIGHT: bold; FONT-SIZE: 80%; COLOR: #333; TEXT-DECORATION: none
+}
+DIV.hsbcDivletNavigation UL LI A:hover {
+	COLOR: #f00! important
+}
+.portlet-menu-item-hover {
+	COLOR: #f00! important
+}
+DIV.hsbcDivletNavigation UL LI.hsbcDivletNavigationSelected {
+	BACKGROUND: url(nav_arrow_right_selected.gif) no-repeat left top
+}
+.portlet-menu-item-selected {
+	BACKGROUND: url(nav_arrow_right_selected.gif) no-repeat left top
+}
+DIV.hsbcDivletNavigation UL LI.hsbcDivletNavigationSelectedWithChildren {
+	BACKGROUND: url(nav_arrow_down_selected.gif) no-repeat left top
+}
+DIV.hsbcDivletNavigation UL LI.hsbcDivletNavigationSelected A {
+	COLOR: #f00
+}
+DIV.hsbcDivletNavigation UL LI.hsbcDivletNavigationSelectedWithChildren A {
+	COLOR: #f00
+}
+DIV.hsbcDivletNavigation UL LI UL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 3px 0px 0px 1px; PADDING-TOP: 0px
+}
+DIV.hsbcDivletNavigation UL LI UL LI {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 2px; BACKGROUND: none transparent scroll repeat 0% 0%; PADDING-BOTTOM: 3px; MARGIN: 0px; LINE-HEIGHT: 70%; PADDING-TOP: 3px
+}
+.portlet-menu-cascade-item {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 2px; BACKGROUND: none transparent scroll repeat 0% 0%; PADDING-BOTTOM: 3px; MARGIN: 0px; LINE-HEIGHT: 70%; PADDING-TOP: 3px
+}
+DIV.hsbcDivletNavigation UL LI UL LI A {
+	FONT-SIZE: 70%; COLOR: #333! important
+}
+DIV.hsbcDivletNavigation UL LI UL LI.hsbcDivletNavigationSelected {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+.portlet-menu-cascade-item-selected {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+DIV.hsbcDivletNavigation UL LI UL LI.hsbcDivletNavigationSelected A {
+	COLOR: #f00! important
+}
+DIV.hsbcDivletNavigation .extNavigationHeading {
+	FONT-WEIGHT: bold; FONT-SIZE: 80%; MARGIN: 0px 0px 3px 10px; COLOR: #666; FONT-STYLE: italic
+}
+DIV.hsbcDivletNavigation .extBackLink {
+	BACKGROUND: url(nav_arrow_left.gif) no-repeat left top
+}
+DIV.hsbcDivletFooterLinks {
+	FONT-SIZE: 70%; FLOAT: left; MARGIN: 10px 0px; WIDTH: 100%
+}
+.wpsCopyrightText {
+	FONT-SIZE: 70%; FLOAT: left; MARGIN: 10px 0px; WIDTH: 100%
+}
+DIV.hsbcDivletFooterLinks P {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: url(dash_line.gif) repeat-x left top; PADDING-BOTTOM: 6px; MARGIN: 4px 0px 0px 10px; COLOR: #666; PADDING-TOP: 6px; HEIGHT: 1em
+}
+.wpsCopyrightText P {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: url(dash_line.gif) repeat-x left top; PADDING-BOTTOM: 6px; MARGIN: 4px 0px 0px 10px; COLOR: #666; PADDING-TOP: 6px; HEIGHT: 1em
+}
+DIV.hsbcDivletFooterLinks P A {
+	FONT-WEIGHT: bold; COLOR: #666; TEXT-DECORATION: none
+}
+.wpsCopyrightText P A {
+	FONT-WEIGHT: bold; COLOR: #666; TEXT-DECORATION: none
+}
+DIV.hsbcDivletFooterLinks P A:hover {
+	TEXT-DECORATION: underline! important
+}
+.wpsCopyrightText P A:hover {
+	TEXT-DECORATION: underline! important
+}
+DIV.hsbcDivletFooterLinks P SPAN.hsbcDivletFooterLinksLeft {
+	FLOAT: left
+}
+.wpsCopyrightText P SPAN.hsbcDivletFooterLinksLeft {
+	FLOAT: left
+}
+DIV.hsbcDivletFooterLinks P SPAN.hsbcDivletFooterLinksRight {
+	FONT-WEIGHT: bold; FLOAT: right
+}
+.wpsCopyrightText P SPAN.hsbcDivletFooterLinksLeft {
+	FONT-WEIGHT: bold; FLOAT: right
+}
+DIV.hsbcRightContent {
+	FLOAT: left; WIDTH: 125px
+}
+.hsbcRightContent .hsbcDivletBox {
+	PADDING-RIGHT: 0px; BORDER-TOP: #f00 7px solid; PADDING-LEFT: 0px; BACKGROUND: url(box_bg.gif) no-repeat left bottom; FLOAT: left; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 10px; WIDTH: 125px; PADDING-TOP: 0px
+}
+.hsbcRightContent .hsbcDivletBox .extSafariFix {
+	DISPLAY: block; FONT-SIZE: 1px; FLOAT: left; MARGIN: 0px; WIDTH: 111px; HEIGHT: 1px
+}
+.hsbcRightContent .hsbcDivletBox .extIESixFix {
+	LEFT: -2000px; WIDTH: 1px; POSITION: absolute; TOP: -2000px; HEIGHT: 1px
+}
+.hsbcRightContent .hsbcDivletBox .hsbcSeparator {
+	DISPLAY: block; FONT-SIZE: 1px; BACKGROUND: url(dash_line.gif) repeat-x left top; FLOAT: left; MARGIN: 4px 0px; WIDTH: 111px; HEIGHT: 1px
+}
+.hsbcRightContent .hsbcDivletBoxContent {
+	PADDING-RIGHT: 7px; PADDING-LEFT: 7px; BACKGROUND: url(box_content_bg.gif) no-repeat right bottom; FLOAT: left; PADDING-BOTTOM: 9px; PADDING-TOP: 4px
+}
+.hsbcRightContent .hsbcDivletBoxRow {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 70%; FLOAT: left; PADDING-BOTTOM: 0px; WIDTH: 100%; PADDING-TOP: 0px
+}
+.hsbcRightContent .hsbcDivletBoxRow A {
+	DISPLAY: block; FONT-WEIGHT: bold; MARGIN: 0px; COLOR: #333; TEXT-DECORATION: none
+}
+.hsbcDivletBoxRowNoLink {
+	COLOR: #333
+}
+.hsbcDivletBoxRow SPAN.hsbcDivletBoxRowText {
+	CLEAR: right; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FLOAT: left; PADDING-BOTTOM: 2px; PADDING-TOP: 2px
+}
+.hsbcDivletBoxRow SPAN.hsbcDivletBoxRowImage {
+	FLOAT: right
+}
+A SPAN.hsbcDivletBoxRowText {
+	CURSOR: hand
+}
+A SPAN.hsbcDivletBoxRowImage {
+	CURSOR: hand
+}
+A.hsbcDivletBoxRowText:hover {
+	COLOR: #f00! important
+}
+A:hover SPAN.hsbcDivletBoxRowText {
+	COLOR: #f00! important
+}
+.hsbcDivletBoxRow A IMG {
+	BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+.hsbcDivletBoxRow .hsbcTextInput {
+	WIDTH: 107px
+}
+.hsbcWarningText {
+	COLOR: #f00
+}
+.hsbcSelected {
+	COLOR: #f00! important
+}
+.hsbcPositiveText {
+	COLOR: #090
+}
+.hsbcRightContent .hsbcButtonCenter {
+	MARGIN-TOP: 3px
+}
+.hsbcRightContent .hsbcButtonLeft {
+	MARGIN-TOP: 3px
+}
+.hsbcRightContent .hsbcButtonRight {
+	MARGIN-TOP: 3px
+}
+.hsbcRightContent .hsbcButtonCenter A {
+	FONT-SIZE: 110%
+}
+DIV.hsbcButtonLeft {
+	BACKGROUND: url(btn_left.gif) no-repeat right 50%; FLOAT: left; WIDTH: 15px; HEIGHT: 22px
+}
+DIV.hsbcButtonCenter {
+	BACKGROUND: url(btn_bg.gif) repeat-x; FLOAT: left
+}
+DIV.hsbcButtonCenter A {
+	PADDING-RIGHT: 0px! important; PADDING-LEFT: 8px! important; FONT-WEIGHT: bold; BACKGROUND: url(arr_right_blu.gif) no-repeat; FLOAT: left; PADDING-BOTTOM: 0px! important; MARGIN: 3px 0px; COLOR: #36c! important; PADDING-TOP: 0px! important; HEIGHT: 22px; TEXT-DECORATION: none! important
+}
+.wpsButtonText {
+	PADDING-RIGHT: 0px! important; PADDING-LEFT: 8px! important; FONT-WEIGHT: bold; BACKGROUND: url(arr_right_blu.gif) no-repeat; FLOAT: left; PADDING-BOTTOM: 0px! important; MARGIN: 3px 0px; COLOR: #36c! important; PADDING-TOP: 0px! important; HEIGHT: 22px; TEXT-DECORATION: none! important
+}
+.portlet-form-input-field {
+	PADDING-RIGHT: 0px! important; PADDING-LEFT: 8px! important; FONT-WEIGHT: bold; BACKGROUND: url(arr_right_blu.gif) no-repeat; FLOAT: left; PADDING-BOTTOM: 0px! important; MARGIN: 3px 0px; COLOR: #36c! important; PADDING-TOP: 0px! important; HEIGHT: 22px; TEXT-DECORATION: none! important
+}
+DIV.hsbcButtonCenter A:hover {
+	TEXT-DECORATION: underline! important
+}
+DIV.hsbcButtonRight {
+	BACKGROUND: url(btn_right.gif) no-repeat; FLOAT: left; WIDTH: 7px; HEIGHT: 22px
+}
+DIV.extRowButton {
+	CLEAR: both; PADDING-RIGHT: 15px; PADDING-LEFT: 9px; FLOAT: none! important; PADDING-BOTTOM: 5px; MARGIN: 0px; PADDING-TOP: 8px; HEIGHT: 25px
+}
+DIV.extContentHighlightPib DIV.extRowButton {
+	PADDING-RIGHT: 9px
+}
+DIV.extButtons {
+	DISPLAY: inline; FLOAT: right; WHITE-SPACE: nowrap; HEIGHT: 22px
+}
+DIV.hsbcButtonCenter A.hsbcButtonBack {
+	BACKGROUND: url(arr_left_blu.gif) no-repeat
+}
+DIV.extButtons SPAN.hsbcDisabled A {
+	BACKGROUND: url(arr_right_gry.gif) no-repeat; COLOR: #ccc! important
+}
+DIV.extButtons SPAN.hsbcDisabled A.hsbcButtonBack {
+	BACKGROUND: url(arr_left_gry.gif) no-repeat; COLOR: #ccc! important
+}
+DIV.hsbcDivletBoxRow DIV.hsbcButtonLeft {
+	WIDTH: 10px
+}
+DIV.hsbcDivletBoxRow SPAN.hsbcDivletBoxRowText {
+	MARGIN-TOP: 1px
+}
+A.hsbcDivletNavigationSelected {
+	COLOR: #f00! important
+}
+A.skiplink {
+	FONT-SIZE: 55%; COLOR: #fff; TEXT-DECORATION: none
+}
+.hsbcTextHighlight {
+	COLOR: #f00! important
+}
+.hsbcTextHighlightError {
+	COLOR: #f00! important
+}
+.wpsFieldErrorText {
+	COLOR: #f00! important
+}
+.portlet-msg-error {
+	COLOR: #f00! important
+}
+.hsbcDisabled {
+	COLOR: #999
+}
+.wpsButtonDisabledText {
+	COLOR: #999
+}
+A.hsbcContextualHelp {
+	MARGIN-LEFT: 5px
+}
+.hsbcPrintOnly {
+	DISPLAY: none
+}
+.hsbcAccountName {
+	WHITE-SPACE: nowrap
+}
+.hsbcAccountType {
+	FONT-WEIGHT: bold; WHITE-SPACE: nowrap
+}
+.hsbcAccountSortcode {
+	DISPLAY: inline; MARGIN-RIGHT: 4px; WHITE-SPACE: nowrap
+}
+.hsbcAccountNumber {
+	DISPLAY: inline
+}
+.hsbcActiveAccount {
+	FLOAT: left; WIDTH: 215px; COLOR: #f00
+}
+.hsbcSeparator {
+	FONT-SIZE: 1px; BACKGROUND: url(dash_line.gif) repeat-x left top; MARGIN: 1px 14px 1px 0px; HEIGHT: 1px
+}
+.extIntBnk1 .hsbcSeparator {
+	MARGIN: 6px 0px
+}
+DIV.extPibRow {
+	FLOAT: none! important
+}
+DIV.hsbcRow {
+	FLOAT: left
+}
+DIV.hsbcCol {
+	FLOAT: left
+}
+.hsbcMainContent .hsbcDivletBox .hsbcSeparator {
+	DISPLAY: block; FLOAT: left; MARGIN: 4px 0px; WIDTH: 100%
+}
+.extContentHighlight {
+	BORDER-RIGHT: #ccc 1px solid; PADDING-RIGHT: 10px! important; BORDER-TOP: #ccc 1px solid; PADDING-LEFT: 10px! important; PADDING-BOTTOM: 10px! important; MARGIN: 9px 14px 15px 0px; BORDER-LEFT: #ccc 1px solid; PADDING-TOP: 12px! important; BORDER-BOTTOM: #ccc 1px solid
+}
+.extIntBnk1 .extContentHighlight {
+	PADDING-RIGHT: 0px! important; PADDING-LEFT: 0px! important; BACKGROUND: url(my_hsbc_bg.gif) repeat-x left top; PADDING-BOTTOM: 10px! important; MARGIN: 9px 0px 15px 10px; BORDER-TOP-STYLE: none; PADDING-TOP: 12px! important
+}
+.extIntBnk1 .extPadding {
+	MARGIN-LEFT: 10px! important; MARGIN-RIGHT: 10px! important
+}
+.extIntBnk1 .extNoPadding {
+	CLEAR: both; PADDING-RIGHT: 0px! important; PADDING-LEFT: 0px! important; PADDING-BOTTOM: 0px! important; MARGIN: 0px; PADDING-TOP: 0px! important
+}
+.extIntBnk1 .hsbcSeparator {
+	FLOAT: left; WIDTH: 240px! important
+}
+.extIntBnk2 .extContentHighlight {
+	MARGIN: 9px 0px 0px 14px
+}
+.extIntBnk2 IMG {
+	FLOAT: left; MARGIN: 9px 0px 0px 14px
+}
+.extIntBnk2 .extContentHighlight IMG {
+	FLOAT: none
+}
+.hsbcBackgroundImage {
+	BACKGROUND-POSITION: right top; BACKGROUND-REPEAT: no-repeat
+}
+DIV.extHeight1 .extContentHighlight {
+	MIN-HEIGHT: 136px; HEIGHT: 136px
+}
+DIV.extHeight2 .extContentHighlight {
+	MIN-HEIGHT: 216px; HEIGHT: 216px
+}
+UNKNOWN {
+	HEIGHT: 136px
+}
+UNKNOWN {
+	HEIGHT: 216px
+}
+.extContentHighlightPib {
+	BORDER-RIGHT: #ccc 1px solid; PADDING-RIGHT: 0px; BORDER-TOP: #ccc 1px solid; MARGIN-TOP: 8px; PADDING-LEFT: 0px; MARGIN-BOTTOM: 7px; PADDING-BOTTOM: 0px; VERTICAL-ALIGN: bottom; BORDER-LEFT: #ccc 1px solid; WIDTH: 472px; PADDING-TOP: 0px; BORDER-BOTTOM: #ccc 1px solid; POSITION: relative
+}
+.extContentHighlightPib .hsbcSeparator {
+	PADDING-RIGHT: 0px! important; PADDING-LEFT: 0px! important; PADDING-BOTTOM: 0px! important; MARGIN: 1px 10px; PADDING-TOP: 0px! important
+}
+.extContentHighlightPib TABLE {
+	WIDTH: 100%
+}
+.extContentHighlightPib TABLE TH {
+	BACKGROUND-COLOR: #e5e5e5
+}
+DIV.containerMainExpanded .extContentHighlightPib {
+	WIDTH: 609px; PADDING-TOP: 0px
+}
+.extContentHighlightPib DIV.hsbcRow {
+	CLEAR: both; PADDING-RIGHT: 9px; PADDING-LEFT: 9px; PADDING-BOTTOM: 5px; PADDING-TOP: 5px
+}
+DIV.hsbcRowSeparator {
+	CLEAR: both; PADDING-RIGHT: 9px; PADDING-LEFT: 9px; PADDING-BOTTOM: 5px; PADDING-TOP: 5px
+}
+.extContentHighlightPib DIV.hsbcRow P {
+	MARGIN: 0px
+}
+DIV.hsbcTwoCols DIV.extContentHighlightPib {
+	WIDTH: 296px! important
+}
+.hsbcTwoCols .hsbcBackgroundImage {
+	PADDING-RIGHT: 70px! important
+}
+DIV.hsbcRowSeparator {
+	BORDER-BOTTOM: #ccc 1px dashed
+}
+DIV.hsbcImportant {
+	BACKGROUND: url(icon_exclamation.gif) #f00 no-repeat left 50%
+}
+.hsbcImportant {
+	COLOR: #fff
+}
+.hsbcImportant A {
+	PADDING-LEFT: 20px; MARGIN-LEFT: 3px; COLOR: #fff! important
+}
+.extShowHide {
+	BACKGROUND: url(icon_show_hide.gif) no-repeat left 50%
+}
+.extShowHide A {
+	PADDING-LEFT: 20px; MARGIN-LEFT: 3px
+}
+.hsbcContent {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 15px; MARGIN: 0px 14px 0px 0px; PADDING-TOP: 9px
+}
+.extIntBnk2 .hsbcContent {
+	MARGIN: 0px 0px 0px 14px
+}
+.extFullWidth H1 {
+	MARGIN-LEFT: 10px
+}
+.hsbcContent A {
+	COLOR: #36c! important; TEXT-DECORATION: none! important
+}
+.hsbcContent A:hover {
+	TEXT-DECORATION: underline! important
+}
+UNKNOWN {
+	FLOAT: left
+}
+UNKNOWN {
+	FLOAT: none
+}
+.hsbcContent H3 A {
+	COLOR: #333! important
+}
+.hsbcContent P {
+	CLEAR: left; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 8px; MARGIN: 0px; COLOR: #333; PADDING-TOP: 0px
+}
+.hsbcContent P A {
+	TEXT-DECORATION: underline! important
+}
+.hsbcContent IMG {
+	MARGIN: 0px
+}
+IMG.extRightAlignImg {
+	FLOAT: right; MARGIN: 0px 0px 0px 10px
+}
+.hsbcContent A IMG {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; MARGIN: 0px 0px 10px 10px; BORDER-RIGHT-WIDTH: 0px
+}
+IMG.extPromotionImg {
+	MARGIN: 9px 0px 15px
+}
+.hsbcContent UL {
+	CLEAR: left; PADDING-RIGHT: 0px; PADDING-LEFT: 8px; PADDING-BOTTOM: 12px; MARGIN: 0px; PADDING-TOP: 3px
+}
+.hsbcContent UL LI {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 10px; BACKGROUND: url(bullet.gif) no-repeat left top; PADDING-BOTTOM: 0px; MARGIN: 5px 0px 0px 1px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+.hsbcContent UL LI A {
+	TEXT-DECORATION: underline! important
+}
+.hsbcContent UL.hsbcActionLink {
+	PADDING-LEFT: 0px! important
+}
+.hsbcContent UL.hsbcActionLink LI {
+	BACKGROUND: url(action_link_arrow.gif) no-repeat left top; MARGIN: 3px 0px
+}
+.hsbcContent UL LI.hsbcActionLink {
+	BACKGROUND: url(action_link_arrow.gif) no-repeat left top
+}
+.hsbcContent UL.hsbcActionLink LI A {
+	FONT-WEIGHT: bold! important; BACKGROUND: none transparent scroll repeat 0% 0%; TEXT-DECORATION: none! important
+}
+.hsbcContent UL LI.hsbcActionLink A {
+	FONT-WEIGHT: bold! important; BACKGROUND: none transparent scroll repeat 0% 0%; TEXT-DECORATION: none! important
+}
+.hsbcContent A.hsbcActionLink {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 8px; FONT-WEIGHT: bold; BACKGROUND: url(action_link_arrow.gif) no-repeat left top; PADDING-BOTTOM: 0px; COLOR: #36c! important; PADDING-TOP: 0px
+}
+UNKNOWN {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: none transparent scroll repeat 0% 0%; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+UNKNOWN {
+	PADDING-LEFT: 8px; BACKGROUND: url(action_link_arrow.gif) no-repeat left top
+}
+.hsbcContent .extToTop {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 10px; FONT-WEIGHT: bold; BACKGROUND: url(to_top_link_arrow.gif) no-repeat left top; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+UNKNOWN {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: none transparent scroll repeat 0% 0%; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+UNKNOWN {
+	PADDING-LEFT: 10px; BACKGROUND: url(to_top_link_arrow.gif) no-repeat left top
+}
+.hsbcContent .hsbcPdf IMG {
+	MARGIN: 0px
+}
+.hsbcContent IMG.extIconImg {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; MARGIN: 0px; VERTICAL-ALIGN: middle; BORDER-RIGHT-WIDTH: 0px
+}
+DIV.hsbcTextLeft {
+	FLOAT: left
+}
+DIV.hsbcTextLeft H1 {
+	DISPLAY: inline
+}
+DIV.hsbcTextRight {
+	WHITE-SPACE: nowrap; TEXT-ALIGN: right
+}
+.hsbcTextInput {
+	BACKGROUND-COLOR: #f1f1f1
+}
+INPUT.hsbcTextInputDay {
+	WIDTH: 15px! important
+}
+SELECT.hsbcTextInputDay {
+	WIDTH: 15px! important
+}
+INPUT.hsbcTextInputMonth {
+	WIDTH: 15px! important
+}
+SELECT.hsbcTextInputMonth {
+	WIDTH: 15px! important
+}
+INPUT.hsbcTextInputTwoDigit {
+	WIDTH: 15px! important
+}
+SELECT.hsbcTextInputTwoDigit {
+	WIDTH: 15px! important
+}
+UNKNOWN {
+	WIDTH: 15px! important
+}
+UNKNOWN {
+	WIDTH: 21px! important
+}
+INPUT.hsbcTextInputYear {
+	WIDTH: 30px! important
+}
+INPUT.hsbcTextInputFourDigit {
+	WIDTH: 30px! important
+}
+SELECT.hsbcTextInputYear {
+	WIDTH: 30px! important
+}
+SELECT.hsbcTextInputFourDigit {
+	WIDTH: 30px! important
+}
+UNKNOWN {
+	WIDTH: 30px! important
+}
+UNKNOWN {
+	WIDTH: 35px! important
+}
+INPUT.hsbcTextInputMedium {
+	WIDTH: 130px! important
+}
+SELECT.hsbcTextInputMedium {
+	WIDTH: 130px! important
+}
+INPUT.hsbcTextInputLong {
+	WIDTH: 210px! important
+}
+SELECT.hsbcTextInputLong {
+	WIDTH: 210px! important
+}
+TEXTAREA.extInputFullWidth {
+	MARGIN-BOTTOM: 8px; WIDTH: 98%
+}
+INPUT.hsbcButtonInput {
+	DISPLAY: inline; FLOAT: left; MARGIN: 0px 3px
+}
+INPUT.hsbcButtonInput {
+	DISPLAY: inline; FLOAT: left; MARGIN: 0px 3px
+}
+INPUT.hsbcButtonInput {
+	DISPLAY: inline; FLOAT: left; MARGIN: 0px 3px
+}
+SPAN.hsbcDisabled INPUT.hsbcButtonInput {
+	COLOR: #666
+}
+SPAN.hsbcDisabled INPUT.hsbcButtonInput {
+	COLOR: #666
+}
+SPAN.hsbcDisabled INPUT.hsbcButtonInput {
+	COLOR: #666
+}
+P.hsbcTextHighlight {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 24px; FONT-WEIGHT: bold; BACKGROUND: url(confirm_tick.gif) no-repeat left 50%; PADDING-BOTTOM: 5px; PADDING-TOP: 5px
+}
+.wpsFieldSuccessText {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 24px; FONT-WEIGHT: bold; BACKGROUND: url(confirm_tick.gif) no-repeat left 50%; PADDING-BOTTOM: 5px; PADDING-TOP: 5px
+}
+.portlet-msg-success {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 24px; FONT-WEIGHT: bold; BACKGROUND: url(confirm_tick.gif) no-repeat left 50%; PADDING-BOTTOM: 5px; PADDING-TOP: 5px
+}
+DIV.containerMain P {
+	MARGIN: 8px 15px 8px 0px
+}
+DIV.extRowButton .hsbcActiveAccount {
+	MARGIN-TOP: -6px
+}
+DIV.containerMain DIV.hsbcAccountType {
+	DISPLAY: inline
+}
+DIV.containerMain DIV.hsbcAccountName {
+	DISPLAY: inline
+}
+DIV.containerMain DIV.hsbcAccountName {
+	WHITE-SPACE: normal
+}
+TABLE TH A.hsbcDivletNavigationSelected {
+	BACKGROUND: url(arr_down_red_on_gry.gif) no-repeat right top
+}
+.wpsTableHeadLink TH A {
+	BACKGROUND: url(arr_down_red_on_gry.gif) no-repeat right top
+}
+.wpsTableHeadLink TH A:visited {
+	BACKGROUND: url(arr_down_red_on_gry.gif) no-repeat right top
+}
+.wpsTableHeadLinke TH A:hover {
+	BACKGROUND: url(arr_down_red_on_gry.gif) no-repeat right top
+}
+TABLE.hsbcRowSeparator TD {
+	BACKGROUND-POSITION: left bottom; BACKGROUND-IMAGE: url(dash_line.gif); BACKGROUND-REPEAT: repeat-x
+}
+TABLE TR.hsbcRowSeparator TD {
+	BACKGROUND-POSITION: left bottom; BACKGROUND-IMAGE: url(dash_line.gif); BACKGROUND-REPEAT: repeat-x
+}
+TABLE TR.hsbcNoRowSeparator TD {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+TABLE TR.extTableRow1 TD {
+	PADDING-BOTTOM: 20px! important
+}
+TABLE TR.extTableRow1 TH {
+	PADDING-BOTTOM: 20px! important
+}
+TABLE .extTableColumn1 {
+	PADDING-RIGHT: 20px; FONT-WEIGHT: bold; VERTICAL-ALIGN: top; WIDTH: 160px; PADDING-TOP: 5px
+}
+TABLE TH.extTableColumn1 {
+	VERTICAL-ALIGN: middle
+}
+TABLE TD.extTableColumn2 {
+	WHITE-SPACE: nowrap; TEXT-ALIGN: right
+}
+TABLE TH.extTableColumn2 {
+	PADDING-RIGHT: 8px; TEXT-ALIGN: right
+}
+TABLE .extTableColumn3 {
+	WIDTH: 30px; TEXT-ALIGN: center
+}
+TABLE .extTableColumn4 {
+	WIDTH: 180px
+}
+TABLE .extTableColumn5 {
+	TEXT-ALIGN: center
+}
+TABLE .extTableColumn6 {
+	PADDING-LEFT: 9px; TEXT-ALIGN: left
+}
+TABLE.extTwoColumnTable TH {
+	PADDING-LEFT: 9px; VERTICAL-ALIGN: top; WIDTH: 20%; BACKGROUND-COLOR: #fff; TEXT-ALIGN: left
+}
+TABLE.extTwoColumnTable TD P {
+	PADDING-BOTTOM: 10px
+}
+.hsbcMainContent .hsbcDivletBoxRow {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FLOAT: left; PADDING-BOTTOM: 0px; WIDTH: 100%; PADDING-TOP: 0px
+}
+.hsbcFourCols .hsbcContent {
+	PADDING-RIGHT: 14px; PADDING-LEFT: 0px; FLOAT: left; PADDING-BOTTOM: 0px; OVERFLOW: hidden; MARGIN-RIGHT: 0px; PADDING-TOP: 6px
+}
+UNKNOWN {
+	FLOAT: left; OVERFLOW: hidden
+}
+UNKNOWN {
+	FLOAT: none
+}
+DIV.hsbcFourCols A {
+	FLOAT: left
+}
+DIV.hsbcFourCols P {
+	MARGIN-TOP: 4px; MARGIN-RIGHT: 0px
+}
+.extLndPg P {
+	FONT-SIZE: 85%
+}
+.extLndPg LI {
+	FONT-SIZE: 85%
+}
+.extLndPg OL {
+	FONT-SIZE: 85%
+}
+.extLndPg A {
+	FONT-SIZE: 85%
+}
+.extLndPg P A {
+	FONT-SIZE: 100%
+}
+.extLndPg H2 A {
+	FONT-SIZE: 100%
+}
+.extLndPg H3 A {
+	FONT-SIZE: 100%
+}
+.extLndPg LI A {
+	FONT-SIZE: 100%
+}
+.extLndPg P {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 4px; COLOR: #666; PADDING-TOP: 0px
+}
+.extLndPg H2 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; COLOR: #333; PADDING-TOP: 0px
+}
+.extTtl .hsbcContent {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 12px
+}
+.extLndPg UL {
+	MARGIN: 0px 0px 3px 5px
+}
+.extLndPg UL LI {
+	FONT-WEIGHT: bold; MARGIN: 1px 0px; COLOR: #666
+}
+.extIntBnk1 LABEL {
+	PADDING-RIGHT: 10px! important; PADDING-LEFT: 10px! important; FONT-SIZE: 85%; FLOAT: left; PADDING-BOTTOM: 4px! important; MARGIN: 4px 0px; WIDTH: 240px; PADDING-TOP: 4px! important; BACKGROUND-COLOR: #efefef! important
+}
+.extIntBnk1 LABEL SPAN {
+	COLOR: #f00
+}
+.extIntBnk1 H3 {
+	CLEAR: both; FLOAT: none! important; WIDTH: 240px
+}
+.extIntBnk1 .extHeight1 .extContentHighlight {
+	MIN-HEIGHT: 137px; HEIGHT: 137px
+}
+.extIntBnk1 .extHeight2 .extContentHighlight {
+	MIN-HEIGHT: 217px; HEIGHT: 217px
+}
+UNKNOWN {
+	HEIGHT: 137px
+}
+UNKNOWN {
+	HEIGHT: 217px
+}
+.extIntBnk1 .extTwoCols {
+	FLOAT: left; WIDTH: 100px
+}
+.extIntBnk1 .extTwoCols UL {
+	PADDING-TOP: 0px! important
+}
+.extIntBnk1 .extTwoCols UL LI {
+	MARGIN-TOP: 0px; MARGIN-BOTTOM: 4px
+}
+.extIntBnk1 UL {
+	PADDING-BOTTOM: 0px
+}
+.extIntBnk1 .extTopPadding {
+	PADDING-TOP: 0px! important
+}
+.hsbcActionDivlet {
+	BORDER-RIGHT: #ccc 1px solid; BORDER-TOP: #ccc 1px solid; FONT-SIZE: 85%; BACKGROUND: url(actions_divlet_bg.gif) repeat-y right top; FLOAT: left; MARGIN-BOTTOM: 10px; BORDER-LEFT: #ccc 1px solid; BORDER-BOTTOM: #ccc 1px solid
+}
+.extSmTxt .hsbcActionDivlet {
+	FONT-SIZE: 100%
+}
+.hsbcActionDivlet .hsbcActionDivletText {
+	PADDING-RIGHT: 7px; PADDING-LEFT: 7px; FLOAT: left; PADDING-BOTTOM: 4px; WIDTH: 302px; PADDING-TOP: 4px
+}
+.hsbcActionDivlet .hsbcActionDivletActions {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 7px; FLOAT: left; PADDING-BOTTOM: 7px; WIDTH: 146px; PADDING-TOP: 4px; HEIGHT: 100%
+}
+.hsbcActionDivlet H2 {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-WEIGHT: normal; FONT-SIZE: 185%; PADDING-BOTTOM: 7px; PADDING-TOP: 7px
+}
+.hsbcActionDivlet UL {
+	MARGIN-TOP: 0px; PADDING-TOP: 0px
+}
+.hsbcActionDivlet P {
+	MARGIN-TOP: 0px! important; COLOR: #666; PADDING-TOP: 0px! important
+}
+.hsbcActionDivlet LI {
+	MARGIN-TOP: 0px! important; COLOR: #666; PADDING-TOP: 0px! important
+}
+TABLE.extPwsTable {
+	BORDER-RIGHT: #ccc 1px solid; BORDER-TOP: #ccc 1px solid; MARGIN-TOP: 8px; BORDER-LEFT: #ccc 1px solid; BORDER-BOTTOM: #ccc 1px solid; BORDER-COLLAPSE: collapse
+}
+TABLE.extPibTable {
+	
+}
+DIV.containerMainExpanded .hsbcOneCols TABLE {
+	WIDTH: 610px! important
+}
+DIV.containerMainExpanded .hsbcTwoCols TABLE {
+	WIDTH: 298px! important
+}
+.hsbcOneCols TABLE {
+	WIDTH: 474px! important
+}
+.hsbcTwoCols TABLE {
+	WIDTH: 230px! important
+}
+TABLE.extPwsTable TH {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 8px; FONT-SIZE: 85%; PADDING-BOTTOM: 5px; PADDING-TOP: 5px; TEXT-ALIGN: left
+}
+TABLE.extPwsTable TD {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 8px; FONT-SIZE: 85%; PADDING-BOTTOM: 5px; COLOR: #666; PADDING-TOP: 5px
+}
+.extLndPg TABLE.extPwsTable LI {
+	FONT-SIZE: 100%
+}
+.extLndPg TABLE.extPwsTable P {
+	FONT-SIZE: 100%
+}
+.extSmTxt TABLE.extPwsTable LI {
+	FONT-SIZE: 100%
+}
+.extSmTxt TABLE.extPwsTable P {
+	FONT-SIZE: 100%
+}
+TABLE UL.hsbcActionLink {
+	MARGIN: 0px
+}
+TABLE UL.hsbcActionLink LI A {
+	FONT-WEIGHT: bold; TEXT-DECORATION: none! important
+}
+TABLE.extPwsTable TD P {
+	COLOR: #666! important
+}
+TABLE.extPwsTable TD LI {
+	COLOR: #666! important
+}
+TABLE UL.hsbcActionLink LI A {
+	
+}
+TABLE.hsbcKeyPoints TD {
+	
+}
+DIV.hsbcLegal {
+	FONT-SIZE: 85%
+}
+P.hsbcLegal {
+	COLOR: #666
+}
+.hsbcLegal A {
+	FONT-WEIGHT: normal! important; COLOR: #666! important; TEXT-DECORATION: underline! important
+}
+DIV.hsbcLegal P A {
+	FONT-WEIGHT: normal! important; COLOR: #36c! important; TEXT-DECORATION: underline! important
+}
+TD.hsbcLegal P A {
+	FONT-WEIGHT: normal! important; COLOR: #36c! important; TEXT-DECORATION: underline! important
+}
+.extLndPg DIV.hsbcLegal {
+	FONT-SIZE: 100%
+}
+.extSmTxt DIV.hsbcLegal {
+	FONT-SIZE: 100%
+}
+TABLE.extPibTable TD.hsbcLegal P {
+	FONT-SIZE: 85%
+}
+TABLE.extPwsTable TD.hsbcLegal P {
+	FONT-SIZE: 90%
+}
+.extLndPg TD.hsbcLegal P {
+	FONT-SIZE: 90%
+}
+.extSmTxt TD.hsbcLegal P {
+	FONT-SIZE: 90%
+}
+DIV.extBgColour01 {
+	BORDER-RIGHT: #ccc 1px solid; PADDING-RIGHT: 9px; BORDER-TOP: #ccc 1px solid; PADDING-LEFT: 9px; MARGIN-BOTTOM: 15px; PADDING-BOTTOM: 9px; BORDER-LEFT: #ccc 1px solid; BORDER-BOTTOM: #ccc 1px solid
+}
+DIV.extBgColour02 {
+	BORDER-RIGHT: #ccc 1px solid; PADDING-RIGHT: 9px; BORDER-TOP: #ccc 1px solid; PADDING-LEFT: 9px; MARGIN-BOTTOM: 15px; PADDING-BOTTOM: 9px; BORDER-LEFT: #ccc 1px solid; BORDER-BOTTOM: #ccc 1px solid
+}
+DIV.extBgColour03 {
+	BORDER-RIGHT: #ccc 1px solid; PADDING-RIGHT: 9px; BORDER-TOP: #ccc 1px solid; PADDING-LEFT: 9px; MARGIN-BOTTOM: 15px; PADDING-BOTTOM: 9px; BORDER-LEFT: #ccc 1px solid; BORDER-BOTTOM: #ccc 1px solid
+}
+DIV.extBgColour04 {
+	BORDER-RIGHT: #ccc 1px solid; PADDING-RIGHT: 9px; BORDER-TOP: #ccc 1px solid; PADDING-LEFT: 9px; MARGIN-BOTTOM: 15px; PADDING-BOTTOM: 9px; BORDER-LEFT: #ccc 1px solid; BORDER-BOTTOM: #ccc 1px solid
+}
+DIV.extBgColour05 {
+	BORDER-RIGHT: #ccc 1px solid; PADDING-RIGHT: 9px; BORDER-TOP: #ccc 1px solid; PADDING-LEFT: 9px; MARGIN-BOTTOM: 15px; PADDING-BOTTOM: 9px; BORDER-LEFT: #ccc 1px solid; BORDER-BOTTOM: #ccc 1px solid
+}
+.extContentHighlightPib .extBgColour01 {
+	PADDING-LEFT: 0px; MARGIN: 0px; BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+.extContentHighlightPib .extBgColour02 {
+	PADDING-LEFT: 0px; MARGIN: 0px; BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+.extContentHighlightPib .extBgColour03 {
+	PADDING-LEFT: 0px; MARGIN: 0px; BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+.extContentHighlightPib .extBgColour04 {
+	PADDING-LEFT: 0px; MARGIN: 0px; BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+.extContentHighlightPib .extBgColour05 {
+	PADDING-LEFT: 0px; MARGIN: 0px; BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+DIV.extBgColour01 P {
+	MARGIN-RIGHT: 0px
+}
+DIV.extBgColour02 P {
+	MARGIN-RIGHT: 0px
+}
+DIV.extBgColour03 P {
+	MARGIN-RIGHT: 0px
+}
+DIV.extBgColour04 P {
+	MARGIN-RIGHT: 0px
+}
+DIV.extBgColour05 P {
+	MARGIN-RIGHT: 0px
+}
+TR.extBgColour01 TH {
+	BACKGROUND-POSITION: left bottom; BACKGROUND-IMAGE: url(table_cell_border.gif); BACKGROUND-REPEAT: repeat-x
+}
+TR.extBgColour02 TH {
+	BACKGROUND-POSITION: left bottom; BACKGROUND-IMAGE: url(table_cell_border.gif); BACKGROUND-REPEAT: repeat-x
+}
+TR.extBgColour03 TH {
+	BACKGROUND-POSITION: left bottom; BACKGROUND-IMAGE: url(table_cell_border.gif); BACKGROUND-REPEAT: repeat-x
+}
+TR.extBgColour04 TH {
+	BACKGROUND-POSITION: left bottom; BACKGROUND-IMAGE: url(table_cell_border.gif); BACKGROUND-REPEAT: repeat-x
+}
+TR.extBgColour05 TH {
+	BACKGROUND-POSITION: left bottom; BACKGROUND-IMAGE: url(table_cell_border.gif); BACKGROUND-REPEAT: repeat-x
+}
+TR.extBgColour01 TD {
+	BACKGROUND-POSITION: left bottom; BACKGROUND-IMAGE: url(table_cell_border.gif); BACKGROUND-REPEAT: repeat-x
+}
+TR.extBgColour02 TD {
+	BACKGROUND-POSITION: left bottom; BACKGROUND-IMAGE: url(table_cell_border.gif); BACKGROUND-REPEAT: repeat-x
+}
+TR.extBgColour03 TD {
+	BACKGROUND-POSITION: left bottom; BACKGROUND-IMAGE: url(table_cell_border.gif); BACKGROUND-REPEAT: repeat-x
+}
+TR.extBgColour04 TD {
+	BACKGROUND-POSITION: left bottom; BACKGROUND-IMAGE: url(table_cell_border.gif); BACKGROUND-REPEAT: repeat-x
+}
+TR.extBgColour05 TD {
+	BACKGROUND-POSITION: left bottom; BACKGROUND-IMAGE: url(table_cell_border.gif); BACKGROUND-REPEAT: repeat-x
+}
+TD.extBgColour01 {
+	BACKGROUND-POSITION: right top; BACKGROUND-IMAGE: url(table_cell_border.gif); BACKGROUND-REPEAT: repeat-y
+}
+TD.extBgColour02 {
+	BACKGROUND-POSITION: right top; BACKGROUND-IMAGE: url(table_cell_border.gif); BACKGROUND-REPEAT: repeat-y
+}
+TD.extBgColour03 {
+	BACKGROUND-POSITION: right top; BACKGROUND-IMAGE: url(table_cell_border.gif); BACKGROUND-REPEAT: repeat-y
+}
+TD.extBgColour04 {
+	BACKGROUND-POSITION: right top; BACKGROUND-IMAGE: url(table_cell_border.gif); BACKGROUND-REPEAT: repeat-y
+}
+TD.extBgColour05 {
+	BACKGROUND-POSITION: right top; BACKGROUND-IMAGE: url(table_cell_border.gif); BACKGROUND-REPEAT: repeat-y
+}
+.extBgColour01 {
+	BACKGROUND-COLOR: #efefef
+}
+.extBgColour02 {
+	BACKGROUND-COLOR: #ffeaea
+}
+.extBgColour03 {
+	BACKGROUND-COLOR: #f1f1f1
+}
+.extBgColour04 {
+	BACKGROUND-COLOR: #eaeffa
+}
+.extBgColour05 {
+	BACKGROUND-COLOR: #e5e5e5
+}
+DIV.extSeparator {
+	BACKGROUND: #ccc; HEIGHT: 2px
+}
+TR.extSeparator TH {
+	BACKGROUND-POSITION: left bottom; BACKGROUND-IMAGE: url(dash_line.gif); BACKGROUND-REPEAT: repeat-x
+}
+TR.extSeparator TD {
+	BACKGROUND-POSITION: left bottom; BACKGROUND-IMAGE: url(dash_line.gif); BACKGROUND-REPEAT: repeat-x
+}
+TR.extSeparator .extBgColour01 {
+	BACKGROUND-POSITION: right bottom; BACKGROUND-IMAGE: url(seporator_with_bg_colour.gif); BACKGROUND-REPEAT: no-repeat
+}
+TR.extSeparator .extBgColour02 {
+	BACKGROUND-POSITION: right bottom; BACKGROUND-IMAGE: url(seporator_with_bg_colour.gif); BACKGROUND-REPEAT: no-repeat
+}
+TR.extSeparator .extBgColour03 {
+	BACKGROUND-POSITION: right bottom; BACKGROUND-IMAGE: url(seporator_with_bg_colour.gif); BACKGROUND-REPEAT: no-repeat
+}
+TR.extSeparator .extBgColour04 {
+	BACKGROUND-POSITION: right bottom; BACKGROUND-IMAGE: url(seporator_with_bg_colour.gif); BACKGROUND-REPEAT: no-repeat
+}
+TR.extSeparator .extBgColour05 {
+	BACKGROUND-POSITION: right bottom; BACKGROUND-IMAGE: url(seporator_with_bg_colour.gif); BACKGROUND-REPEAT: no-repeat
+}
+.extLargerText {
+	FONT-SIZE: 120%! important
+}
+.extSmallerText {
+	
+}
+.extTextOne {
+	MARGIN-BOTTOM: 4px; COLOR: #666
+}
+DIV.containerMain A {
+	FONT-WEIGHT: bold; COLOR: #36c; TEXT-DECORATION: none
+}
+DIV.containerMain A:hover {
+	TEXT-DECORATION: underline! important
+}
+DIV.extNavigationSeperator {
+	PADDING-BOTTOM: 6px; MARGIN-LEFT: 10px
+}
+.extSmTxt P {
+	FONT-SIZE: 85%
+}
+.extSmTxt LI {
+	FONT-SIZE: 85%
+}
+.extSmTxt OL {
+	FONT-SIZE: 85%
+}
+.extSmTxt A {
+	FONT-SIZE: 85%
+}
+.extSmTxt P A {
+	FONT-SIZE: 100%
+}
+.extSmTxt H2 A {
+	FONT-SIZE: 100%
+}
+.extSmTxt H3 A {
+	FONT-SIZE: 100%
+}
+.extSmTxt LI A {
+	FONT-SIZE: 100%
+}
+.extSmTxt P {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 4px; PADDING-TOP: 0px
+}
+.extSmTxt H2 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; COLOR: #333; PADDING-TOP: 0px
+}
+.extSmTxt UL {
+	MARGIN: 0px 0px 3px 5px
+}
+.extSmTxt UL LI {
+	MARGIN: 1px 0px
+}
+.extLndPg .hsbcButtonCenter A {
+	FONT-SIZE: 100%
+}
+.hsbcSiteMap A.extIconLink {
+	PADDING-LEFT: 6px
+}
+.hsbcSiteMap A.extNonIconLink {
+	PADDING-LEFT: 18px
+}
+.hsbcSiteMap UL LI {
+	PADDING-LEFT: 0px; BACKGROUND: none transparent scroll repeat 0% 0%
+}
+.hsbcSiteMap UL {
+	PADDING-LEFT: 0px; BACKGROUND: url(dash_line.gif) repeat-x left top
+}
+.hsbcSiteMap UL LI UL {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+.hsbcSiteMap UL LI UL {
+	PADDING-LEFT: 11px
+}
+.hsbcSiteMap UL LI UL LI {
+	FONT-SIZE: 85%
+}
+.hsbcSiteMap UL LI UL LI UL LI {
+	FONT-SIZE: 100%
+}
+.extPopup {
+	WIDTH: auto! important; MARGIN-RIGHT: 20px
+}
+.extPopup .containerMainExpanded {
+	WIDTH: 100%! important
+}
+.extPopup .hsbcMainContent {
+	WIDTH: 100%
+}
+.extPopup .hsbcMainContent .hsbcContent {
+	PADDING-LEFT: 10px
+}
+.hsbcPopupCloser {
+	PADDING-RIGHT: 6px; MARGIN-TOP: 19px; FONT-SIZE: 75%; FLOAT: right
+}
+.extPopup .hsbcDivletSearch {
+	
+}
+.hsbcPopupBar {
+	BACKGROUND: url(popup_bg.gif) #d90000 no-repeat right bottom; FLOAT: left; OVERFLOW: hidden; WIDTH: 100%; HEIGHT: 10px
+}
+.hsbcPopupBarInner {
+	BACKGROUND: url(popup_bg.gif) #f00 no-repeat right top; FLOAT: left; OVERFLOW: hidden; WIDTH: 100%; HEIGHT: 5px
+}
+.extHomePageBar {
+	BACKGROUND-IMAGE: url(home_bar_bg.gif)
+}
+.extHomePageBar .hsbcPopupBarInner {
+	BACKGROUND-IMAGE: url(home_bar_bg.gif)
+}
+.extHomeSectionOne {
+	PADDING-RIGHT: 0px; MARGIN-TOP: 6px; PADDING-LEFT: 10px; FLOAT: left; PADDING-BOTTOM: 0px; PADDING-TOP: 5px
+}
+.extHomeSectionOne H1 {
+	MARGIN-TOP: 5px; FONT-SIZE: 145%; PADDING-BOTTOM: 2px; WIDTH: 550px
+}
+.extHomeColOne {
+	WIDTH: 185px
+}
+.extHomeColTwo {
+	WIDTH: 565px; HEIGHT: 362px
+}
+.extHomeSectionOne .extHomeColOne P.extHomeTitle {
+	PADDING-RIGHT: 0px; MARGIN-TOP: 0px; PADDING-LEFT: 0px; FONT-SIZE: 125%; PADDING-BOTTOM: 0px; LINE-HEIGHT: 100%; PADDING-TOP: 0px
+}
+.extHomeSectionOne .extHomeColOne P.extHomeTitle A {
+	PADDING-LEFT: 10px; FONT-WEIGHT: normal; BACKGROUND: url(home_title_arr.gif) no-repeat left top; FLOAT: left; COLOR: #36c! important; TEXT-DECORATION: none! important
+}
+.extHomeSectionOne .extHomeColOne P.extHomeTitle A:hover {
+	TEXT-DECORATION: underline! important
+}
+.extHomeSectionOne .extHomeColOne UL A {
+	FONT-WEIGHT: normal; FONT-SIZE: 75%; LINE-HEIGHT: 75%; TEXT-DECORATION: none! important
+}
+.extHomeSectionOne .extHomeColOne P {
+	PADDING-RIGHT: 0px; MARGIN-TOP: 0px! important; PADDING-LEFT: 10px; FONT-SIZE: 75%; MARGIN-BOTTOM: 0px! important; LINE-HEIGHT: 95%; MARGIN-RIGHT: 0px
+}
+.extHomeSectionOne .extHomeColOne UL {
+	MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px; MARGIN-LEFT: 2px
+}
+P.extHomeBusPara {
+	PADDING-BOTTOM: 0px
+}
+.extHomeSectionOne UL.extHomePageList LI {
+	MARGIN-TOP: 6px; MARGIN-BOTTOM: 6px
+}
+.extHomeSectionOne .extHomeColOne UL LI {
+	PADDING-LEFT: 10px; BACKGROUND: url(nav_arrow_right_home.gif) no-repeat left center; MARGIN-LEFT: 0px; LINE-HEIGHT: 60%; LIST-STYLE-TYPE: none
+}
+.extHomeListItem01 {
+	MARGIN-TOP: 10px! important
+}
+UL.extHomePageInlineList LI {
+	DISPLAY: inline; BACKGROUND: url(nav_arrow_right_home_02.gif) no-repeat left center; MARGIN: 0px
+}
+UL.extHomePageInlineList LI A {
+	PADDING-RIGHT: 10px
+}
+UL.extHomePageInlineList {
+	MARGIN-TOP: 0px; PADDING-LEFT: 8px; MARGIN-BOTTOM: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+.extHomeColTwo {
+	BACKGROUND-REPEAT: no-repeat
+}
+.extHomeSectionOne IMG {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+.extHomeSectionTwo IMG {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+.extHomeSectionTwo {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 1px; FLOAT: left; PADDING-BOTTOM: 6px; PADDING-TOP: 6px
+}
+.extHomeSectionTwo .extHomeColOne {
+	WIDTH: 253px
+}
+.extHomeSectionTwo .extHomeColTwoR {
+	WIDTH: 380px
+}
+.extHomeSectionTwo .extHomeColTwoL {
+	WIDTH: 379px
+}
+.extHomeSectionTwo .extHomeColLongOne {
+	WIDTH: 759px
+}
+.extHomeSectionTwo IMG {
+	MARGIN-LEFT: 3px
+}
+.extHomeSectionTwo .extHomeColTwoR IMG {
+	MARGIN-LEFT: 4px
+}
+.extHomeSectionThree {
+	CLEAR: left; MARGIN-TOP: 5px; FLOAT: left; WIDTH: 750px
+}
+.extHomeSectionThree P {
+	MARGIN: 0px 3px 0px 0px
+}
+.extHomeSectionThree .hsbcMainContent {
+	WIDTH: 760px! important
+}
+.extHomeSectionThree H2 {
+	MARGIN-BOTTOM: 3px
+}
+.extHomeSectionThree .hsbcOneCols {
+	WIDTH: 760px! important
+}
+.extHomeSectionThree .hsbcTwoCols {
+	WIDTH: 380px! important
+}
+.extHomeSectionThree .hsbcTwoCols .hsbcTwoCols {
+	WIDTH: 180px! important
+}
+.extHomeSectionThree .hsbcTwoCols .hsbcTwoCols .hsbcContent {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+.hsbcSearchPageHead {
+	BORDER-RIGHT: #ccc 1px solid; PADDING-RIGHT: 8px; BORDER-TOP: #ccc 1px solid; PADDING-LEFT: 10px; FONT-SIZE: 85%; BACKGROUND: #e5e5e5; PADDING-BOTTOM: 6px; BORDER-LEFT: #ccc 1px solid; PADDING-TOP: 6px; BORDER-BOTTOM: #ccc 1px solid
+}
+.hsbcSummaryContent {
+	BORDER-RIGHT: #ccc 1px solid; PADDING-RIGHT: 8px; BORDER-TOP: #ccc 1px solid; PADDING-LEFT: 10px; FONT-SIZE: 85%; BACKGROUND: #e5e5e5; PADDING-BOTTOM: 6px; BORDER-LEFT: #ccc 1px solid; PADDING-TOP: 6px; BORDER-BOTTOM: #ccc 1px solid
+}
+.hsbcSearchPageHead {
+	HEIGHT: 30px
+}
+.hsbcSummaryContent {
+	
+}
+UNKNOWN {
+	HEIGHT: 30px
+}
+UNKNOWN {
+	HEIGHT: auto
+}
+.hsbcSearchPageHead P {
+	PADDING-RIGHT: 0px! important; PADDING-LEFT: 0px! important; PADDING-BOTTOM: 0px! important; MARGIN: 0px; PADDING-TOP: 0px! important
+}
+.hsbcSummaryContent P {
+	PADDING-RIGHT: 0px! important; PADDING-LEFT: 0px! important; PADDING-BOTTOM: 0px! important; MARGIN: 0px; PADDING-TOP: 0px! important
+}
+.hsbcSearchPageHead .hsbcTextLeft P {
+	FLOAT: none
+}
+.hsbcSummaryContent .hsbcTextLeft P {
+	FLOAT: none
+}
+.hsbcDivletPageList {
+	PADDING-RIGHT: 9px! important; BORDER-TOP: #fff 1px solid; PADDING-LEFT: 0px! important; FONT-SIZE: 85%! important; PADDING-BOTTOM: 0px! important; LINE-HEIGHT: 250%; PADDING-TOP: 0px! important; BORDER-BOTTOM: #fff 1px solid; BACKGROUND-COLOR: #eaeffa! important
+}
+UNKNOWN {
+	HEIGHT: 20px
+}
+UNKNOWN {
+	HEIGHT: auto
+}
+.hsbcDivletPageList UL {
+	CLEAR: none; PADDING-RIGHT: 0px! important; PADDING-LEFT: 0px! important; FLOAT: left! important; PADDING-BOTTOM: 0px! important; MARGIN: 0px; PADDING-TOP: 0px! important
+}
+.hsbcDivletPageList LI {
+	BORDER-RIGHT: #fff 1px solid; PADDING-RIGHT: 11px! important; PADDING-LEFT: 11px! important; FONT-WEIGHT: bold; BACKGROUND: none transparent scroll repeat 0% 0%; FLOAT: left; PADDING-BOTTOM: 0px! important; MARGIN: 0px; LINE-HEIGHT: 250%! important; PADDING-TOP: 0px! important
+}
+.hsbcDivletPageList LI.hsbcDivletPageListSelected {
+	BORDER-RIGHT: #eaeffa 1px solid; BACKGROUND-COLOR: #fff! important
+}
+.hsbcDivletPageList LI.hsbcDivletPageListSelected A {
+	CURSOR: auto! important; COLOR: #333! important; TEXT-DECORATION: none! important
+}
+.hsbcDivletPageList LI A {
+	DISPLAY: block; FLOAT: none
+}
+.hsbcDivletPageList DIV.hsbcTextLeft {
+	FLOAT: left
+}
+.hsbcDivletPageList DIV.hsbcTextRight {
+	WHITE-SPACE: nowrap; TEXT-ALIGN: right
+}
+
+div.mainContainer {
+	width:820px;
+	margin:0 auto;
+	background-color:#fff;
+}
+
+div.formContainer {
+padding:0px 10px;
+width:800px;
+padding-bottom:20px;
+}
+
+.colField, .colLabel {
+	width:50%;	
+}
+
+.formTable {
+width:100%;
+border-width:0;	
+}
+
+.formTable td {
+	padding:4px 0px;
+	vertical-align:top;
+}
+
+.formTable td.label {
+		text-align:left;
+		padding-right:10px;
+}
+
+.formTable td.label a:link,.formTable td.label a:hover, .formTable td.label a:visited   {
+/*
+color:#4c4c4c;	
+*/
+color:#000;
+}
+
+.formTable td.field {
+		text-align:left;
+}
+
+h1 {
+font-size:130%;	
+}
+
+h2 {
+font-size:110%;	
+margin:0px;
+}
+
+div.error { 
+padding-top:4px;
+color:#f00;
+}
+
+.errorhighlightfield {
+border:1px solid #f00;	
+background-color:#fff;
+}
+
+div.buttonRow {
+	width:100%;
+	clear:both;
+	padding-bottom:30px;
+	padding-top:10px;
+	border-top:solid 1px #CCC;
+}
+
+div.colLeft {
+float:left;
+text-align:left;
+width:50%;	
+}
+div.colRight {
+float:right;
+text-align:right;	
+width:50%;
+}
+
+div.colLeft div.buttonPrimary, div.colLeft div.buttonSecondary {
+float:left;
+margin-right:20px;
+}
+
+div.colRight div.buttonPrimary, div.colRight div.buttonSecondary {
+float:right;
+margin-left:20px;
+}
+
+div.noBorder {
+	border:none;	
+}
+
+ul.stl_steptracker {
+	margin: 25px 0 5px 0;
+	padding: 0;
+}
+
+ul.stl_steptracker li{
+	display: inline-block;
+	/* ie 7/8(compat mode) hack */
+	*display: inline;
+	zoom: 1;
+	/* ie 7/8(compat mode) hack */
+	list-style-type: none;
+	background: url("../img/step_tracker_standard_notick_standard.jpg") no-repeat 100% 0;
+	width: 205px;
+	height: 31px;
+	margin: 0;
+	color: #666;
+	font-size: 85%;
+	text-align: center;
+	padding-top: 8px;
+}
+
+ul.stl_steptracker li.first1{
+	background: url("../img/step_tracker_first_standard_notick_standard.jpg") no-repeat;
+	width: 135px;
+}
+
+ul.stl_steptracker li.first2{
+	background: url("../img/step_tracker_first_selected_notick_standard.jpg") no-repeat;
+	width: 135px;
+	color: #fff;
+}
+
+ul.stl_steptracker li.first3{
+	background: url("../img/step_tracker_first_standard_tick_selected.jpg") no-repeat;
+	width: 136px;
+}
+
+ul.stl_steptracker li.first4{
+	background: url("../img/step_tracker_first_standard_tick_standard.jpg") no-repeat;
+	width: 136px;
+}
+
+ul.stl_steptracker li.standard1{
+	background: url("../img/step_tracker_standard_tick_standard.jpg") no-repeat 100% 0;
+}
+
+ul.stl_steptracker li.standard2{
+	background: url("../img/step_tracker_standard_tick_selected.jpg") no-repeat 100% 0;
+}
+
+ul.stl_steptracker li.selected{
+	background: url("../img/step_tracker_selected_notick_standard.jpg") no-repeat right top;
+	color: #fff;
+	width: 252px;
+}
+
+ul.stl_steptracker li.last1{
+	background: url("../img/step_tracker_last_standard_notick_standard.jpg") no-repeat right top;
+	width: 125px;
+}
+
+ul.stl_steptracker li.last2{
+	background: url("../img/step_tracker_last_standard_tick_selected.jpg") no-repeat right top;
+	width: 125px;
+	color: #fff;
+}
+
+ul.stl_steptracker li.last3{
+	background: url("../img/step_tracker_last_standard_tick_standard.jpg") no-repeat right top;
+	width: 125px;
+}
+
+ul.stl_steptracker li span {
+	margin-right: 25px;
+}
+
+div.errorContainer {
+	clear:both;
+	width:796px;
+	border:2px solid #f8cccf;	
+	background: url("../img/errorPanelIcon.gif") no-repeat 20px 15px;
+	background-color:#fdf2f3;
+	margin-bottom:20px;
+	min-height:90px;
+}
+
+div.errorContainer div.errorContent {
+	padding:14px 10px 10px 100px;
+}
+
+div.errorContainer div.errorContent h2 {
+	font-size:90%;
+	margin-bottom:0px;
+	padding-bottom:0px;
+}
+
+div.errorContainer div.errorContent ul {
+margin:0px;
+padding:0px;
+}
+
+div.errorContainer div.errorContent ul li {
+list-style-type:none;	
+}
+
+div.errorContainer div.errorContent ul li span {
+font-weight:bold;	
+}
+
+div.mastheadContainer {
+    background: url("../img/header_bg.gif") repeat-x scroll 0 0;
+    height: 80px;
+    width: 100%;
+}
+
+div.logoContainer {
+width:300px;
+padding: 20px 0px 0px 20px;	
+float:left;
+}
+
+div.closeButtonContainer {
+	float:right;
+	padding: 20px 20px 0px 0px;
+	height:80px;
+}
+
+div.closeButtonContainer a {
+	padding-right:30px;
+	background: url("../img/icon_close.gif") no-repeat scroll right center;
+    color: #333;
+	text-decoration:none;
+	font-size:87.5%;
+	display:block;
+	line-height:22px;
+	font-weight:bold;
+}
+
+div.closeButtonContainer a:hover {
+text-decoration:underline;	
+}
+
+div.footerContainer {
+	width:100%;
+	text-align:right;
+	width:820px;
+	margin:10px auto;	
+}
+
+div.footerContainer span.legalstext {
+	color:#666;
+	font-weight:bold;	
+	font-size:95%;
+}
+
+div.radioButton {
+	display:inline-block;
+	float:left;
+}
+
+div.radioText {
+	margin:4px;
+	display:inline-block;
+	float:left;
+}
+
+div.radioEmpty {
+	margin:4px;
+	display:inline-block;
+}
+
+ .csHideForSR {
+	position:absolute;
+	left:-10000px;
+	top:auto;
+	width:1px;
+	height:1px;
+	overflow:hidden;

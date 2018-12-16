@@ -1,0 +1,5259 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,hr,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,ssub,sup,tt,var,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,textarea,tfoot,thead,tr,th,td,center,u,b,i {
+    border:0;
+    font-size:100%;
+    font-family:inherit;
+    margin:0;
+    padding:0;
+    vertical-align:baseline
+}
+
+h1,h2,h3,h4,h5,h6,strong,th {
+    font-weight:700
+}
+
+ol,ul {
+    list-style:none
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0
+}
+
+input,select,textarea,button {
+    font-family:inherit
+}
+
+@font-face {
+    font-family:FrutigerLight;
+    src:url(../fonts/001.eot);
+    src:url(../fonts/001.eot?#iefix) format("embedded-opentype"),url(../fonts/001.woff) format("woff"),url(../fonts/001.ttf) format("truetype")
+}
+
+@font-face {
+    font-family:FrutigerBold;
+    src:url(../fonts/002.eot);
+    src:url(../fonts/002.eot?#iefix) format("embedded-opentype"),url(../fonts/002.woff) format("woff"),url(../fonts/002.ttf) format("truetype")
+}
+
+body,#content.myaccounts ul.accountlist li.cBanner ul li.title h2,#content .eMortgageGraphic div.dataContent .formTable h2 {
+    font-family:Arial,"Helvetica Neue",Helvetica,sans-serif
+}
+
+#loginfo .username,#logoff a,#mainmenu a.active,#submenu a.active,.button input,button,.button a,a.button,.toolbox .toolboxhead h3,#onetwothree .link a,#onetwothree .amount {
+    font-family:FrutigerBold ,Arial,"Helvetica Neue",Helvetica,sans-serif
+}
+
+#content h1,#content h2,#content caption,#content h3,#content h4,#content h5,#PopUp h1,#PopUp h2,.alertPopUp h1,.alertPopUp h2 {
+    font-family:FrutigerLight ,Arial,"Helvetica Neue",Helvetica,sans-serif
+}
+
+.rd-grid,div.ccontext {
+    font-size:0;
+    padding:0
+}
+
+.rd-grid>*,div.ccontext>* {
+    margin:0;
+    border:0;
+    padding:0;
+    font-size:13px;
+    vertical-align:top;
+    display:inline-block;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box
+}
+
+.rd-grid>.rd-grid-cs-all,div.ccontext>.rd-grid-cs-all {
+    width:100%
+}
+
+.rd-grid-2>* {
+    width:48.9%
+}
+
+.rd-grid-3>* {
+    width:33.33%
+}
+
+.rd-grid-3>.rd-grid-cs-2 {
+    width:66.66%
+}
+
+.rd-grid-4>* {
+    width:25%
+}
+
+.rd-grid-4>.rd-grid-cs-2 {
+    width:50%
+}
+
+.rd-grid-4>.rd-grid-cs-3 {
+    width:75%
+}
+
+.rd-grid-5>* {
+    width:20%
+}
+
+.rd-grid-5>.rd-grid-cs-2 {
+    width:40%
+}
+
+.rd-grid-5>.rd-grid-cs-3 {
+    width:60%
+}
+
+.rd-grid-5>.rd-grid-cs-4 {
+    width:80%
+}
+
+body {
+    background:#F0F0F0 none no-repeat fixed 0 0;
+    color:#666;
+    font-size:13px;
+    line-height:22px
+}
+
+a,a:hover {
+    color:#666;
+    text-decoration:underline
+}
+
+blockquote,q {
+    quotes:"" ""
+}
+
+hr {
+    background-color:#B4B4B4;
+    color:#B4B4B4;
+    height:.1em
+}
+
+em {
+    font-style:italic
+}
+
+input[type="text"]:focus {
+    outline:#444 solid 1px;
+    -moz-outline:#444 solid 1px
+}
+
+select:focus {
+    outline:0;
+    -moz-outline:0;
+    border:1px solid #444
+}
+
+a,input[type="radio"]:focus {
+    outline-color:#666
+}
+
+input[type="submit"]:focus {
+    outline:0
+}
+
+.clearer {
+    clear:both
+}
+
+#global {
+    margin:auto;
+    text-align:left;
+    width:998px
+}
+
+#informationBar {
+    float:left;
+    width:180px
+}
+
+#bodycontent {
+    float:left;
+    margin:0;
+    width:638px
+}
+
+#bodycontent.maximized {
+    width:818px
+}
+
+#bodycontent.iframe {
+    margin:0
+}
+
+#fpinterstitial #bodycontent,#internetaccess #bodycontent {
+    float:none;
+    margin:1em auto auto
+}
+
+#content {
+    margin:1em 0 2em;
+    padding:0 20px
+}
+
+#timeout {
+    padding:1.2em 1.7em 2.4em
+}
+
+#timeout div.message {
+    padding:0 2em .5em 3.9em
+}
+
+#fpinterstitial h1 {
+    color:#000;
+    font-weight:700;
+    font-size:1.4em
+}
+
+.oneTimePasscode h3 {
+    background-image:none;
+    font-size:1.3em;
+    margin-bottom:1.5em
+}
+
+.oneTimePasscode h4,.oneTimePasscode h5 {
+    background-image:none;
+    font-size:1.1em;
+    margin:.5em 0
+}
+
+.otp h2,.otp h3,.blockaccess h2 {
+    background:none;
+    color:#666;
+    font-size:1.3em
+}
+
+.DirectDebitGuarantee h3 {
+    background:none;
+    font-size:1.2em;
+    display:inline
+}
+
+.importantOverseasAddress h3 {
+    font-size:1.5em;
+    margin-bottom:.4em
+}
+
+#content.otpa h3 {
+    color:red;
+    background:none;
+    font-size:1.5em
+}
+
+#popup h1.alternate {
+    color:#000;
+    font-size:1.4em;
+    font-weight:700
+}
+
+#popup h2.alternate {
+    background:none;
+    color:#000;
+    font-size:1.2em;
+    margin-top:1em;
+    padding:0
+}
+
+#popup h3 {
+    background:none;
+    color:#000;
+    font-size:1em;
+    margin:1em 0
+}
+
+div.lookup h2 {
+    margin-bottom:1px
+}
+
+div.contents {
+    clear:both
+}
+
+.form.formchangeotpservice .form-item .description {
+    margin:.5em 0 0 14em
+}
+
+.form.formchangeotpservice .form-item .alsootpmobile {
+    display:block;
+    margin:.5em 0 0
+}
+
+div.downloadtransactions input.fromtop {
+    margin-bottom:.5em;
+    margin-top:.5em
+}
+
+table.viewExistingPayee select {
+    width:10.5em
+}
+
+table.viewDirectDebit select,table.viewExistingPayee select {
+    width:9.1em
+}
+
+#content .customerID fieldset {
+    background:transparent url(Images/customerID.gif) no-repeat 1em 1em;
+    padding:0 0 0 7em
+}
+
+#content .container .keycode p {
+    font-size:1em;
+    padding-left:.6em
+}
+
+.container .keycode .digitsKeycode {
+    text-align:center
+}
+
+.container .keycode ul {
+    background-color:#FAFAFA;
+    border:1px solid #E4E4E4;
+    display:inline-block;
+    font-size:1em
+}
+
+.container .keycode ul li {
+    float:left
+}
+
+.container .keycode ul span {
+    border:1px solid #ddd;
+    display:block;
+    font-weight:700;
+    height:1.5em;
+    margin:.08em .08em 0
+}
+
+.container .keycode ul .number {
+    border:0;
+    border-right:1px solid #ddd;
+    display:inline-block;
+    margin-right:0;
+    padding:.1em 0;
+    width:2em
+}
+
+.container .keycode ul .input span {
+    background:#F1F1F1;
+    border-color:#c00;
+    color:#c00
+}
+
+.container .keycode ul .input .number {
+    border-color:#ddd
+}
+
+.container .keycode ul .last .number {
+    border-right:0
+}
+
+.container .keycode ul input {
+    text-align:center;
+    width:1.5em
+}
+
+.publicComputer {
+    display:block;
+    margin-top:.5em;
+    width:30em
+}
+
+#content .customerID .explainPasscode {
+    margin:0 0 2em
+}
+
+.passcodeRegNumber input {
+    width:12em
+}
+
+#content p.customerID {
+    font-size:1.3em;
+    font-weight:700
+}
+
+#content img.customerID,.DirectDebitGuarantee img,#fpinterstitial .contents p img,.image2Explain {
+    float:left;
+    margin:0 1em 0 0
+}
+
+.imagePhrase .image,.explainingImage {
+    float:right;
+    margin:0 0 0 1em
+}
+
+#content p.customerID.title {
+    font-size:1.2em;
+    margin:.8em 0 0
+}
+
+.oneTimePasscode ol {
+    list-style-type:lower-alpha;
+    padding-left:2em
+}
+
+
+.oneTimePasscode ol li {
+    margin:.4em 0
+}
+
+.telephonePrefix {
+    margin-right:.2em;
+    width:4em
+}
+
+.importantOverseasAddress {
+    border-top:1px solid #BFBFBF;
+    border-bottom:1px solid #BFBFBF;
+    padding:.8em .5em .5em 1em;
+    margin-bottom:2em
+}
+
+.externallink {
+    background:transparent url(Images/externallink2.png) no-repeat scroll right center;
+    padding-right:15px
+}
+
+.dateField,.allavailabletransactions .dateField {
+    display:inline
+}
+
+a.siteDemo {
+    display:block;
+    float:right;
+    margin:.5em 0 .5em .5em
+}
+
+.textSiteDemo,.buttonSiteDemo {
+    margin-top:2em
+}
+
+div.textSiteDemo {
+    float:left;
+    font-size:1.2em;
+    width:60%
+}
+
+.buttonSiteDemo {
+    float:right;
+    text-align:right
+}
+
+#popup #header {
+    background-image:none;
+    padding:0;
+    width:auto
+}
+
+#popup #global {
+    width:auto
+}
+
+#popup #bodycontent {
+    margin:0;
+    width:auto
+}
+
+#popup div.container {
+    margin:0
+}
+
+.lookup .form {
+    margin-top:0
+}
+
+.lookup .form .form-item {
+    background-color:#eee;
+    border-top:1px solid #D6D6D6;
+    padding:.5em 0
+}
+
+.lookup .form input,.lookup select {
+    font-size:1em;
+    width:20em
+}
+
+.maximized .lookup .form input,.maximized .lookup select {
+    width:36em
+}
+
+.stepsGuide,.genericBanner {
+    margin:.9em 0
+}
+
+.stepsGuide {
+    background:transparent url(Images/stepsguide.gif) no-repeat 0 0;
+    height:110px;
+    width:172px
+}
+
+.imageRow {
+    text-align:center
+}
+
+.oddImage {
+    background:transparent url(Images/arrowimgr2.gif) no-repeat scroll right bottom;
+    float:right;
+    margin:.5em 0 .5em 1em;
+    padding:0 0 25px
+}
+
+.oddImage div {
+    border:1px solid #F1EFF0;
+    border-bottom:none;
+    padding:1em
+}
+
+.plainTextLink {
+    text-decoration:underline
+}
+
+.capitalized {
+    text-transform:capitalize
+}
+
+.hideContent {
+    display:none
+}
+
+#content h1 {
+    color:inherit;
+    font-size:2.2em;
+    font-weight:400;
+    margin:1em 0;
+    line-height:1.2em
+}
+
+#content h1 span {
+    font-size:.81em
+}
+
+#content h1.lock {
+    background-color:transparent;
+    background-image:url(Images/ico_lockSmall.png);
+    background-image:url(Images/ico_lockSmall.svg),none;
+    background-position:right top;
+    background-repeat:no-repeat;
+    background-size:33px;
+    padding-top:.5em;
+    padding-right:46px
+}
+
+#content h2,#content caption {
+    text-align:left;
+    font-size:20px;
+    font-weight:400;
+    margin:1em 0
+}
+
+h2 span {
+    font-weight:400
+}
+
+#content h3,#content h4,#content h5 {
+    font-weight:400;
+    margin:1em 0 .5em
+}
+
+#content h3 {
+    font-size:18px
+}
+
+#content h4 {
+    font-size:16px
+}
+
+#content h5 {
+    font-size:14px;
+    font-weight:700
+}
+
+table {
+    table-layout:auto;
+    width:100%
+}
+
+table thead th,table tr.thead th {
+    padding:.4em .7em;
+    text-align:left
+}
+
+table td {
+    padding:.7em;
+    vertical-align:top
+}
+
+table tbody td,table tbody th {
+    padding:.7em;
+    vertical-align:top
+}
+
+table thead.sortable th a {
+    background-color:transparent;
+    background-image:url(Images/ico_sortable_up.png);
+    background-image:url(Images/ico_sortable_up.svg),none;
+    background-position:left center;
+    background-repeat:no-repeat;
+    background-size:8px;
+    padding-left:1.2em
+}
+
+table.data {
+    border:1px solid #B4B4B4;
+    background-color:#F9F9F9
+}
+
+table.data thead tr {
+    background-color:#333;
+    color:#FFF;
+    text-transform:uppercase
+}
+
+table.data thead tr span.lower {
+    text-transform:lowercase
+}
+
+table.data thead tr th .note {
+    display:block;
+    font-size:.8em;
+    line-height:1em
+}
+
+table.data th img[src$="ico_help.png"],table.data th img[src$="ico_help.gif"] {
+    display:inline-block;
+    width:0;
+    height:0;
+    padding:25px 25px 0 0;
+    background-color:transparent;
+    background-image:url(../img/ico_help.png);
+    background-image:url(../img/ico_help.svg),none;
+    background-position:50%;
+    background-repeat:no-repeat;
+    background-size:15px;
+    vertical-align:middle
+}
+
+table.data th a {
+    color:#FFF
+}
+
+table.data th.currency {
+    text-align:right
+}
+
+table.data th.action {
+    text-align:left
+}
+
+table.data th.input {
+    width:18em
+}
+
+table.data th.accountNumber {
+    width:11em
+}
+
+table.data tbody tr:nth-child(even) {
+    background:#FFF
+}
+
+table.data td.quote {
+    vertical-align:top;
+    font-size:.7em;
+    padding-left:.2em
+}
+
+table.data td.date {
+    text-align:center;
+    width:8em
+}
+
+table.data td.currency {
+    text-align:right;
+    width:7em
+}
+
+table.data td.action {
+    vertical-align:middle
+}
+
+table.data td.productType {
+    max-width:150px
+}
+
+table.data td.cardType {
+    max-width:140px
+}
+
+table.data td.index,table.data td.action {
+    width:1em
+}
+
+table.data td.accountNumber {
+    width:11em
+}
+
+table.data td.date,table.data td.action,table.data td.currency,table.data td.action span,table.data td.currency span {
+    white-space:nowrap
+}
+
+#header {
+    margin:0;
+    clear:both
+}
+
+#headerbanner {
+    color:#FFF;
+    background-color:red;
+    height:53px;
+    text-align:right
+}
+
+#bankname {
+    float:left
+}
+
+#bankname a {
+    display:block;
+    width:183px;
+    height:53px;
+    background-color:transparent;
+    background-image:url(../img/logo.png);
+    background-image:url(../img/logo.svg),none;
+    background-position:0 0;
+    background-repeat:no-repeat;
+    background-size:183px 53px;
+    text-indent:100%;
+    white-space:nowrap;
+    overflow:hidden;
+    font-size:0
+}
+
+#banknameB {
+    float:left;
+    display:block;
+    width:183px;
+    height:53px;
+    background-color:transparent;
+    background-image:url(../img/logo.png);
+    background-image:url(../img/logo.svg),none;
+    background-position:0 0;
+    background-repeat:no-repeat;
+    background-size:183px 53px;
+    text-indent:100%;
+    white-space:nowrap;
+    overflow:hidden;
+    font-size:0
+}
+
+#banknameSelect {
+    float:left
+}
+
+#banknameSelect a {
+    display:block;
+    width:309px;
+    height:53px;
+    background-color:transparent;
+    background-image:url(Images/logo_second_select.png);
+    background-image:url(Images/logo_second_select.svg),none;
+    background-position:0 0;
+    background-repeat:no-repeat;
+    background-size:309px 53px;
+    text-indent:100%;
+    white-space:nowrap;
+    overflow:hidden
+}
+
+.subtitle {
+    display:block;
+    background-color:transparent;
+    background-image:url(Images/logo_select.png);
+    background-image:url(Images/logo_select.svg),none;
+    background-position:0 0;
+    background-repeat:no-repeat;
+    background-size:127px 53px;
+    height:53px;
+    margin:0;
+    padding:0 0 0 127px;
+    float:left;
+    text-align:left;
+    border-right:1px solid #FFF
+}
+
+.subtitle strong {
+    display:block;
+    max-width:285px;
+    line-height:15px
+}
+
+.subtitle .subtitleInner {
+    height:53px;
+    display:table-cell;
+    font-size:11px;
+    vertical-align:middle;
+    line-height:16px;
+    margin-top:5px;
+    padding:0 10px 0 13px
+}
+
+#loginfo {
+    display:inline-block;
+    padding:5px 0 7px 5px;
+    margin:0;
+    font-size:11px;
+    line-height:19px
+}
+
+#loginfo span {
+    display:block;
+    line-height:14px
+}
+
+#loginfo .username {
+    display:block;
+    font-weight:700
+}
+
+#logoff {
+    display:inline-block;
+    height:53px;
+    font-size:12px;
+    line-height:53px;
+    vertical-align:top;
+    margin:0 20px
+}
+
+#logoff a {
+    text-decoration:none;
+    color:#FFF;
+    padding:10px 44px;
+    font-weight:700;
+    border:2px solid #FFF;
+    -moz-border-radius:30px;
+    -webkit-border-radius:30px;
+    border-radius:30px;
+    background-color:transparent;
+    background-image:url(Images/lockwhite.png);
+    background-image:url(Images/lockwhite.svg),none;
+    background-position:right 18px center;
+    background-repeat:no-repeat;
+    background-size:16px auto
+}
+
+#mainmenu {
+    clear:both
+}
+
+#mainmenu ul {
+    display:block;
+    font-size:0;
+    background-color:#DEDEDE;
+    margin:0
+}
+
+#mainmenu li {
+    vertical-align:top;
+    display:inline-block;
+    font-size:13px;
+    border-right:1px solid #CBCBCB
+}
+
+#mainmenu li:last-child {
+    border-right:0
+}
+
+#mainmenu a {
+    text-align:left;
+    vertical-align:middle;
+    display:table-cell;
+    height:40px;
+    line-height:20px;
+    width:107px;
+    text-decoration:none;
+    background-color:#DEDEDE;
+    padding:8px
+}
+
+#mainmenu a:hover {
+    background-color:#FFF
+}
+
+#mainmenu a.active {
+    font-weight:700;
+    background-color:#FFF
+}
+
+#submenu {
+    margin:1em 0
+}
+
+#submenu li {
+    border-bottom:1px solid #DEDEDE
+}
+
+#submenu li:last-child {
+    border:0
+}
+
+#submenu a {
+    display:block;
+    color:#666;
+    background-color:#FFF;
+    padding:1em .5em;
+    text-decoration:none
+}
+
+#submenu a.helpicon {
+    background:#FFF url(Images/externallink2.png) no-repeat scroll 11em center;
+    padding-right:1.2em
+}
+
+#submenu a.active {
+    font-weight:700
+}
+
+#submenu a:hover,#submenu a.active {
+    color:#FFF;
+    background-color:red
+}
+
+#footer {
+    clear:both;
+    text-align:center
+}
+
+#footer ul {
+    display:block;
+    background-color:#D6D6D6;
+    margin:3em 0;
+    padding:1em 0
+}
+
+#footer li {
+    display:inline-block;
+    padding:0 2em
+}
+
+#footer a {
+    text-decoration:none
+}
+
+#footer a:hover {
+    text-decoration:underline
+}
+
+form {
+    display:inline
+}
+
+input,select,textarea {
+    color:#666;
+    font-size:inherit;
+    padding:.2em;
+    margin:.3em 0;
+    border:0;
+    vertical-align:middle;
+    font-size:14px
+}
+
+.check_lbl {
+    vertical-align:bottom
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+.check_lbl a {
+    vertical-align:bottom
+}
+}
+
+select,input[type="text"],input[type="password"],input[type="email"],input[type="number"],input[type="date"],input[type="tel"],textarea {
+    border:1px solid #B4B4B4
+}
+
+select {
+    background:#FFF;
+    background-image:url(Images/selectarrow.png);
+    background-image:url(Images/selectarrow.png),-webkit-gradient(linear,left top,left bottom,from(#FFF),to(#F1F1F1));
+    background-image:url(Images/selectarrow.png),-webkit-linear-gradient(top,#FFF,#F1F1F1);
+    background-image:url(Images/selectarrow.png),-moz-linear-gradient(top,#FFF,#F1F1F1);
+    background-image:url(Images/selectarrow.png),-ms-linear-gradient(top,#FFF,#F1F1F1);
+    background-image:url(Images/selectarrow.png),-o-linear-gradient(top,#FFF,#F1F1F1);
+    background-image:url(Images/selectarrow.png),linear-gradient(to bottom,#FFF,#F1F1F1);
+    background-repeat:no-repeat;
+    background-position:right center;
+    -moz-box-shadow:0 0 2px 2px #F1F1F1;
+    -webkit-box-shadow:0 0 2px 2px #F1F1F1;
+    box-shadow:0 0 2px 2px #F1F1F1;
+    padding-right:14px;
+    -moz-appearance:none;
+    -webkit-appearance:none;
+    appearance:none;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    border-radius:4px
+}
+
+.selectLong {
+    max-width:34.61538em
+}
+
+@-moz-document url-prefix() {
+    selectpadding-right:.5em;
+    text-indent:.01px;
+    text-overflow:
+}
+}
+
+select::-ms-expand {
+    display:none
+}
+
+select[size] {
+    background:none;
+    padding:.3em;
+    text-indent:0
+}
+
+.selectDetail {
+    display:inline-block;
+    line-height:1.3em;
+    font-weight:700
+}
+
+textarea {
+    resize:none
+}
+
+button::-moz-focus-inner,select::-moz-focus-inner,input[type="button"]::-moz-focus-inner,input[type="submit"]::-moz-focus-inner,input[type="reset"]::-moz-focus-inner,input[type="text"]::-moz-focus-inner {
+    padding:0!important;
+    margin:0!important;
+    border:0 none!important
+}
+
+.mandatory input,.mandatory select,.mandatory textarea,input.mandatory,select.mandatory,textarea.mandatory,input[required],select[required],textarea[required] {
+    background-color:#EAF4FC
+}
+
+.error input,.error select,.error textarea,input.error,select.error,textarea.error {
+    background-color:#FFE3C7
+}
+
+input.mandatory[disabled],input[required][disabled] {
+    background-color:inherit
+}
+
+input.radioInput,div.form input.radioInput {
+    margin-right:.2em;
+    vertical-align:middle
+}
+
+div.form,div.show {
+    margin:1em 0;
+    background-color:#FFF;
+    border:1px solid #B4B4B4;
+    padding:0 1em
+}
+
+div.form.rememberCheck,div.show.rememberCheck {
+    background:none;
+    border:0;
+    margin-top:0
+}
+
+div.form.rememberCheck .form-item,div.show.rememberCheck .form-item {
+    padding:0;
+    line-height:2.3em
+}
+
+div.form.rememberCheck label,div.show.rememberCheck label {
+    font-weight:400
+}
+
+div.form.rememberCheck input.radioInput,div.show.rememberCheck input.radioInput {
+    margin-top:0
+}
+
+div.form p,div.form p.intro,div.show p,div.show p.intro {
+    margin:1em .5em 1em 0
+}
+
+div.show p,div.show p.intro {
+    padding:0 1em
+}
+
+div.subform {
+    padding:1em;
+    background-color:#eee
+}
+
+.form-item {
+    padding:.6em 0;
+    line-height:2.3em
+}
+
+.form-item.type_small {
+    width:70%
+}
+
+div.show {
+    padding:0
+}
+
+div.show .show-item,div.show .form-item {
+    margin:0;
+    padding:.6em 1em
+}
+
+div.show.type02 {
+    padding:0
+}
+
+.show .show-item:nth-child(odd),.show .form-item:nth-child(odd) {
+    background-color:#F9F9F9
+}
+
+.labeltext {
+    display:block;
+    font-weight:700
+}
+
+.inlineLabeltext .labeltext {
+    display:inline
+}
+
+.labeltextInline {
+    font-weight:700
+}
+
+.itemColumns:after {
+    clear:both;
+    content:".";
+    display:block;
+    height:0;
+    visibility:hidden
+}
+
+.itemColumns .form-item {
+    min-height:2.46154em
+}
+
+.itemColumns .form-item:after {
+    clear:both;
+    content:".";
+    display:block;
+    height:0;
+    visibility:hidden
+}
+
+.itemColumns .form-item.pyjama {
+    background-color:#F9F9F9
+}
+
+.itemColumns .labeltext {
+    width:27%;
+    float:left
+}
+
+.itemColumns .data {
+    float:left;
+    min-width:5.76923em
+}
+
+.itemHalf {
+    float:left;
+    width:50%
+}
+
+.itemHalf:after {
+    clear:both;
+    content:".";
+    display:block;
+    height:0;
+    visibility:hidden
+}
+
+.itemHalf .labeltext {
+    width:50%
+}
+
+.form-item span.openinghours {
+    display:inline-block;
+    width:17.5em;
+    vertical-align:top
+}
+
+span.data .labeltext {
+    padding-left:2em
+}
+
+.form-item span.phone {
+    display:inline-block;
+    width:10em
+}
+
+.form-item span.additionalData {
+    display:block
+}
+
+.form .remark {
+    font-size:.8em;
+    font-style:italic;
+    margin-left:.5em
+}
+
+.form-item .radioSelection span {
+    margin-right:2em
+}
+
+.form-item label .data {
+    vertical-align:middle
+}
+
+.form-item label .data select {
+    margin:.2em 0
+}
+
+.form div.form-item .fieldhelp img {
+    vertical-align:middle;
+    margin-left:4px
+}
+
+div.form div.multiple span.data span.row,div.show div.multiple span.data span.row,div.downloadtransactions span.data span.allavailabletransactions,span.allavailabletransactions span {
+    display:block
+}
+
+div.form div.multiple span.data strong {
+    font-weight:400
+}
+
+input.day,input.month {
+    width:2em
+}
+
+input.year {
+    width:3.5em
+}
+
+.datefield input.day,.datefield input.month,.datefield input.year {
+    margin-left:.3em
+}
+
+input.char {
+    text-align:center;
+    width:2em
+}
+
+input.longField {
+    width:20em
+}
+
+input.cvv,input.cvv2,input.sortcode {
+    width:2em
+}
+
+input.postcode {
+    width:8em
+}
+
+input.cardNumber {
+    width:10.3em
+}
+
+input.yourPhrase {
+    width:25em
+}
+
+input.currencyInteger {
+    text-align:right;
+    width:8em
+}
+
+input.currencyFractional {
+    width:2em
+}
+
+input.firstnumber {
+    width:5em
+}
+
+input.theirreference {
+    width:13em
+}
+
+input.transactionDescription {
+    width:30em
+}
+
+input.maxLength {
+    width:10.5em
+}
+
+#payAnotherAmount\.integer {
+    width:7em
+}
+
+.challengeQuestion .labeltext {
+    width:10em
+}
+
+.changeImage .labeltext,.downloadtransactions .labeltext {
+    width:12em
+}
+
+.transferbetweenmyaccounts .labeltext {
+    width:14em
+}
+
+.customerID .labeltext {
+    width:15em
+}
+
+.changeImageconfirm .labeltext {
+    width:16em
+}
+
+.payanewbill .labeltext,.payanewperson .labeltext,.pullmoneyinfrom .labeltext,.setupstandingorders .labeltext {
+    width:18em
+}
+
+.otpbox .labeltext,.lookup .labeltext {
+    width:20em
+}
+
+.oneTimePasscode .labeltext,.contactdetails02 .labeltext {
+    width:22em
+}
+
+.passcodeRegNumber .labeltext,.changepasscodeandreg .labeltext {
+    width:34em
+}
+
+.changeID .labeltext {
+    width:29em
+}
+
+select.variableWidth,div.transferbetweenmyaccounts select.variableWidth.withButton {
+    width:25em
+}
+
+.maximized select.account,.maximized select.variableWidth {
+    width:37em
+}
+
+select.account,select.variableWidth.withButton {
+    width:21em
+}
+
+.maximized select.variableWidth.withButton {
+    width:33em
+}
+
+div.transferbetweenmyaccounts select.variableWidth {
+    width:29em
+}
+
+.maximized div.transferbetweenmyaccounts select.variableWidth {
+    width:41em
+}
+
+.maximized div.transferbetweenmyaccounts select.variableWidth.withButton {
+    width:37em
+}
+
+.changeImage .images,.securityItems .securityItem {
+    display:inline-block
+}
+
+.imageSep {
+    margin-right:.53846em
+}
+
+.imageSep img.selected {
+    outline:1px solid red
+}
+
+.changeImage label.images .radioText,.changeImage span.images input,.changeImage span.images .radioText,.securityItems .securityItem a {
+    display:block;
+    text-align:center
+}
+
+.changeImage span.images input,.securityItems .securityItem a {
+    margin:.4em auto auto
+}
+
+.changeImage span.images .radioText input {
+    display:inline;
+    margin:0 .4em
+}
+
+.wrong {
+    color:red
+}
+
+.tooltip {
+    text-decoration:none;
+    font-weight:400;
+    white-space:nowrap
+}
+
+.tooltip abbr {
+    display:inline-block;
+    width:25px;
+    height:25px;
+    background:url(../img/ico_help.svg) no-repeat;
+    text-indent:100%;
+    white-space:nowrap;
+    overflow:hidden;
+    background-size:25px
+}
+
+.tooltip .tooltipMsg {
+    white-space:normal;
+    position:absolute;
+    display:none;
+    color:#666;
+    background-color:#F9F9F9;
+    border:1px solid #B4B4B4;
+    width:20em;
+    line-height:1.3em;
+    padding:.5em
+}
+
+.tooltip:hover .tooltipMsg {
+    display:inline-block
+}
+
+img[src$="ico_help.png"],img[src$="ico_help.gif"] {
+    display:inline-block;
+    width:0;
+    height:0;
+    padding:25px 25px 0 0;
+    background-color:transparent;
+    background-image:url(../img/ico_help.png);
+    background-image:url(../img/ico_help.svg),none;
+    background-position:0 0;
+    background-repeat:no-repeat;
+    background-size:25px;
+    vertical-align:middle
+}
+
+.contextHelper {
+    text-decoration:none;
+    font-weight:400;
+    white-space:nowrap;
+    display:inline-block;
+    vertical-align:middle;
+    height:25px;
+    width:25px;
+    margin-left:5px;
+    text-indent:-9000em;
+    white-space:nowrap;
+    background-size:25px;
+    overflow:hidden;
+    background-color:transparent;
+    background-image:url(../img/ico_help.png);
+    background-image:url(../img/ico_help.svg),none;
+    background-position:0 0;
+    background-repeat:no-repeat;
+    background-size:25px;
+    padding:0
+}
+
+.contextHelper:hover,.contextHelper:focus {
+    background-color:transparent;
+    background-image:url(Images/ico_helpHover.png);
+    background-image:url(Images/ico_helpHover.svg),none;
+    background-position:0 0;
+    background-repeat:no-repeat;
+    background-size:25px
+}
+
+.contextHelper:active {
+    background-color:transparent;
+    background-image:url(Images/ico_helpActive.png);
+    background-image:url(Images/ico_helpActive.svg),none;
+    background-position:0 0;
+    background-repeat:no-repeat;
+    background-size:25px
+}
+
+.contextHelp {
+    position:static!important;
+    padding:0;
+    outline:none;
+    -webkit-box-shadow:none;
+    -moz-box-shadow:none;
+    box-shadow:none;
+    color:#FFF;
+    font-weight:400;
+    line-height:1.5em;
+    width:300px;
+    border:2px solid #B4B4B4;
+    background-color:#666;
+    margin-top:5px;
+    margin-bottom:5px;
+    padding:10px
+}
+
+ul.plainText,ul.checked,ol.letterSteps {
+    margin:1em 0 1em 1em
+}
+
+ul.plainText li,ul.checked li,ol.letterSteps li {
+    margin:.3em 0
+}
+
+ul.plainText {
+    list-style:disc
+}
+
+ul.plainText li {
+    margin-left:1em
+}
+
+ul.checked li {
+    background-color:transparent;
+    background-image:url(Images/ico_Success.png);
+    background-image:url(Images/ico_Success.svg),none;
+    background-position:0 4px;
+    background-repeat:no-repeat;
+    background-size:18px 14px;
+    font-size:.9em;
+    padding:0 0 .5em 2em
+}
+
+ul.checked li ol li {
+    background:none;
+    padding:0
+}
+
+ol.steps li {
+    list-style:decimal;
+    margin:.5em 0 0 1.5em
+}
+
+ol.letterSteps li {
+    list-style:lower-latin;
+    margin:.5em 0 0 1em
+}
+
+ol.steps.megalogon li {
+    color:red;
+    font-weight:700
+}
+
+ol.steps.megalogon li .olContent {
+    color:#666;
+    font-weight:400
+}
+
+.address {
+    padding:1em
+}
+
+.linkList {
+    display:block;
+    border:1px solid #B4B4B4;
+    background:#FFF;
+    padding:1em 2em
+}
+
+.linkList li {
+    display:block;
+    margin:1em 0
+}
+
+.linkList a {
+    text-decoration:none
+}
+
+.linkList a:after {
+    content:" \25BA"
+}
+
+.linkList .externallink a:after {
+    content:""
+}
+
+.passcodeGuidelines {
+    list-style-type:disc;
+    margin:.5em 0 0 2em
+}
+
+.simpleList {
+    list-style-type:disc;
+    margin:.5em 0 1em 1em
+}
+
+p {
+    margin:.5em 0
+}
+
+p.explain {
+    margin-top:1.8em
+}
+
+p.intro {
+    margin:0 .5em 1em
+}
+
+p.relatedtobottomcont {
+    margin-top:2em
+}
+
+p.endExplanation {
+    border-bottom:1px solid #CBCBCB;
+    border-top:1px solid #CBCBCB;
+    margin:2em 0 1em;
+    padding:.4em .5em
+}
+
+.buttonholder {
+    margin:1em 0;
+    overflow:hidden
+}
+
+.button input,button,.button a,a.button {
+    -moz-appearance:none;
+    -webkit-appearance:none;
+    appearance:none;
+    border:1px solid #444;
+    background-color:#444;
+    color:#FFF;
+    cursor:pointer;
+    -moz-border-radius:2em;
+    -webkit-border-radius:2em;
+    border-radius:2em;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box;
+    font-size:13px;
+    text-align:center;
+    margin-right:.4em;
+    display:inline-block;
+    height:2em;
+    line-height:2em;
+    padding:0 2em;
+    vertical-align:middle
+}
+
+.button input:hover,button:hover,.button a:hover,a.button:hover {
+    color:#444;
+    background-color:#FFF;
+    border:1px solid #444
+}
+
+.button input:disabled,button:disabled,.button a:disabled,a.button:disabled {
+    border:1px solid #C2C2C2;
+    background-color:#C2C2C2;
+    color:#FFF
+}
+
+.button input:disabled:hover,button:disabled:hover,.button a:disabled:hover,a.button:disabled:hover {
+    border:1px solid #C2C2C2;
+    background-color:#C2C2C2;
+    color:#FFF
+}
+
+.button input:focus {
+    border:1px solid #FFF
+}
+
+.button a,a.button {
+    text-decoration:none
+}
+
+.buttonholder .primary {
+    float:right
+}
+
+.buttonholder .secondaryR {
+    float:right
+}
+
+.buttonholder .continue,.buttonholder .primary,a.button.primary,.newmessage .button input,.newmessage .button a,.insideButton input,.insideButton a.button,.buttonCcontext .button input {
+    border:1px solid red;
+    background-color:red;
+    color:#FFF
+}
+
+.buttonholder .continue:hover,.buttonholder .primary:hover,a.button.primary:hover,.newmessage .button input:hover,.newmessage .button a:hover,.insideButton input:hover,.insideButton a.button:hover,.buttonCcontext .button input:hover {
+    color:red;
+    background-color:#FFF;
+    border:1px solid red
+}
+
+.insideButton {
+    margin-left:1.15385em
+}
+
+.buttonholder .link {
+    cursor:pointer;
+    display:inline-block;
+    font-size:1.1em;
+    padding:0 .5em;
+    margin:0 .5em
+}
+
+.buttonholder .link a {
+    text-decoration:none
+}
+
+.buttonholder .button a {
+    margin-top:.3em;
+    margin-bottom:.3em
+}
+
+#interstitial .buttonholder,.message .buttonholder,.search .buttonholder,.lookup .buttonholder,.secondary {
+    margin:1em 0 0;
+    text-align:right
+}
+
+.termsandconditions .buttonholder {
+    margin-bottom:2em
+}
+
+.form-item label .data .button {
+    margin-left:.5em
+}
+
+.form-item label .data .button.linkButton {
+    margin:0
+}
+
+.newmessage .button input,#content .newmessage .button a {
+    font-size:.75em
+}
+
+.button.linkButton {
+    -moz-box-shadow:none;
+    -webkit-box-shadow:none;
+    box-shadow:none;
+    background:none;
+    border:0;
+    display:inline;
+    margin:0;
+    padding:0
+}
+
+.button.linkButton input,.button.linkButton input:hover {
+    display:inline;
+    height:auto;
+    background:none;
+    background-color:transparent;
+    border:0;
+    margin:0;
+    padding:0 0 .2em;
+    font-family:Arial,"Helvetica Neue",Helvetica,sans-serif;
+    font-size:1em;
+    line-height:1em;
+    font-weight:400;
+    text-decoration:underline;
+    color:#666;
+    text-align:left;
+    -moz-border-radius:0;
+    -webkit-border-radius:0;
+    border-radius:0;
+    outline:0
+}
+
+button.calendar {
+    background-color:transparent;
+    background-image:url(Images/ico_calendar.png);
+    background-image:url(Images/ico_calendar.svg),none;
+    background-position:0 0;
+    background-repeat:no-repeat;
+    background-size:25px;
+    border:0;
+    cursor:pointer;
+    height:25px;
+    margin:0 .2em;
+    padding:0;
+    width:25px;
+    -moz-border-radius:0;
+    -webkit-border-radius:0;
+    border-radius:0
+}
+
+button.calendar:hover {
+    background-color:transparent;
+    background-image:url(Images/ico_calendarHover.png);
+    background-image:url(Images/ico_calendarHover.svg),none;
+    background-position:0 0;
+    background-repeat:no-repeat;
+    background-size:25px
+}
+
+button.calendar:active {
+    background-color:transparent;
+    background-image:url(Images/ico_calendarActive.png);
+    background-image:url(Images/ico_calendarActive.svg),none;
+    background-position:0 0;
+    background-repeat:no-repeat;
+    background-size:25px
+}
+
+.calendarUI {
+    display:inline;
+    position:absolute;
+    z-index:100;
+    font-size:12px;
+    line-height:22px
+}
+
+.calendarUI .wrapper {
+    -moz-box-shadow:.4em .4em 2em #888;
+    -webkit-box-shadow:.4em .4em 2em #888;
+    box-shadow:.4em .4em 2em #888;
+    -moz-border-radius:1em;
+    -webkit-border-radius:1em;
+    border-radius:1em;
+    background-color:#FFF;
+    border:4px solid #eee;
+    position:absolute;
+    right:0;
+    top:1em;
+    width:16em
+}
+
+.calendarUI .bleach {
+    display:none
+}
+
+.calendarUI .controls {
+    border-bottom:1px solid #000;
+    text-align:right
+}
+
+.calendarUI .controls button {
+    background-color:transparent;
+    color:#000;
+    border:0;
+    cursor:pointer;
+    font-size:1.3em;
+    padding:0;
+    margin:0;
+    margin-right:.3em
+}
+
+.calendarUI .combos,.calendarUI .monthScroll {
+    margin:.5em 0
+}
+
+.calendarUI table {
+    width:100%
+}
+
+.calendarUI .monthScroll {
+    position:relative;
+    margin:.3em 0;
+    line-height:30px
+}
+
+.calendarUI .monthScroll span {
+    display:block;
+    text-align:center
+}
+
+.calendarUI .previousMonthButton,.calendarUI .nextMonthButton {
+    border:0;
+    padding:0;
+    margin:0;
+    color:transparent;
+    cursor:pointer;
+    width:25px;
+    line-height:30px;
+    top:0;
+    -moz-border-radius:0;
+    -webkit-border-radius:0;
+    border-radius:0;
+    position:absolute;
+    text-indent:100%
+}
+
+.calendarUI .previousMonthButton {
+    background-color:transparent;
+    background-image:url(Images/pagination_prev.png);
+    background-image:url(Images/pagination_prev.svg),none;
+    background-position:0 0;
+    background-repeat:no-repeat;
+    background-size:25px 25px;
+    left:.5em
+}
+
+.calendarUI .nextMonthButton {
+    background-color:transparent;
+    background-image:url(Images/pagination_next.png);
+    background-image:url(Images/pagination_next.svg),none;
+    background-position:0 0;
+    background-repeat:no-repeat;
+    background-size:25px 25px;
+    right:.5em
+}
+
+.calendarUI .combos {
+    background-color:#eee;
+    border-bottom:1px solid #666;
+    border-top:1px solid #666;
+    padding:.5em 0;
+    text-align:center
+}
+
+.calendarUI table {
+    margin:.5em auto
+}
+
+.calendarUI .sunday {
+    background-color:#666;
+    color:#FFF
+}
+
+.calendarUI td,.calendarUI th {
+    padding:0;
+    text-align:center;
+    width:1.7em
+}
+
+.calendarUI th {
+    font-weight:400
+}
+
+.calendarUI td {
+    background:none;
+    background-color:#eee;
+    color:#000;
+    cursor:pointer;
+    text-decoration:underline
+}
+
+.calendarUI td.selected,.calendarUI td:hover {
+    background-color:#FFF;
+    text-decoration:none
+}
+
+.calendarUI td.sunday.selected,.calendarUI td.sunday:hover {
+    color:#666;
+    text-decoration:none
+}
+
+.calendarUI .outOfRange {
+    color:#aaa;
+    text-decoration:none
+}
+
+.calendarUI td.outOfRange:hover {
+    background-color:#eee;
+    cursor:default;
+    font-weight:400
+}
+
+.calendarUI td.outOfRange.sunday:hover {
+    background-color:#ccc
+}
+
+.imageMessage {
+    border:1px solid #B4B4B4;
+    background-color:#FFF;
+    margin:1em 0;
+    width:auto;
+    overflow:visible
+}
+
+.imageMessage .link {
+    float:right;
+    margin:1em
+}
+
+.imageMessage .link2 {
+    float:right;
+    margin:.4em .5em
+}
+
+.imageMessage .link2 a {
+    color:red;
+    font-size:11px
+}
+
+.imageMessage img {
+    float:left;
+    padding:.5em
+}
+
+.message123 {
+    min-height:74px;
+    line-height:18px
+}
+
+.message123 img {
+    margin-right:.5em
+}
+
+div.message {
+    border:1px solid #B4B4B4;
+    padding:1.3em 0 1.3em 1.5em;
+    margin:1.3em 0
+}
+
+div.message div,div.message p {
+    margin:1em 0
+}
+
+div.message ul,div.message ol {
+    list-style-position:outside;
+    margin-left:2em
+}
+
+div.message ol {
+    list-style-type:decimal
+}
+
+div.message ul {
+    list-style-type:disc
+}
+
+div.message.success,div.message.error,div.message.info,div.message.alert {
+    padding:0 2em 0 3.9em
+}
+
+div.message.success p {
+    font-weight:700
+}
+
+div.message.success {
+    background-color:#FFF;
+    background-image:url(Images/ico_confirm.png);
+    background-image:url(Images/ico_confirm.svg),none;
+    background-position:1.5em 1em;
+    background-repeat:no-repeat;
+    background-size:20px 20px
+}
+
+div.message.error {
+    background-color:#FFF;
+    background-image:url(Images/ico_error.png);
+    background-image:url(Images/ico_error.svg),none;
+    background-position:1.5em 1em;
+    background-repeat:no-repeat;
+    background-size:20px 20px
+}
+
+div.message.info {
+    background-color:#FFF;
+    background-image:url(Images/ico_information.png);
+    background-image:url(Images/ico_information.svg),none;
+    background-position:1.5em 1em;
+    background-repeat:no-repeat;
+    background-size:20px 20px
+}
+
+div.message.alert {
+    background-color:#FFF;
+    background-image:url(Images/ico_alert.png);
+    background-image:url(Images/ico_alert.svg),none;
+    background-position:1.5em 1em;
+    background-repeat:no-repeat;
+    background-size:20px 20px
+}
+
+div.message.importantnotice {
+    background:#FFF;
+    padding:1.3em 1.5em
+}
+
+div.message.importantnotice h3 {
+    background-image:none;
+    font-size:1.4em;
+    margin:0 0 .6em;
+    padding:0 0 .1em
+}
+
+div.message.importantnotice p {
+    margin:0 0 .6em;
+    padding:0 0 .3em
+}
+
+div.message.importantnotice p.description,div.message.importantnotice p label {
+    font-weight:400
+}
+
+div.message.importantnotice #visalogo {
+    margin:0;
+    text-align:right
+}
+
+div.announcement {
+    background-color:#ddd;
+    margin:1.3em 0;
+    padding:.85em 1em
+}
+
+.myaccounts .announcement {
+    background-color:#FFF;
+    border:1px solid #B4B4B4
+}
+
+div.announcement p {
+    margin:0
+}
+
+#newmessages {
+    display:none;
+    margin:0 2.7em
+}
+
+#content .newmessage {
+    background:#FFF url(Images/messagewindow_alert.TEMP.png) no-repeat 1px 1px;
+    border:8px solid #aaa;
+    margin:2.7em 0;
+    width:577px
+}
+
+#content .newmessage .content {
+    min-height:12em
+}
+
+#content .newmessage .content h1.subject {
+    font-size:16px;
+    font-size:1rem;
+    font-weight:700;
+    margin:1.5em .5em .5em 90px
+}
+
+#content .newmessage .content .title {
+    color:red;
+    font-size:2.3em;
+    margin:1.5em 1.5em 1em 90px
+}
+
+#content .newmessage .content p {
+    font-size:1.1em;
+    margin:1em 1em 1em 90px
+}
+
+#content .newmessage .buttonholder {
+    text-align:center;
+    background-color:#FFF;
+    font-size:1.2em;
+    margin:3.5em 0 0;
+    padding:1em 0
+}
+
+#content .newmessage .buttonholder p {
+    margin:0
+}
+
+#content .auxinfo {
+    margin:1em 0
+}
+
+#content .auxinfo p,#content .auxinfo ul {
+    margin:0
+}
+
+#content .auxinfo ul li {
+    display:inline-block;
+    border:none
+}
+
+#content .auxinfo ul li:first-child {
+    padding-right:.5em;
+    margin-right:.5em
+}
+
+#content .auxinfo img {
+    max-width:100%
+}
+
+#content .quote {
+    font-size:.8em;
+    vertical-align:top
+}
+
+p.auxlinks {
+    float:right;
+    margin:0;
+    text-align:right;
+    margin-bottom:-2em;
+    margin-top:14px
+}
+
+p.auxlinks input.download,p.auxlinks a.download {
+    background-color:transparent;
+    background-image:url(Images/ico_download.png);
+    background-image:url(Images/ico_download.svg),none;
+    background-position:0 0;
+    background-repeat:no-repeat;
+    background-size:25px;
+    display:inline-block;
+    line-height:25px;
+    padding:0 0 0 27px;
+    font-size:13px;
+    text-decoration:underline
+}
+
+p.auxlinks input.download:hover,p.auxlinks a.download:hover {
+    background-color:transparent;
+    background-image:url(Images/ico_downloadHover.png);
+    background-image:url(Images/ico_downloadHover.svg),none;
+    background-position:0 0;
+    background-repeat:no-repeat;
+    background-size:25px
+}
+
+p.auxlinks input.download:active,p.auxlinks a.download:active {
+    background-color:transparent;
+    background-image:url(Images/ico_downloadActive.png);
+    background-image:url(Images/ico_downloadActive.svg),none;
+    background-position:0 0;
+    background-repeat:no-repeat;
+    background-size:25px
+}
+
+div.pagination {
+    margin:1em 0;
+    font-weight:700
+}
+
+div.pagination ul ul {
+    float:right
+}
+
+div.pagination ul ul li {
+    display:inline
+}
+
+div.pagination li a,div.pagination li .button input {
+    background-color:transparent;
+    border:0;
+    padding:10px 1.2em 10px 35px;
+    text-decoration:underline
+}
+
+div.pagination li.first a,div.pagination li.first .button input {
+    background-color:transparent;
+    background-image:url(Images/pagination_first.png);
+    background-image:url(Images/pagination_first.svg),none;
+    background-position:left center;
+    background-repeat:no-repeat;
+    background-size:25px
+}
+
+div.pagination li.first a:hover,div.pagination li.first .button input:hover {
+    background-color:transparent;
+    background-image:url(Images/pagination_firstHover.png);
+    background-image:url(Images/pagination_firstHover.svg),none;
+    background-position:left center;
+    background-repeat:no-repeat;
+    background-size:25px
+}
+
+div.pagination li.first a:active,div.pagination li.first .button input:active {
+    background-color:transparent;
+    background-image:url(Images/pagination_firstActive.png);
+    background-image:url(Images/pagination_firstActive.svg),none;
+    background-position:left center;
+    background-repeat:no-repeat;
+    background-size:25px
+}
+
+div.pagination li.previous a,div.pagination li.previous .button input {
+    background-color:transparent;
+    background-image:url(Images/pagination_prev.png);
+    background-image:url(Images/pagination_prev.svg),none;
+    background-position:left center;
+    background-repeat:no-repeat;
+    background-size:25px
+}
+
+div.pagination li.previous a:hover,div.pagination li.previous .button input:hover {
+    background-color:transparent;
+    background-image:url(Images/pagination_prevHover.png);
+    background-image:url(Images/pagination_prevHover.svg),none;
+    background-position:left center;
+    background-repeat:no-repeat;
+    background-size:25px
+}
+
+div.pagination li.previous a:active,div.pagination li.previous .button input:active {
+    background-color:transparent;
+    background-image:url(Images/pagination_prevActive.png);
+    background-image:url(Images/pagination_prevActive.svg),none;
+    background-position:left center;
+    background-repeat:no-repeat;
+    background-size:25px
+}
+
+div.pagination li.next a,div.pagination li.next .button input {
+    background-color:transparent;
+    background-image:url(Images/pagination_next.png);
+    background-image:url(Images/pagination_next.svg),none;
+    background-position:right center;
+    background-repeat:no-repeat;
+    background-size:25px;
+    padding:10px 35px 10px 1.2em
+}
+
+div.pagination li.next a:hover,div.pagination li.next .button input:hover {
+    background-color:transparent;
+    background-image:url(Images/pagination_nextHover.png);
+    background-image:url(Images/pagination_nextHover.svg),none;
+    background-position:right center;
+    background-repeat:no-repeat;
+    background-size:25px
+}
+
+div.pagination li.next a:active,div.pagination li.next .button input:active {
+    background-color:transparent;
+    background-image:url(Images/pagination_nextActive.png);
+    background-image:url(Images/pagination_nextActive.svg),none;
+    background-position:right center;
+    background-repeat:no-repeat;
+    background-size:25px
+}
+
+div.pagination li.last a,div.pagination li.last .button input {
+    background-color:transparent;
+    background-image:url(Images/pagination_last.png);
+    background-image:url(Images/pagination_last.svg),none;
+    background-position:right center;
+    background-repeat:no-repeat;
+    background-size:25px;
+    padding:10px 35px 10px 1.2em
+}
+
+div.pagination li.last a:hover,div.pagination li.last .button input:hover {
+    background-color:transparent;
+    background-image:url(Images/pagination_lastHover.png);
+    background-image:url(Images/pagination_lastHover.svg),none;
+    background-position:right center;
+    background-repeat:no-repeat;
+    background-size:25px
+}
+
+div.pagination li.last a:active,div.pagination li.last .button input:active {
+    background-color:transparent;
+    background-image:url(Images/pagination_lastActive.png);
+    background-image:url(Images/pagination_lastActive.svg),none;
+    background-position:right center;
+    background-repeat:no-repeat;
+    background-size:25px
+}
+
+div.pagination li .button {
+    -moz-border-radius:0;
+    -webkit-border-radius:0;
+    border-radius:0;
+    -moz-box-shadow:none;
+    -webkit-box-shadow:none;
+    box-shadow:none;
+    border:0;
+    margin:0
+}
+
+div.guide {
+    margin:1em 0;
+    font-weight:700;
+    line-height:44px;
+    height:44px
+}
+
+div.guide ol {
+    display:block;
+    font-size:0
+}
+
+div.guide li {
+    display:inline-block;
+    margin:0;
+    padding:0;
+    position:relative;
+    font-size:14px
+}
+
+div.guide li:after {
+    content:"";
+    display:inline-block;
+    width:25px;
+    height:46px;
+    background-color:transparent;
+    background-image:url(Images/breadcrumb_grey.png);
+    background-image:url(Images/breadcrumb_grey.svg),none;
+    background-position:right top;
+    background-repeat:no-repeat;
+    background-size:initial;
+    position:absolute;
+    top:0;
+    right:-21px;
+    z-index:50
+}
+
+div.guide li>span {
+    display:block;
+    background:#FFF;
+    text-align:center;
+    border:1px solid #cacaca;
+    border-right:0;
+    border-left:0;
+    padding:0 .99em;
+    text-indent:20px;
+    -moz-border-radius:0;
+    -webkit-border-radius:0;
+    border-radius:0
+}
+
+div.guide li:first-child>span {
+    text-indent:0;
+    border-left:1px solid #cacaca;
+    -moz-border-radius:30px 0 0 30px;
+    -webkit-border-radius:30px 0 0 30px;
+    border-radius:30px 0 0 30px
+}
+
+div.guide li:last-child:after,div.guide li.last:after {
+    display:none
+}
+
+div.guide li:last-child>span,div.guide li.last>span {
+    border-right:1px solid #cacaca;
+    -moz-border-radius:0 30px 30px 0;
+    -webkit-border-radius:0 30px 30px 0;
+    border-radius:0 30px 30px 0
+}
+
+div.guide li.selected:after {
+    background-color:transparent;
+    background-image:url(Images/breadcrumb_red.png);
+    background-image:url(Images/breadcrumb_red.svg),none;
+    background-position:right top;
+    background-repeat:no-repeat;
+    background-size:initial
+}
+
+div.guide li.selected>span {
+    color:red;
+    border-color:red
+}
+
+div.guide li.selected:last-child span,div.guide li.selected.last span {
+    color:#0DB020;
+    border-color:#0DB020
+}
+
+div.guide p {
+    display:none
+}
+
+#auxcontentBar {
+    float:right;
+    width:180px
+}
+
+.toolboxes {
+    background:#FFF;
+    font-size:11px;
+    line-height:15px;
+    margin:1em 0 0;
+    padding:0 1em;
+    border-top:1px solid #FFF
+}
+
+.toolbox {
+    margin:1em 0;
+    border-bottom:1px solid #D6D6D6
+}
+
+.toolbox:last-child {
+    border-bottom:1px solid #FFF
+}
+
+.toolbox .toolboxhead {
+    margin-bottom:1em
+}
+
+.toolbox .toolboxhead h3 {
+    font-size:13px
+}
+
+.toolbox .toolboxhead p {
+    margin:0
+}
+
+.toolbox .toolboxhead a,.toolbox .toolboxhead a:hover {
+    text-decoration:underline
+}
+
+.toolbox .toolboxbody {
+    margin:1em 0
+}
+
+.toolbox ul li {
+    padding-left:30px;
+    line-height:30px
+}
+
+.toolbox select,.toolbox button,.toolbox .button,.toolbox .button input {
+    width:100%
+}
+
+.toolbox button,.toolbox .button {
+    margin:.5em 0;
+    padding:0
+}
+
+.toolbox input.currencyInteger {
+    width:6em
+}
+
+#fasttransfer .toolboxhead {
+    background-color:transparent;
+    background-image:url(Images/cubeQuickTransfer.png);
+    background-image:url(Images/cubeQuickTransfer.svg),none;
+    background-position:left top;
+    background-repeat:no-repeat;
+    background-size:initial
+}
+
+#myoffers .toolboxhead {
+    background-color:transparent;
+    background-image:url(Images/cubeOffers.png);
+    background-image:url(Images/cubeOffers.svg),none;
+    background-position:left top;
+    background-repeat:no-repeat;
+    background-size:initial
+}
+
+#myoffers .toolboxhead.alt_star {
+    background-color:transparent;
+    background-image:url(Images/cubeOffersR.png);
+    background-image:url(Images/cubeOffersR.svg),none;
+    background-position:left top;
+    background-repeat:no-repeat;
+    background-size:initial
+}
+
+#alertsToolbox .toolboxhead {
+    background-color:transparent;
+    background-image:url(Images/cubeAlerts.png);
+    background-image:url(Images/cubeAlerts.svg),none;
+    background-position:left top;
+    background-repeat:no-repeat;
+    background-size:initial
+}
+
+#fasttransfer .toolboxhead,#myoffers .toolboxhead,#myoffers .toolboxhead.alt_star,#alertsToolbox .toolboxhead {
+    background-size:45px;
+    padding-left:50px;
+    min-height:45px
+}
+
+.toolbox li.viewmessages {
+    background-color:transparent;
+    background-image:url(Images/contact_email.png);
+    background-image:url(Images/contact_email.svg),none;
+    background-position:left center;
+    background-repeat:no-repeat;
+    background-size:20px auto
+}
+
+.toolbox li.sendsecure {
+    background-color:transparent;
+    background-image:url(Images/contact_send_email.png);
+    background-image:url(Images/contact_send_email.svg),none;
+    background-position:left center;
+    background-repeat:no-repeat;
+    background-size:20px auto
+}
+
+.toolbox li.callus {
+    background-color:transparent;
+    background-image:url(Images/contact_phone.png);
+    background-image:url(Images/contact_phone.svg),none;
+    background-position:left center;
+    background-repeat:no-repeat;
+    background-size:20px auto
+}
+
+.toolbox li.visit {
+    background-color:transparent;
+    background-image:url(Images/contact_branch.png);
+    background-image:url(Images/contact_branch.svg),none;
+    background-position:left center;
+    background-repeat:no-repeat;
+    background-size:17px auto
+}
+
+.toolbox li.currentaccounts {
+    background-color:transparent;
+    background-image:url(Images/ao_account.png);
+    background-image:url(Images/ao_account.svg),none;
+    background-position:0 0;
+    background-repeat:no-repeat;
+    background-size:25px 25px
+}
+
+.toolbox li.creditcards {
+    background-color:transparent;
+    background-image:url(Images/ao_credit.png);
+    background-image:url(Images/ao_credit.svg),none;
+    background-position:0 0;
+    background-repeat:no-repeat;
+    background-size:25px 25px
+}
+
+.toolbox li.savings {
+    background-color:transparent;
+    background-image:url(Images/ao_savings.png);
+    background-image:url(Images/ao_savings.svg),none;
+    background-position:0 0;
+    background-repeat:no-repeat;
+    background-size:25px 25px
+}
+
+.toolbox li.loans {
+    background-color:transparent;
+    background-image:url(Images/ao_loans.png);
+    background-image:url(Images/ao_loans.svg),none;
+    background-position:0 0;
+    background-repeat:no-repeat;
+    background-size:25px 25px
+}
+
+.toolbox li.mortgages {
+    background-color:transparent;
+    background-image:url(Images/ao_mortgages.png);
+    background-image:url(Images/ao_mortgages.svg),none;
+    background-position:0 0;
+    background-repeat:no-repeat;
+    background-size:25px 25px
+}
+
+.toolbox li.insurance {
+    background-color:transparent;
+    background-image:url(Images/ao_insurance.png);
+    background-image:url(Images/ao_insurance.svg),none;
+    background-position:0 0;
+    background-repeat:no-repeat;
+    background-size:25px 25px
+}
+
+.toolbox li.ordertravelmoney {
+    background-color:transparent;
+    background-image:url(Images/ao_travel.png);
+    background-image:url(Images/ao_travel.svg),none;
+    background-position:0 0;
+    background-repeat:no-repeat;
+    background-size:25px 25px
+}
+
+.toolbox.sbbi li {
+    padding-left:21px;
+    background-color:transparent;
+    background-image:url(Images/bullet_rounded.png);
+    background-image:url(Images/bullet_rounded.svg),none;
+    background-position:8px center;
+    background-repeat:no-repeat;
+    background-size:7px 7px
+}
+
+.sidebarmsg {
+    margin:1em;
+    border:1px solid #eee
+}
+
+.sidebarmsg h3 {
+    padding:.5em;
+    text-transform:uppercase;
+    border-bottom:1px solid #eee;
+    background-color:#ddd
+}
+
+.sidebarmsg h3 a {
+    text-decoration:none;
+    color:red
+}
+
+.sidebarmsg p {
+    padding:.5em
+}
+
+.sidebarmsg.alerts h3 {
+    background:#eee url(Images/dummy25x25.png) no-repeat right 3px center
+}
+
+.sidebarmsg.paperless h3 {
+    background:#eee url(Images/dummy25x25.png) no-repeat right 3px center
+}
+
+.sidebarmsg.contactus h3 {
+    background:#eee url(Images/dummy25x25.png) no-repeat right 3px center
+}
+
+#pagetools {
+    float:right
+}
+
+#pagetools ul {
+    display:block
+}
+
+#pagetools li {
+    display:inline;
+    margin-left:1em
+}
+
+#pagetools a {
+    display:inline-block;
+    line-height:25px;
+    padding:0 0 0 30px
+}
+
+#pagetools .iconprint,#pagetools .iconhelp,#pagetools .iconcontact,#pagetools .icondownload {
+    float:right
+}
+
+#pagetools .iconprint a {
+    background-color:transparent;
+    background-image:url(Images/ico_print.png);
+    background-image:url(Images/ico_print.svg),none;
+    background-position:0 0;
+    background-repeat:no-repeat;
+    background-size:25px
+}
+
+#pagetools .iconprint a:hover {
+    background-color:transparent;
+    background-image:url(Images/ico_printHover.png);
+    background-image:url(Images/ico_printHover.svg),none;
+    background-position:0 0;
+    background-repeat:no-repeat;
+    background-size:25px
+}
+
+#pagetools .iconprint a:active {
+    background-color:transparent;
+    background-image:url(Images/ico_printActive.png);
+    background-image:url(Images/ico_printActive.svg),none;
+    background-position:0 0;
+    background-repeat:no-repeat;
+    background-size:25px
+}
+
+#pagetools .iconhelp a {
+    background-color:transparent;
+    background-image:url(../img/ico_help.png);
+    background-image:url(../img/ico_help.svg),none;
+    background-position:0 0;
+    background-repeat:no-repeat;
+    background-size:25px;
+    padding-right:0
+}
+
+#pagetools .iconhelp a:hover {
+    background-color:transparent;
+    background-image:url(Images/ico_helpHover.png);
+    background-image:url(Images/ico_helpHover.svg),none;
+    background-position:0 0;
+    background-repeat:no-repeat;
+    background-size:25px
+}
+
+#pagetools .iconhelp a:active {
+    background-color:transparent;
+    background-image:url(Images/ico_helpActive.png);
+    background-image:url(Images/ico_helpActive.svg),none;
+    background-position:0 0;
+    background-repeat:no-repeat;
+    background-size:25px
+}
+
+#pagetools .iconcontact a {
+    background-color:transparent;
+    background-image:url(Images/ico_contact.png);
+    background-image:url(Images/ico_contact.svg),none;
+    background-position:0 0;
+    background-repeat:no-repeat;
+    background-size:25px;
+    padding-right:0
+}
+
+#pagetools .iconcontact a:hover {
+    background-color:transparent;
+    background-image:url(Images/ico_contactHover.png);
+    background-image:url(Images/ico_contactHover.svg),none;
+    background-position:0 0;
+    background-repeat:no-repeat;
+    background-size:25px
+}
+
+#pagetools .iconcontact a:active {
+    background-color:transparent;
+    background-image:url(Images/ico_contactActive.png);
+    background-image:url(Images/ico_contactActive.svg),none;
+    background-position:0 0;
+    background-repeat:no-repeat;
+    background-size:25px
+}
+
+#pagetools .icondownload a {
+    background-color:transparent;
+    background-image:url(Images/ico_download.png);
+    background-image:url(Images/ico_download.svg),none;
+    background-position:0 0;
+    background-repeat:no-repeat;
+    background-size:25px;
+    padding-right:0
+}
+
+#pagetools .icondownload a:hover {
+    background-color:transparent;
+    background-image:url(Images/ico_downloadHover.png);
+    background-image:url(Images/ico_downloadHover.svg),none;
+    background-position:0 0;
+    background-repeat:no-repeat;
+    background-size:25px
+}
+
+#pagetools .icondownload a:active {
+    background-color:transparent;
+    background-image:url(Images/ico_downloadActive.png);
+    background-image:url(Images/ico_downloadActive.svg),none;
+    background-position:0 0;
+    background-repeat:no-repeat;
+    background-size:25px
+}
+
+.pendingMessages {
+    text-align:right
+}
+
+.pendingMessages a {
+    display:inline-block;
+    line-height:25px;
+    padding:0 0 0 30px
+}
+
+.pendingMessages.unread a {
+    background-color:transparent;
+    background-image:url(Images/ico_messagenew.png);
+    background-image:url(Images/ico_messagenew.svg),none;
+    background-position:left center;
+    background-repeat:no-repeat;
+    background-size:25px
+}
+
+.pendingMessages.unread a:hover {
+    background-color:transparent;
+    background-image:url(Images/ico_messagenewHover.png);
+    background-image:url(Images/ico_messagenewHover.svg),none;
+    background-position:0 0;
+    background-repeat:no-repeat;
+    background-size:25px
+}
+
+.pendingMessages.unread a:active {
+    background-color:transparent;
+    background-image:url(Images/ico_messagenewActive.png);
+    background-image:url(Images/ico_messagenewActive.svg),none;
+    background-position:0 0;
+    background-repeat:no-repeat;
+    background-size:25px
+}
+
+.pendingMessages.read a {
+    background-color:transparent;
+    background-image:url(Images/ico_messageread.png);
+    background-image:url(Images/ico_messageread.svg),none;
+    background-position:left center;
+    background-repeat:no-repeat;
+    background-size:25px
+}
+
+.pendingMessages.read a:hover {
+    background-color:transparent;
+    background-image:url(Images/ico_messagereadHover.png);
+    background-image:url(Images/ico_messagereadHover.svg),none;
+    background-position:0 0;
+    background-repeat:no-repeat;
+    background-size:25px
+}
+
+.pendingMessages.read a:active {
+    background-color:transparent;
+    background-image:url(Images/ico_messagereadActive.png);
+    background-image:url(Images/ico_messagereadActive.svg),none;
+    background-position:0 0;
+    background-repeat:no-repeat;
+    background-size:25px
+}
+
+#importantNotes,.importantNotes {
+    margin:.9em 0;
+    background-color:#FFF;
+    border:2px solid red;
+    padding:1em .5em
+}
+
+#importantNotes .title,.importantNotes .title {
+    color:red;
+    font-size:1.2em;
+    margin-bottom:.5em
+}
+
+#importantNotes .subtitle,.importantNotes .subtitle {
+    color:#000;
+    font-size:1.1em;
+    margin:1em 0 .5em
+}
+
+#importantNotes p,.importantNotes p {
+    margin:.3em 0
+}
+
+#importantNotes .emphasis,.importantNotes .emphasis {
+    color:#000;
+    font-weight:700
+}
+
+#importantNotes .title,#importantNotes .subtitle,.importantNotes .title,.importantNotes .subtitle {
+    font-weight:700
+}
+
+#importantNotes ul li,.importantNotes ul li {
+    list-style-position:inside!important;
+    list-style:disc;
+    padding:0 0 0 10px
+}
+
+#importantNotes .section,.importantNotes .section {
+    margin-bottom:1.5em
+}
+
+.importantNotes .link {
+    font-weight:700;
+    float:right;
+    margin:1em
+}
+
+.importantNotes.withTwoColumns {
+    width:45%
+}
+
+div.otp {
+    background-color:#F9F9F9;
+    border:1px solid #B4B4B4;
+    margin:1.8em 0;
+    padding:0
+}
+
+div.otp .form,div.otp .form-item {
+    border:0;
+    margin:0
+}
+
+div.otp .form-item {
+    text-align:center;
+    background-color:#FFF
+}
+
+div.otp .form-item label strong {
+    font-size:1.05em;
+    padding-right:.6em
+}
+
+div.otp h2,div.otp h3 {
+    padding:0;
+    text-align:center
+}
+
+div.otp h2 {
+    margin:0 0 .3em
+}
+
+div.otp h3 {
+    margin:0 .84em
+}
+
+div.securityItems {
+    background-color:#FFF;
+    border:1px solid #B4B4B4;
+    padding:1em
+}
+
+div.securityItems .securityItem {
+    margin:0 auto;
+    width:45%;
+    text-align:center
+}
+
+div.securityItems .securityItem span {
+    font-size:1.1em;
+    font-weight:400;
+    padding:0 1em;
+    color:#000;
+    display:block;
+    overflow:hidden;
+    padding:0;
+    height:60px;
+    word-wrap:break-word
+}
+
+div.securityItems .securityItem a {
+    font-size:1.1em;
+    font-weight:400;
+    padding:0 1em
+}
+
+.securityItems .securityItem {
+    margin:0 auto;
+    width:45%;
+    text-align:center
+}
+
+#content .show .securityItem {
+    display:block;
+    font-weight:700;
+    font-size:1em
+}
+
+#content .show .securityItem span {
+    height:auto;
+    color:#000;
+    display:inline-block
+}
+
+#content .show .securityItem a {
+    padding:0
+}
+
+div.otpinformation,div.tokeninformation {
+    background-color:#F9F9F9;
+    border:1px solid #B4B4B4;
+    margin:2em 0 1em;
+    padding:1.5em
+}
+
+div.otpinformation h3,div.tokeninformation h3,div.otpinformation h4 {
+    font-size:1.3em;
+    margin:.2em 0 .5em;
+    padding:0 0 0 2em
+}
+
+div.tokeninformation h3 {
+    background-image:none
+}
+
+div.otpinformation ul {
+    margin-left:3em
+}
+
+div.otpinformation ul li {
+    margin:.2em 0
+}
+
+div.otpinformation ul li a {
+    background:transparent url(Images/externallink2.png) no-repeat right center;
+    font-weight:700;
+    padding:0 1.5em 0 0
+}
+
+div.otpinformation ul li.chargeinfo a {
+    font-size:.8em;
+    font-weight:400
+}
+
+div.tokeninformation div {
+    padding:0 2.6em
+}
+
+div.tokeninformation div a {
+    font-size:1.1em;
+    font-weight:700
+}
+
+div.tokenSteps {
+    background:#ffc url(Images/DP270_Xpress_150.jpg) no-repeat 43em 3em
+}
+
+div.sbbi.tokenSteps {
+    background:#ffc url(../SpecialImagesSBBI/token_device.jpg) no-repeat 43em 3em
+}
+
+div.tokenSteps ul {
+    margin:.5em 10em 1em 2.15em
+}
+
+div.tokenSteps ul img {
+    vertical-align:text-bottom
+}
+
+.arrowKeyImage {
+    background:transparent url(Images/mobileLeftArrowKey.gif) scroll no-repeat 0 0;
+    padding:3px 6px
+}
+
+.lockKeyImage {
+    background:transparent url(Images/mobileLockKey.gif) scroll no-repeat 0 0;
+    padding:3px 8px
+}
+
+.positionKey {
+    display:table
+}
+
+.positionKey .positions,.positionKey .inputs {
+    display:table-row
+}
+
+.positionKey .positions label,.positionKey .inputs span {
+    display:table-cell;
+    padding:0 .3em
+}
+
+.positionKey .positions label,.positionKey .inputs input {
+    text-align:center
+}
+
+.positionKey input {
+    width:2em
+}
+
+.positionKey .positions {
+    font-weight:700;
+    line-height:1.2em
+}
+
+.positionKey .positions sup {
+    font-size:.7em;
+    font-weight:400;
+    vertical-align:super
+}
+
+div.selectaccount,div.statementEnquiry {
+    background-color:#FFF;
+    padding:.5em 1em;
+    border:1px solid #B4B4B4
+}
+
+div.selectaccount label,div.statementEnquiry label {
+    display:inline-block;
+    min-width:20%
+}
+
+div.selectaccount label.block,div.statementEnquiry label.block {
+    display:block;
+    font-weight:700
+}
+
+div.selectaccount select,div.statementEnquiry select {
+    max-width:65%
+}
+
+div.selectaccount p,div.statementEnquiry p {
+    margin:0
+}
+
+div.maximized div.selectaccount select,.maximized .statementEnquiry select {
+    max-width:68%
+}
+
+.accountinfo {
+    background-color:#FFF;
+    padding:0 1em .5em;
+    margin-top:-1px;
+    margin-bottom:1em;
+    border-bottom:1px solid #B4B4B4;
+    border-left:1px solid #B4B4B4;
+    border-right:1px solid #B4B4B4
+}
+
+.accountinfo ul:first-child {
+    border-top:1px solid #B4B4B4;
+    padding:.3em 0 0
+}
+
+.accountinfo ul li {
+    display:inline;
+    font-weight:700;
+    padding-right:29px
+}
+
+.accountinfo ul li.accountSep {
+    padding-right:66px
+}
+
+.accountinfo ul li.accountSepShort {
+    padding-right:47px
+}
+
+.accountinfo ul li strong {
+    font-weight:400;
+    margin-right:1.2em
+}
+
+.accountinfo .disclaimer {
+    color:#666;
+    font-style:italic
+}
+
+.accountinfo ul.special {
+    font-style:italic;
+    margin:.5em 0 0
+}
+
+.accountinfo ul.special span.equal,.accountinfo ul.special span.plus {
+    font-size:1.3em;
+    font-weight:700
+}
+
+.accountinfo ul.special span.equal {
+    margin-left:1.2em
+}
+
+.accountinfo ul.special ul {
+    display:inline;
+    text-align:center
+}
+
+.accountinfo ul.special ul li {
+    padding:0 15px
+}
+
+.accountinfo ul.special ul li div {
+    display:inline-block;
+    vertical-align:middle
+}
+
+.accountinfo ul.special ul li div span {
+    display:block;
+    line-height:120%
+}
+
+.accountinfo ul.special ul li div span.labelAccount {
+    font-weight:400
+}
+
+.accountinfo ul.special ul li .contextHelp {
+    text-align:left;
+    font-style:normal
+}
+
+div.ccontext {
+    margin:10px 0;
+    background-color:#FFF;
+    border:1px solid #B4B4B4
+}
+
+div.ccontext>div {
+    vertical-align:middle
+}
+
+div.ccontext .box {
+    padding:1em;
+    position:relative
+}
+
+div.ccontext .selector {
+    width:100%
+}
+
+div.ccontext .selector .box {
+    padding-bottom:.5em
+}
+
+div.ccontext p {
+    margin:0
+}
+
+div.ccontext .details {
+    width:100%;
+    padding:0 1em .5em
+}
+
+div.ccontext .details .box {
+    border-top:1px solid #B4B4B4;
+    padding:.5em 0 0
+}
+
+div.ccontext .details ul {
+    width:100%
+}
+
+div.ccontext .details ul li {
+    display:inline-block;
+    padding-right:30px;
+    min-width:30%
+}
+
+div.ccontext .details ul li span {
+    font-weight:700
+}
+
+div.ccontext .details ul li.last {
+    padding-right:0
+}
+
+div.ccontext .details ul .help img {
+    background-size:18px;
+    background-position:50% 25%
+}
+
+div.ccontext .buttonCcontext {
+    position:absolute;
+    top:20px;
+    left:608px
+}
+
+div.transactions .form {
+    margin:0
+}
+
+div.transactions span {
+    display:inline;
+    margin-right:15px
+}
+
+div.transactions p {
+    margin:0 0 1em
+}
+
+.statementEnquiry .button input {
+    vertical-align:baseline
+}
+
+#content div.sheet {
+    font-size:1.1em;
+    padding:2em 1.2em;
+    background-color:#FFF;
+    margin:1em 0
+}
+
+#content div.sheet h2 {
+    background:none;
+    color:#666;
+    font-size:1.5em;
+    margin:.5em 0;
+    padding:.5em 0 0;
+    border:0
+}
+
+#content div.sheet h3,#content div.sheet .listLabel span {
+    background:none;
+    font-size:1.3em;
+    font-weight:700;
+    margin:.5em 0 1em;
+    padding:.5em 0 0
+}
+
+#content div.sheet div.odd {
+    float:right;
+    margin:.5em 0 .5em 1em;
+    padding:0 0 25px
+}
+
+#content div.sheet div.even {
+    float:left;
+    margin:.5em 1em .5em 0;
+    padding:0 0 25px
+}
+
+#content div.sheet div.odd div,#content div.sheet div.even div {
+    border:1px solid #F1EFF0;
+    padding:3px
+}
+
+#content div.sheet .listLabel span,#content div.sheet .listLabel img {
+    background-color:#FFF;
+    padding:0 .5em
+}
+
+#content div.sheet .listLabel img,#content div.sheet .imageIcon {
+    vertical-align:middle
+}
+
+#content div.sheet .list {
+    float:left
+}
+
+#content div.sheet ul {
+    list-style-type:square;
+    margin:1em 1.5em
+}
+
+#content div.sheet li {
+    font-size:1.2em;
+    margin:1em 0
+}
+
+#content div.simplesheet,#content div.multiplesheet,div.multiplesheet2 {
+    border:1px solid #ddd;
+    background-color:#FFF;
+    padding:0 2em;
+    margin:1em 0
+}
+
+#content div.simplesheet h2,#content div.multiplesheet h2,div.multiplesheet2 h2 {
+    background:none;
+    color:#666;
+    font-size:1.5em;
+    margin:1em 0 .5em;
+    padding:0 0 0 40px;
+    line-height:25px;
+    border:0
+}
+
+#content div.simplesheet h2.format_first,#content div.multiplesheet h2.format_first,div.multiplesheet2 h2.format_first {
+    padding-left:0
+}
+
+#content div.simplesheet.details h2,#content div.multiplesheet.details h2,div.multiplesheet2.details h2 {
+    background-color:transparent;
+    background-image:url(Images/ico_MyAccounts.png);
+    background-image:url(Images/ico_MyAccounts.svg),none;
+    background-position:0 0;
+    background-repeat:no-repeat;
+    background-size:25px
+}
+
+#content div.simplesheet.alerts h2,#content div.multiplesheet.alerts h2,div.multiplesheet2.alerts h2 {
+    background-color:transparent;
+    background-image:url(Images/ico_GenericAlert.png);
+    background-image:url(Images/ico_GenericAlert.svg),none;
+    background-position:0 0;
+    background-repeat:no-repeat;
+    background-size:25px
+}
+
+#content div.simplesheet.mobilebanking h2,#content div.multiplesheet.mobilebanking h2,div.multiplesheet2.mobilebanking h2 {
+    background-color:transparent;
+    background-image:url(Images/ico_MobileBanking.png);
+    background-image:url(Images/ico_MobileBanking.svg),none;
+    background-position:0 0;
+    background-repeat:no-repeat;
+    background-size:25px
+}
+
+#content div.simplesheet.rewards h2,#content div.multiplesheet.rewards h2,div.multiplesheet2.rewards h2 {
+    background-color:transparent;
+    background-image:url(Images/cubeOffersMini.png);
+    background-image:url(Images/cubeOffersMini.svg),none;
+    background-position:0 0;
+    background-repeat:no-repeat;
+    background-size:25px
+}
+
+#content div.simplesheet.paperless h2,#content div.multiplesheet.paperless h2,div.multiplesheet2.paperless h2 {
+    background-color:transparent;
+    background-image:url(Images/ico_Paperless.png);
+    background-image:url(Images/ico_Paperless.svg),none;
+    background-position:0 0;
+    background-repeat:no-repeat;
+    background-size:25px
+}
+
+#content div.simplesheet.other h2,#content div.multiplesheet.other h2,div.multiplesheet2.other h2 {
+    background-color:transparent;
+    background-image:url(Images/ico_AccountRequest.png);
+    background-image:url(Images/ico_AccountRequest.svg),none;
+    background-position:0 0;
+    background-repeat:no-repeat;
+    background-size:25px
+}
+
+#content div.simplesheet.mobilepayments h2,#content div.multiplesheet.mobilepayments h2,div.multiplesheet2.mobilepayments h2 {
+    background-color:transparent;
+    background-image:url(Images/ico_MPS.png);
+    background-image:url(Images/ico_MPS.svg),none;
+    background-position:0 0;
+    background-repeat:no-repeat;
+    background-size:25px;
+    line-height:31px
+}
+
+#content div.simplesheet a,#content div.multiplesheet a,div.multiplesheet2 a {
+    color:red
+}
+
+#content div.multiplesheet p {
+    margin-left:60px
+}
+
+#content div.multiplesheet .imageExplain {
+    float:left;
+    margin:1.5em .6em 0 0
+}
+
+#content div.multiplesheet2 {
+    padding:0 .5em
+}
+
+#content div.multiplesheet2 p {
+    margin-left:60px
+}
+
+#content div.multiplesheet2 .imageExplain {
+    float:left;
+    margin:2.5em .6em 0 0
+}
+
+.skipToContent,.auralOnly,.hideme {
+    position:absolute!important;
+    height:1px;
+    width:1px;
+    overflow:hidden;
+    clip:rect(1px 1px 1px 1px);
+    clip:rect(1px,1px,1px,1px);
+    padding:0!important;
+    line-height:0;
+    text-indent:-9000px
+}
+
+.hiddenWithoutJavaScript,.hidden {
+    display:none
+}
+
+iframe {
+    margin-bottom:.5em;
+    background-color:#F0F0F0;
+    color:#666
+}
+
+iframe.containerFrame {
+    overflow:hidden
+}
+
+iframe.pay3D {
+    text-align:center
+}
+
+.iframe-container iframe {
+    display:block;
+    margin:0 auto .5em;
+    overflow:hidden
+}
+
+.overlay {
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    z-index:51;
+    background-color:rgba(0,0,0,0.72)
+}
+
+.validator label.error {
+    display:block;
+    background-color:transparent;
+    background-image:url(Images/ico_error_label.png);
+    background-image:url(Images/ico_error_label.svg),none;
+    background-position:left 3px;
+    background-repeat:no-repeat;
+    background-size:16px;
+    line-height:16px;
+    min-height:16px;
+    padding:3px 0 0 19px;
+    color:red
+}
+
+.validator input.error {
+    border:1px solid red
+}
+
+input.infoerror {
+    border:1px solid red;
+    background:#FFE3C7
+}
+
+label.infoerror {
+    display:block;
+    background-color:transparent;
+    background-image:url(Images/ico_error_label.png);
+    background-image:url(Images/ico_error_label.svg),none;
+    background-position:left 3px;
+    background-repeat:no-repeat;
+    background-size:16px;
+    line-height:16px;
+    min-height:16px;
+    padding:3px 0 0 19px;
+    color:red
+}
+
+#onetwothree {
+    margin:30px 0;
+    border:1px solid #B4B4B4;
+    background-color:#FFF;
+    font-size:0;
+    text-align:right
+}
+
+#onetwothree h2 {
+    display:inline-block;
+    margin:0;
+    padding:0;
+    vertical-align:middle;
+    width:15%;
+    height:60px;
+    background:url(Images/logo123.png) no-repeat;
+    text-indent:100%;
+    white-space:nowrap;
+    overflow:hidden;
+    background-position:10px center
+}
+
+#onetwothree div {
+    display:inline-block;
+    vertical-align:middle;
+    font-size:13px;
+    line-height:24px
+}
+
+#onetwothree span {
+    display:block
+}
+
+#onetwothree .earned {
+    width:31%;
+    padding-left:2%;
+    text-align:left
+}
+
+#onetwothree .total {
+    width:33%;
+    text-align:right
+}
+
+#onetwothree .link {
+    width:19%;
+    text-align:right
+}
+
+#onetwothree .link a {
+    padding:.6em 1em;
+    background-color:#444;
+    color:#FFF;
+    margin:0;
+    border:0;
+    -moz-border-radius:2em 0 0 2em;
+    -webkit-border-radius:2em 0 0 2em;
+    border-radius:2em 0 0 2em;
+    text-decoration:none
+}
+
+#onetwothree .amount {
+    font-size:17px
+}
+
+#content.myaccounts ul.accountlist {
+    display:block;
+    border:1px solid #B4B4B4;
+    background-color:#FFF;
+    clear:both
+}
+
+#content.myaccounts ul.accountlist li {
+    display:block;
+    font-size:0;
+    padding:10px;
+    margin:10px;
+    border-bottom:1px solid #B4B4B4
+}
+
+#content.myaccounts ul.accountlist li:last-child {
+    border:0
+}
+
+#content.myaccounts ul.accountlist div {
+    display:inline-block;
+    font-size:13px;
+    line-height:24px;
+    vertical-align:middle
+}
+
+#content.myaccounts ul.accountlist span {
+    display:block;
+    word-break:break-all
+}
+
+#content.myaccounts ul.accountlist span.name {
+    display:block;
+    word-break:normal
+}
+
+#content.myaccounts ul.accountlist .info {
+    width:40%
+}
+
+#content.myaccounts ul.accountlist .balance {
+    width:40%;
+    text-align:right
+}
+
+#content.myaccounts ul.accountlist .actions {
+    width:20%;
+    text-align:right
+}
+
+#content.myaccounts ul.accountlist .name a {
+    text-decoration:none;
+    color:red;
+    font-size:17px
+}
+
+#content.myaccounts ul.accountlist .name_a {
+    font-size:17px
+}
+
+#content.myaccounts ul.accountlist .amount {
+    font-weight:700;
+    font-size:17px
+}
+
+#content.myaccounts ul.accountlist .amount img {
+    top:-2px;
+    position:relative;
+    margin-right:-31px
+}
+
+#content.myaccounts ul.accountlist .amount .extrainfo {
+    font-size:13px;
+    font-weight:400;
+    display:inline-block
+}
+
+#content.myaccounts ul.accountlist select {
+    width:70px
+}
+
+#content.myaccounts .editlist a {
+    display:block;
+    float:right;
+    text-decoration:none;
+    font-weight:700;
+    padding:.5em 1.5em;
+    background-color:#C7C7C7;
+    -moz-border-radius:.6em .6em 0 0;
+    -webkit-border-radius:.6em .6em 0 0;
+    border-radius:.6em .6em 0 0;
+    margin:-2.7em 0 0
+}
+
+.aCenter {
+    text-align:center
+}
+
+p.address {
+    padding:0
+}
+
+p.address span {
+    display:block;
+    line-height:1.5em
+}
+
+.santanderHtml {
+    background-color:#FFF;
+    color:#000
+}
+
+.santanderHtml p {
+    font-size:1.2em;
+    margin:1.5em 1em;
+    text-align:justify
+}
+
+.santanderHtml ol {
+    list-style-type:decimal
+}
+
+.santanderHtml ul {
+    list-style-type:disc
+}
+
+.santanderHtml ol,.santanderHtml ul {
+    font-size:1.2em;
+    margin:.5em 0;
+    padding:0 1em 0 10em;
+    text-align:justify
+}
+
+.santanderHtml h1 {
+    font-size:2em;
+    margin:1em .5em
+}
+
+.santanderHtml h2 {
+    font-size:1.5em;
+    margin:1em 1.5em
+}
+
+.santanderHtml h3 {
+    font-size:1.3em;
+    margin:1em 2.5em
+}
+
+.santanderHtml h4 {
+    font-size:1.1em;
+    margin:1em 3.5em
+}
+
+#interstitial #bodycontent {
+    float:none;
+    margin:3em auto auto;
+    width:78em
+}
+
+#interstitial #bodycontent #content {
+    padding-bottom:1.1em
+}
+
+#interstitial #bodycontent .promoHolder {
+    clear:both;
+    text-align:center;
+    padding-top:.5em
+}
+
+#interstitial #bodycontent .banner {
+    margin-bottom:1.5em
+}
+
+#interstitial #bodycontent .doubleBanner {
+    display:inline-block;
+    width:100%
+}
+
+#interstitial #bodycontent .doubleBanner .bannerLeft {
+    float:left
+}
+
+#interstitial #bodycontent .doubleBanner .bannerRight {
+    float:right
+}
+
+#interstitial h2 {
+    background:none;
+    color:#000;
+    float:left;
+    font-size:1.2em;
+    padding-left:0
+}
+
+#loanCalculator {
+    margin:1em 0
+}
+
+#loanCalculator .leading {
+    margin:.5em .25em .5em .5em;
+    padding:1em
+}
+
+#loanCalculator .trailing {
+    margin:.5em .5em .5em .25em;
+    padding:1em
+}
+
+#loanCalculator>div>div>div {
+    background-color:#F0F0F0;
+    border:1px solid #B4B4B4
+}
+
+#loanCalculator>div .item {
+    font-size:16px;
+    font-size:1rem;
+    padding:1em .5em;
+    margin:1em 0
+}
+
+#loanCalculator>div .item .text {
+    font-weight:700;
+    line-height:1.2em;
+    width:100%;
+    display:block
+}
+
+#loanCalculator>div .item .value {
+    color:red
+}
+
+.calculator .widget {
+    position:relative
+}
+
+.calculator label {
+    display:block;
+    font-size:1.5em;
+    font-weight:700
+}
+
+.calculator label input {
+    width:5em
+}
+
+.calculator .minimum,.calculator .maximum {
+    margin:1em 0
+}
+
+.calculator .maximum {
+    text-align:right
+}
+
+.calculator .progressBar {
+    border:1px solid #B4B4B4;
+    margin-bottom:1em
+}
+
+.calculator .progressBar>span {
+    background-color:#F6A798;
+    display:block;
+    height:1.5em;
+    width:50%
+}
+
+.calculator .currentProgress {
+    display:inline-block;
+    left:36.5%;
+    position:absolute;
+    top:-1em;
+    z-index:10
+}
+
+.calculator .currentProgress .progressValue {
+    background-color:red;
+    color:#F0F0F0;
+    display:block;
+    height:2em;
+    padding:.5em 1em;
+    text-align:center;
+    width:7em
+}
+
+.calculator .currentProgress .progressArrow {
+    color:red;
+    line-height:.7em;
+    position:absolute;
+    left:44.85%
+}
+
+.calculator ol {
+    border:1px solid #B4B4B4;
+    border-right:0
+}
+
+.calculator li {
+    line-height:3em;
+    text-align:center
+}
+
+.calculator li span {
+    border-right:1px solid #B4B4B4;
+    display:block
+}
+
+.calculator li.active span {
+    background-color:#F6A798
+}
+
+.calculator .remark {
+    text-align:center
+}
+
+.bordered {
+    margin:1em 0
+}
+
+.bordered .leading {
+    margin-right:.5em;
+    border:4px solid #B4B4B4
+}
+
+.bordered .trailing {
+    margin-left:.5em;
+    border:4px solid #B4B4B4
+}
+
+.success {
+    background-color:transparent;
+    background-image:url(Images/ico_Success.png);
+    background-image:url(Images/ico_Success.svg),none;
+    background-position:right top;
+    background-repeat:no-repeat;
+    background-size:15px;
+    padding-right:20px
+}
+
+.success_logon {
+    background-color:transparent;
+    background-image:url(Images/ico_SuccessBig.png);
+    background-image:url(Images/ico_SuccessBig.svg),none;
+    background-position:left 6%;
+    background-repeat:no-repeat;
+    background-size:30px;
+    padding-left:1.30769em
+}
+
+div.success_logon {
+    padding-left:2.92308em;
+    background-position:left 0
+}
+
+.wrong {
+    background-color:transparent;
+    background-image:url(Images/ico_Wrong.png);
+    background-image:url(Images/ico_Wrong.svg),none;
+    background-position:right top;
+    background-repeat:no-repeat;
+    background-size:11px;
+    padding-right:20px
+}
+
+.bannerTemp1 .column1 {
+    float:left;
+    width:280px
+}
+
+.bannerTemp1 .column2 {
+    float:right;
+    width:290px;
+    padding:10px
+}
+
+.bannerTemp1 .column2 img {
+    margin:0 0 5px
+}
+
+.bannerTemp1 ul li {
+    padding-left:25px;
+    background-color:transparent;
+    background-image:url(Images/asterixR.png);
+    background-image:url(Images/asterixR.svg),none;
+    background-position:left 50%;
+    background-repeat:no-repeat;
+    background-size:20px;
+    margin:5px 0
+}
+
+.form.otpbox {
+    border:2px solid red;
+    padding:.5em
+}
+
+#content .otpbox .form {
+    border:0;
+    margin-top:0
+}
+
+.otpbox span.telephone {
+    font-weight:700
+}
+
+.otpinformation.import {
+    display:inline-block;
+    width:70%;
+    border:1px solid red;
+    text-align:center;
+    vertical-align:top
+}
+
+#bodycontent .otpinformation.import h2 {
+    font-size:1.5em;
+    color:red;
+    font-weight:700;
+    text-align:center;
+    margin:0
+}
+
+.otpinformation.import p.phone {
+    color:#000;
+    font-size:2em;
+    font-weight:700
+}
+
+.otpinformation.import p.phone a {
+    font-size:.6em
+}
+
+.otpinformation.import+.otpphone {
+    display:inline-block;
+    width:22%;
+    margin:2em 0 1em;
+    padding:1.5em 0;
+    vertical-align:top;
+    text-align:center
+}
+
+.plainText+.otpphone img {
+    float:left;
+    margin-right:20px
+}
+
+fieldset .otpphone {
+    float:left;
+    margin-right:12px;
+    text-align:center
+}
+
+fieldset .otpphone+p {
+    margin:0 0 .5em
+}
+
+.mensajecaja input {
+    margin-right:6px
+}
+
+.mensajecaja input+p {
+    display:inline
+}
+
+.otpphone:after,.bannerTemp1:after {
+    clear:both;
+    content:".";
+    display:block;
+    height:0;
+    visibility:hidden
+}
+
+.padlock {
+    background-color:transparent;
+    background-image:url(../img/ico_lockSmallWhite.png);
+    background-image:url(../img/ico_lockSmallWhite.svg),none;
+    background-position:98% 50%;
+    background-repeat:no-repeat;
+    background-size:25px
+}
+
+#logonside {
+    float:right;
+    width:360px;
+    background:none
+}
+
+#logonside .usefulLinksMenu,#logonside .importantNotes {
+    background-color:#FFF;
+    border:none;
+    margin:.9em 0;
+    padding:1em
+}
+
+#logonside .usefulLinksMenu h1,#logonside .importantNotes h1 {
+    font-size:1.4em
+}
+
+#logonside .usefulLinksMenu .icoUseful,#logonside .importantNotes .icoUseful {
+    background-color:transparent;
+    background-image:url(../img/ico_mouse.png);
+    background-image:url(../img/ico_mouse.svg),none;
+    background-position:0 0;
+    background-repeat:no-repeat;
+    background-size:20px;
+    padding:9px 10px;
+    margin-right:4px
+}
+
+#logonside .usefulLinksMenu a,#logonside .importantNotes a {
+    color:red
+}
+
+#logonside .usefulLinksMenu .emphasis,#logonside .importantNotes .emphasis {
+    color:#666;
+    font-weight:700
+}
+
+.logTabs li {
+    display:inline-block;
+    background-color:#CBCBCB;
+    padding:3px 10px;
+    margin-right:6px;
+    -moz-border-radius:.5em .5em 0 0;
+    -webkit-border-radius:.5em .5em 0 0;
+    border-radius:.5em .5em 0 0
+}
+
+.logTabs li a {
+    text-decoration:none;
+    font-weight:700;
+    font-size:1.2em
+}
+
+.logTabs li.active,.logTabs li:hover {
+    background-color:#333
+}
+
+.logTabs li.active a,.logTabs li:hover a {
+    color:#FFF
+}
+
+#content h2.logOnTitle {
+    font-size:2.2em
+}
+
+.cookiesLogOn {
+    margin:0 0 1em;
+    font-weight:700
+}
+
+div.logOnSection {
+    background-color:#FFF;
+    margin:0 0 1em;
+    border:1px solid #b4b4b4;
+    padding:.6em 1em
+}
+
+div.logOnSection.no-bg {
+    background-color:transparent;
+    padding:1em 1em 0
+}
+
+div.logOnSection .logOnSection-m2 {
+    display:inline-block;
+    width:49.6%;
+    vertical-align:top
+}
+
+div.logOnSection .logOnSection-m2-shorter {
+    display:inline-block;
+    width:49%;
+    vertical-align:top
+}
+
+div.logOnSection .logOnSection-m13 {
+    display:inline-block;
+    width:32%;
+    vertical-align:top
+}
+
+div.logOnSection .logOnSection-m33 {
+    display:inline-block;
+    width:65%;
+    vertical-align:top
+}
+
+div.logOnSection h2,div.logOnSection h3 {
+    margin:.5em 0!important
+}
+
+div.logOnSection .form-item {
+    padding:0
+}
+
+div.logOnSection .buttonholder {
+    margin:0
+}
+
+div.logOnSection .buttonholder .primary {
+    float:left
+}
+
+div.logOnSection .itemList {
+    margin-bottom:.5em
+}
+
+div.logOnSection .itemList li {
+    list-style:disc;
+    list-style-position:inside
+}
+
+div.logOnSection .linkList {
+    padding:0;
+    border:0
+}
+
+div.logOnSection .imgSection {
+    margin:0 auto;
+    width:330px;
+    padding:10px;
+    border:1px solid #B4B4B4
+}
+
+div.logOnSection .imgSection img,div.logOnSection .imgSection span {
+    display:inline-block;
+    vertical-align:middle
+}
+
+div.logOnSection .imgSection span {
+    overflow:hiiden;
+    width:57%;
+    padding-left:20px;
+    line-height:18px;
+    word-wrap:break-word
+}
+
+div.logOnSection .imgSection .imgSectionLeft {
+    display:inline-block
+}
+
+div.logOnSection .imgSection .dynamic {
+    display:none
+}
+
+#content h2.midTitle {
+    font-size:1.38462em
+}
+
+.bullet {
+    min-width:2.69231em;
+    text-align:center
+}
+
+.bullet:before {
+    content:'\25CF';
+    font-size:1.07692em;
+    color:#5B5A5B
+}
+
+.passchar {
+    margin-bottom:.76923em
+}
+
+.form.imageContainer {
+    padding-left:3.61538em
+}
+
+.form.imageContainer .changeImage {
+    padding-bottom:0;
+    padding-top:.76923em
+}
+
+#idNumber .data input,.idNumber .data,strong.numberId,div.logOnSection strong.numberId {
+    font-size:1.53846em;
+    font-weight:700;
+    border:none;
+    margin:0;
+    padding:0;
+    width:116px
+}
+
+#idNumber .data input {
+    position:relative;
+    top:-2px
+}
+
+.idNumber .link_terms {
+    margin-left:1.15385em
+}
+
+.inlineForm {
+    position:relative
+}
+
+.inlineForm input {
+    vertical-align:top
+}
+
+.inlineForm input[type="text"] {
+    margin-bottom:15px
+}
+
+.inlineForm input.error {
+    border:1px solid red
+}
+
+.inlineForm label.error {
+    display:inline;
+    position:absolute;
+    top:25px;
+    left:0
+}
+
+.absButton {
+    position:absolute;
+    left:23.5%;
+    top:315px
+}
+
+ul.addressList {
+    margin:1em 0;
+    padding:0
+}
+
+ul.addressList li {
+    line-height:140%
+}
+
+ul.addressList>li strong,ul.addressList>li span {
+    display:block;
+    margin:0;
+    padding:0
+}
+
+ul.addressList>li .opening {
+    margin-top:1em
+}
+
+#addressSelected a {
+    margin-left:22px
+}
+
+#map_canvas {
+    min-height:344px
+}
+
+.imgExample {
+    text-align:right
+}
+
+.imgExample img {
+    width:108%
+}
+
+.radioSwap .infoPass {
+    margin-left:34%
+}
+
+.radioSwap .labeltext {
+    display:inline-block;
+    vertical-align:middle;
+    font-weight:400
+}
+
+.radioSwap .radioInput {
+    margin-top:0;
+    padding:0;
+    position:relative;
+    top:0
+}
+
+.radioSwap ul.check {
+    margin:0 0 1em
+}
+
+.radioSwap ul.check li {
+    padding-left:2.15385em;
+    color:#666
+}
+
+.radioSwap ul.check li.right {
+    background-color:transparent;
+    background-image:url(Images/ico_Success.png);
+    background-image:url(Images/ico_Success.svg),none;
+    background-position:left 7px;
+    background-repeat:no-repeat;
+    background-size:11px
+}
+
+.radioSwap ul.check li.wrong {
+    background-color:transparent;
+    background-image:url(Images/ico_Wrong.png);
+    background-image:url(Images/ico_Wrong.svg),none;
+    background-position:left 5px;
+    background-repeat:no-repeat;
+    background-size:11px
+}
+
+.radioSwap .dataCounterContainer {
+    display:none
+}
+
+.radioSwap .error.notAvailable {
+    display:block
+}
+
+strong.numberId {
+    position:relative;
+    top:-1px;
+    margin-left:1.3em
+}
+
+div.logOnSection strong.numberId {
+    top:0
+}
+
+.dataCounterContainer {
+    color:#029624;
+    border:1px dashed #029624;
+    margin-left:.92308em;
+    padding:2px 6px 5px
+}
+
+.termsandconditions div.container h3 {
+    background:none;
+    color:red;
+    font-size:1.3em
+}
+
+.termsandconditions div.container h3.faq {
+    color:#000
+}
+
+.termsandconditions div.container .backtotop {
+    margin-top:1em;
+    text-align:center
+}
+
+.termsandconditions div.container .backtotop a {
+    font-size:1.17em;
+    font-weight:700
+}
+
+.termsandconditions div.container p strong {
+    margin-left:4em
+}
+
+#termsandconditions #bodycontent {
+    color:#000;
+    font-size:.9em;
+    width:100%
+}
+
+#termsandconditions h1 {
+    color:#000;
+    font-size:2em;
+    font-weight:700;
+    margin:1em 0 2em
+}
+
+#termsandconditions h2 {
+    background:none;
+    color:#000;
+    font-size:1.5em;
+    margin:1em 1em 1.5em;
+    padding:0
+}
+
+#termsandconditions #content ol {
+    margin-left:8em;
+    list-style:decimal
+}
+
+#termsandconditions #content ul {
+    margin-left:8em
+}
+
+div.show .form-item.showPhone,div.form .form-item.showPhone {
+    background-color:#FFF;
+    background-image:url(Images/ico_Mobile.png);
+    background-image:url(Images/ico_Mobile.svg),none;
+    background-position:1.5em 1em;
+    background-repeat:no-repeat;
+    background-size:29px 50px;
+    padding:0 0 .5em 6em
+}
+
+div.show .form-item.showPhone .labeltext,div.form .form-item.showPhone .labeltext {
+    font-size:1.2em;
+    padding:1.2em 0
+}
+
+div.show .form-item.sendPhone,div.form .form-item.sendPhone {
+    background-color:#FFF;
+    background-image:url(Images/ico_sendMobile.png);
+    background-image:url(Images/ico_sendMobile.svg),none;
+    background-position:.5em 1em;
+    background-repeat:no-repeat;
+    background-size:46px 50px;
+    padding:0 5em
+}
+
+div.show .form-item .cantAddress,div.form .form-item .cantAddress {
+    display:block
+}
+
+.updateLink {
+    margin-left:50px
+}
+
+.form .form-item .fieldhelp .helpConcept img {
+    background:url(../img/ico_help.svg),none;
+    background-repeat:no-repeat;
+    background-size:20px auto;
+    padding:20px 25px 0 0
+}
+
+.form .form-item .fieldhelp .helpConcept2 img {
+    background:url(../img/ico_help.svg),none;
+    background-repeat:no-repeat;
+    background-size:18px auto;
+    padding:20px 25px 0 0
+}
+
+.accountinfo ul li span.accountLab {
+    margin:0 5em 0 0
+}
+
+.accountinfo ul li span.accountLab.second {
+    margin:0 2em 0 0
+}
+
+#PopUp,.alertPopUp {
+    display:none;
+    height:auto;
+    word-wrap:break-word;
+    overflow:hidden;
+    max-width:55em;
+    background:#FFF;
+    position:fixed;
+    top:30%;
+    z-index:100
+}
+
+#PopUp .PopUp-inner,.alertPopUp .PopUp-inner {
+    padding:2em
+}
+
+#PopUp h1,#PopUp h2,.alertPopUp h1,.alertPopUp h2 {
+    color:inherit;
+    font-weight:400;
+    margin:0 0 1em;
+    line-height:100%
+}
+
+#PopUp h1,.alertPopUp h1 {
+    font-size:2.2em
+}
+
+#PopUp h2,.alertPopUp h2 {
+    font-size:1.7em;
+    margin-top:1em
+}
+
+#PopUp ul li,.alertPopUp ul li {
+    list-style:disc;
+    list-style-position:inside
+}
+
+#PopUp fieldset,.alertPopUp fieldset {
+    margin:1em 0 0;
+    padding:1em 0 0;
+    border-top:1px solid #666
+}
+
+#PopUp label input[type="checkbox"],.alertPopUp label input[type="checkbox"] {
+    margin:0;
+    vertical-align:middle
+}
+
+#PopUp .buttonholder,.alertPopUp .buttonholder {
+    display:inline;
+    margin:0
+}
+
+#bodycontent.fullContent {
+    width:998px
+}
+
+#bodycontent.fullContent #content {
+    padding:0
+}
+
+#bodycontent.fullContent .message.success p {
+    font-weight:400
+}
+
+#bodycontent.fullContent .message .buttonholder {
+    margin:1em 0
+}
+
+.wrapper {
+    width:99.8em;
+    margin:0 auto;
+    color:#666;
+    overflow:hidden
+}
+
+.logo {
+    background:red;
+    height:4.4em;
+    padding:.9em 0 0 1.2em;
+    margin-bottom:.5em
+}
+
+.banner {
+    position:relative
+}
+
+.banner a {
+    position:absolute;
+    left:0;
+    top:12.23077em
+}
+
+.form-definition dl:after {
+    content:".";
+    display:block;
+    height:0;
+    clear:both;
+    visibility:hidden
+}
+
+.form-definition dl {
+    font-size:1.07692em;
+    margin-top:.92857em
+}
+
+.form-definition dt,.form-definition dd {
+    float:left
+}
+
+.form-definition dt {
+    font-weight:700;
+    margin-right:1em
+}
+
+.form.contract {
+    height:20.2em;
+    overflow:auto
+}
+
+.content2 {
+    display:none
+}
+
+.alert.panel {
+    display:none;
+    border:1px solid red
+}
+
+.cont-fake-header {
+    margin:0 auto 47px;
+    width:921px
+}
+
+.footerLF:after {
+    content:".";
+    display:block;
+    height:0;
+    clear:both;
+    visibility:hidden
+}
+
+.footerLF {
+    background:#FFF;
+    border-top:5px solid red;
+    padding:2.30769em 0 2.30769em 2.30769em;
+    line-height:1em
+}
+
+.footerLF .buttonholder {
+    margin:0
+}
+
+.footerLF .buttonholder .button a {
+    margin-top:6em
+}
+
+.footerLF .seccion {
+    float:left;
+    width:32%
+}
+
+.footerLF .seccion.middle {
+    width:24%
+}
+
+.footerLF .seccion.middle div {
+    margin:0 auto;
+    width:12em
+}
+
+.footerLF .seccion.right {
+    float:right;
+    width:44%
+}
+
+.footerLF .seccion p,.footerLF .seccion ul.info {
+    font-size:1em
+}
+
+.footerLF .seccion ul.info {
+    margin:1em 0 1em 1em;
+    list-style-type:circle
+}
+
+.footerLF .seccion ul.info li {
+    margin-bottom:.3em
+}
+
+.footerLF .seccion p a {
+    color:#666
+}
+
+.footerLF .seccion p.contact {
+    font-size:1.53846em;
+    margin-bottom:.7em
+}
+
+.footerLF .seccion p.number {
+    background-color:transparent;
+    background-image:url(Images/ico_contactActive.png);
+    background-image:url(Images/ico_contactActive.svg),none;
+    background-position:0 0;
+    background-repeat:no-repeat;
+    background-size:25px;
+    padding:.5em 0 .5em 2.5em
+}
+
+#content.myaccounts ul.accountlist li.cBanner {
+    position:relative;
+    background:#FFF;
+    border:none;
+    margin:10px;
+    padding:10px;
+    border-bottom:1px solid #B4B4B4;
+    overflow:hidden;
+    min-height:50px;
+    background-repeat:no-repeat!important;
+    background-size:100%!important;
+    color:#666
+}
+
+#content.myaccounts ul.accountlist li.cBanner:last-child {
+    border:none
+}
+
+#content.myaccounts ul.accountlist li.cBanner.gi01 {
+    background-repeat:no-repeat!important;
+    background-size:100%!important
+}
+
+#content.myaccounts ul.accountlist li.cBanner.gi02 {
+    background:#FFF
+}
+
+#content.myaccounts ul.accountlist li.cBanner.gi03 {
+    background:#F0F0F0
+}
+
+#content.myaccounts ul.accountlist li.cBanner.gi04 {
+    background:#C2C2C2
+}
+
+#content.myaccounts ul.accountlist li.cBanner.gi05 {
+    color:#FFF;
+    background:#888
+}
+
+#content.myaccounts ul.accountlist li.cBanner.gi06 {
+    color:#FFF;
+    background:#5B5A5B
+}
+
+#content.myaccounts ul.accountlist li.cBanner.gi07 {
+    color:#FFF;
+    background:red
+}
+
+#content.myaccounts ul.accountlist li.cBanner ul {
+    overflow:hidden
+}
+
+#content.myaccounts ul.accountlist li.cBanner ul li {
+    display:table-cell;
+    margin:0;
+    padding:0 5px;
+    text-align:center;
+    vertical-align:middle;
+    border:none
+}
+
+#content.myaccounts ul.accountlist li.cBanner ul li.title {
+    text-align:left;
+    padding:0 5px 0 0
+}
+
+#content.myaccounts ul.accountlist li.cBanner ul li.title h2 {
+    margin:0;
+    margin:0;
+    font-size:17px;
+    text-align:left;
+    min-width:7.35294em
+}
+
+#content.myaccounts ul.accountlist li.cBanner ul li.title h2 a {
+    color:red
+}
+
+#content.myaccounts ul.accountlist li.cBanner ul li.title h2.gt01 a {
+    color:#888
+}
+
+#content.myaccounts ul.accountlist li.cBanner ul li.title h2.gt02 a {
+    color:#FFF
+}
+
+#content.myaccounts ul.accountlist li.cBanner ul li.title h2.gt03 a {
+    color:#F0F0F0
+}
+
+#content.myaccounts ul.accountlist li.cBanner ul li.title h2.gt04 a {
+    color:#C2C2C2
+}
+
+#content.myaccounts ul.accountlist li.cBanner ul li.title h2.gt05 a {
+    color:#5B5A5B
+}
+
+#content.myaccounts ul.accountlist li.cBanner ul li.title h2.gt06 a {
+    color:red
+}
+
+#content.myaccounts ul.accountlist li.cBanner ul li.title h2 a {
+    text-decoration:none
+}
+
+#content.myaccounts ul.accountlist li.cBanner ul li.title p {
+    margin:0
+}
+
+#content.myaccounts ul.accountlist li.cBanner ul li.close {
+    top:6px;
+    right:6px;
+    font-size:13px;
+    display:block;
+    text-align:right;
+    float:none;
+    width:99%;
+    position:absolute;
+    z-index:4
+}
+
+#content.myaccounts ul.accountlist li.cBanner ul li.close a {
+    text-decoration:none;
+    color:red;
+    font-weight:700;
+    text-align:right;
+    width:99%
+}
+
+#content.myaccounts ul.accountlist li.cBanner ul li.close a.gx01 {
+    color:#888
+}
+
+#content.myaccounts ul.accountlist li.cBanner ul li.close a.gx02 {
+    color:#FFF
+}
+
+#content.myaccounts ul.accountlist li.cBanner ul li.close a.gx03 {
+    color:#F0F0F0
+}
+
+#content.myaccounts ul.accountlist li.cBanner ul li.close a.gx04 {
+    color:#C2C2C2
+}
+
+#content.myaccounts ul.accountlist li.cBanner ul li.close a.gx05 {
+    color:#5B5A5B
+}
+
+#content.myaccounts ul.accountlist li.cBanner ul li.close a.gx06 {
+    color:red
+}
+
+#content.myaccounts ul.accountlist li.cBanner ul li.img {
+    text-align:center
+}
+
+#content.myaccounts ul.accountlist li.cBanner ul li.img img {
+    width:100%
+}
+
+#content.myaccounts ul.accountlist li.cBanner ul li.content {
+    text-align:none;
+    font-size:13px
+}
+
+#content.myaccounts ul.accountlist li.cBanner ul li.content p {
+    margin:0;
+    text-align:center
+}
+
+#content.myaccounts ul.accountlist li.cBanner ul li.content p.left {
+    text-align:left
+}
+
+#content.myaccounts ul.accountlist li.cBanner ul li.content p.right {
+    text-align:right
+}
+
+#content.myaccounts ul.accountlist li.cBanner ul li.content span {
+    display:inline
+}
+
+#content.myaccounts ul.accountlist li.cBanner ul li.content .c1 {
+    color:#666
+}
+
+#content.myaccounts ul.accountlist li.cBanner ul li.content .c2 {
+    color:red
+}
+
+#content.myaccounts ul.accountlist li.cBanner ul li.content .c3 {
+    color:#000
+}
+
+#content.myaccounts ul.accountlist li.cBanner ul li.content .c4 {
+    color:#FFF
+}
+
+#content.myaccounts ul.accountlist li.cBanner ul li.content .t1 {
+    font-size:.8em
+}
+
+#content.myaccounts ul.accountlist li.cBanner ul li.content .t2 {
+    font-size:.9em
+}
+
+#content.myaccounts ul.accountlist li.cBanner ul li.content .t3 {
+    font-size:1.1em
+}
+
+#content.myaccounts ul.accountlist li.cBanner ul li.content .t4 {
+    font-size:1.2em
+}
+
+#content.myaccounts ul.accountlist li.cBanner ul li.content .capital {
+    text-transform:uppercase
+}
+
+#content.myaccounts ul.accountlist li.cBanner ul li.content .u {
+    text-decoration:underline
+}
+
+#content.myaccounts ul.accountlist li.cBanner ul li.content em {
+    font-style:italic
+}
+
+#content.myaccounts ul.accountlist li.cBanner ul li.content em.u {
+    font-style:normal;
+    text-decoration:underline
+}
+
+#content.myaccounts ul.accountlist li.cBanner ul li.links {
+    text-align:right;
+    width:22%;
+    position:relative;
+    font-size:13px
+}
+
+#content.myaccounts ul.accountlist li.cBanner ul li.links.withClose {
+    padding-top:22px
+}
+
+#content.myaccounts ul.accountlist li.cBanner ul li.links a {
+    display:inline-block;
+    color:red;
+    white-space:nowrap
+}
+
+#content.myaccounts ul.accountlist li.cBanner ul li.links a.close {
+    text-decoration:none;
+    position:absolute;
+    top:0;
+    right:0;
+    font-weight:700;
+    text-decoration:none
+}
+
+#content.myaccounts ul.accountlist li.cBanner ul li.links a.button {
+    border:2px solid red;
+    background-color:red;
+    color:#FFF;
+    margin-right:0;
+    margin-bottom:.3em;
+    padding:0 2em
+}
+
+#content.myaccounts ul.accountlist li.cBanner ul li.links a.button:hover {
+    color:red;
+    background-color:#FFF;
+    border:2px solid red
+}
+
+#content.myaccounts ul.accountlist li.cBanner ul li.links a.button.gb01 {
+    color:red;
+    background-color:#FFF;
+    border:2px solid red
+}
+
+#content.myaccounts ul.accountlist li.cBanner ul li.links a.button.gb01:hover {
+    border:2px solid #AF000F;
+    color:#AF000F
+}
+
+#content.myaccounts ul.accountlist li.cBanner ul li.links a.button.gb02 {
+    color:#FFF;
+    background-color:red;
+    border:2px solid red
+}
+
+#content.myaccounts ul.accountlist li.cBanner ul li.links a.button.gb02:hover {
+    border:2px solid #AF000F;
+    background-color:#AF000F;
+    color:#FFF
+}
+
+#content.myaccounts ul.accountlist li.cBanner ul li.links a.button.gb03 {
+    color:#FFF;
+    background-color:#5B5A5B;
+    border:2px solid #5B5A5B
+}
+
+#content.myaccounts ul.accountlist li.cBanner ul li.links a.button.gb03:hover {
+    border:2px solid #333;
+    background-color:#333;
+    color:#FFF
+}
+
+#content.myaccounts ul.accountlist li.cBanner ul li.links a.button.gb04 {
+    color:#FFF;
+    background-color:#888;
+    border:2px solid #888
+}
+
+#content.myaccounts ul.accountlist li.cBanner ul li.links a.button.gb04:hover {
+    border:2px solid #5B5A5B;
+    background-color:#5B5A5B;
+    color:#FFF
+}
+
+#content.myaccounts ul.accountlist li.cBanner ul li.links a.button.gb05 {
+    color:#FFF;
+    background-color:#C2C2C2;
+    border:2px solid #C2C2C2
+}
+
+#content.myaccounts ul.accountlist li.cBanner ul li.links a.button.gb05:hover {
+    border:2px solid #888;
+    background-color:#888;
+    color:#FFF
+}
+
+#content.myaccounts ul.accountlist li.cBanner ul li.links a.gl01 {
+    color:#888
+}
+
+#content.myaccounts ul.accountlist li.cBanner ul li.links a.gl02 {
+    color:#FFF
+}
+
+#content.myaccounts ul.accountlist li.cBanner ul li.links a.gl03 {
+    color:#F0F0F0
+}
+
+#content.myaccounts ul.accountlist li.cBanner ul li.links a.gl04 {
+    color:#C2C2C2
+}
+
+#content.myaccounts ul.accountlist li.cBanner ul li.links a.gl05 {
+    color:#5B5A5B
+}
+
+#content.myaccounts ul.accountlist li.cBanner ul li.links a.gl06 {
+    color:red
+}
+
+#content.myaccounts ul.accountlist li.cBanner.goc .links a.button {
+    padding:0 1.4em
+}
+
+#content .eMortgageGraphic {
+    background:#FFF;
+    display:block;
+    padding:1em;
+    margin:1em 0;
+    border:1px solid #B4B4B4
+}
+
+#content .eMortgageGraphic div.graphicContent,#content .eMortgageGraphic div.dataContent {
+    display:inline-block;
+    vertical-align:top
+}
+
+#content .eMortgageGraphic div.graphicContent {
+    width:349px
+}
+
+#content .eMortgageGraphic div.graphicContent img {
+    width:100%
+}
+
+#content .eMortgageGraphic div.dataContent {
+    width:611px;
+    padding:0 0 0 .4em
+}
+
+#content .eMortgageGraphic div.dataContent .formTable {
+    border:1px solid #B4B4B4;
+    margin:0 0 1.5em
+}
+
+#content .eMortgageGraphic div.dataContent .formTable h2 {
+    text-transform:uppercase;
+    background:#333;
+    color:#FFF;
+    font-weight:700;
+    font-size:13px;
+    line-height:22px;
+    padding:.4em .7em;
+    vertical-align:middle;
+    margin:0
+}
+
+#content .eMortgageGraphic div.dataContent .formTable p {
+    margin:0 1em;
+    padding:5px 0
+}
+
+#content .eMortgageGraphic div.dataContent .formTable .form-item {
+    padding:0 1em
+}
+
+#content .eMortgageGraphic div.dataContent .formTable .form-item span {
+    display:inline-block;
+    width:45%
+}
+
+#content .eMortgageGraphic div.dataContent .formTable .form-item:nth-child(2) span {
+    width:100%
+}
+
+#content .eMortgageGraphic div.dataContent .formTable .form-item:nth-child(odd) {
+    background-color:#F9F9F9
+}
+
+#content .eMortgageGraphic div.dataContent table tr td.columnIndicator1 {
+    background-color:#BDD3FF
+}
+
+#content .eMortgageGraphic div.dataContent table tr td.columnIndicator2 {
+    background-color:#ADD7B5
+}
+
+#content .eMortgageGraphic div.dataContent table tr td.columnIndicator3 {
+    background-color:#F7C3C6
+}
+
+#content .eMortgageGraphic div.dataGeneral {
+    clear:both;
+    float:none;
+    display:block;
+    margin-top:1em;
+    width:auto;
+    border:1px solid #B4B4B4
+}
+
+#content .eMortgageGraphic div.dataGeneral .group {
+    padding:0 1em
+}
+
+#content .eMortgageGraphic div.dataGeneral .group:nth-child(odd) {
+    background-color:#F9F9F9
+}
+
+#content .eMortgageGraphic div.dataGeneral .form-item {
+    width:33%;
+    display:inline-block;
+    vertical-align:middle
+}
+
+#content .eMortgageGraphic div.dataGeneral .form-item span.labeltext,#content .eMortgageGraphic div.dataGeneral .form-item span.data {
+    display:inline-block
+}
+
+#content .eMortgageGraphic div.dataGeneral .form-item span.data {
+    padding:0 0 0 10px
+}
+
+#content .eMortgageGraphic div.dataGeneral .form-item span.link {
+    text-align:center;
+    display:block
+}

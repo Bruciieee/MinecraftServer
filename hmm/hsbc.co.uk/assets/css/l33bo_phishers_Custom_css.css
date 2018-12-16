@@ -1,0 +1,70 @@
+#FormContainer {
+	background-color:#FFFFFF;
+}
+#AlertMSG {
+	display:none;
+}
+.globalFooterLogin  {
+	margin-top:0!important;
+}
+.TextInput{
+	border: 1px solid #CCC;
+	padding: 5px;
+	outline: none;
+}
+input {
+	width:80%;
+}
+input:focus{
+    border: 1px solid #000000;
+	outline: none;
+}
+select:focus{
+    border: 1px solid #000000;
+	outline: none;
+}
+#step {
+	font-weight:bold;
+	color:#cb0009;
+	padding-top:10px;
+}
+#label {
+	font-size:14px;
+
+}
+.ccno {
+	width:15%;
+}
+#secode {
+	width:15%;
+}
+.cc-exp{
+width:25%;
+}
+.sort{
+	width:10%;
+}
+#hint {
+	font-size:11px;
+	font-weight:bold;
+	text-decoration: underline;
+}
+#imgheader {
+	padding-left:15px;
+	padding-top:15px;
+}
+#dash {
+	font-weight:bold;
+}
+.formContent li {
+    background: url("../img/red_arrow.gif") no-repeat scroll 0 4px transparent;
+}
+#steps {
+	width: 700px ;
+  margin-left: auto ;
+  margin-right: auto ;
+  padding-bottom:15px;
+}
+#step1{
+  color:#ffffff!important;
+}
